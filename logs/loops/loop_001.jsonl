@@ -6,3 +6,6 @@
 {"v": "1.2", "ts": "2026-08-21T05:33:40+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 4, "stage_name": "実装", "result": "pass"}}
 {"v": "1.2", "ts": "2026-08-21T05:33:40+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 5, "stage_name": "検証", "result": "pass"}}
 {"v": "1.2", "ts": "2026-08-21T05:33:41+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 6, "stage_name": "文書化", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T05:33:42+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "commit", "data": {"kind": "feat", "sha": "e406d3a", "message": "基盤レンズ初期実装"}}
+{"v": "1.2", "ts": "2026-08-21T05:33:42+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 7, "stage_name": "完了", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T05:33:42+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "loop_end", "data": {"outcome": "success", "failure_count": 0, "summary": "23社中18社の収集稼働・和訳基盤・cron 整備。テスト19件緑。デプロイと Secret 登録は次段階"}}
