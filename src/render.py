@@ -124,6 +124,8 @@ def render_html(data: dict, companies: list[dict], translations: dict) -> str:
 <footer>
   <p><a href="https://github.com/twill3c/kiban-lens/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a> © 2026 坂田哲朗
   ・ <a href="https://github.com/twill3c/kiban-lens" target="_blank" rel="noopener">GitHub</a>
+  ・ <a href="https://claude.ai/code/artifact/a54f70b8-6542-48a6-b13b-c3bb29829011" target="_blank" rel="noopener">kiban-lens の歩き方</a>
+  ・ <a href="https://claude.ai/code/artifact/de6f4153-3e2a-4727-91af-77c881b36b60" target="_blank" rel="noopener">kiban-lens 設計図</a>
   ・ <a href="https://app-menu-amber.vercel.app" target="_blank" rel="noopener">App Menu</a></p>
 </footer>
 </body>

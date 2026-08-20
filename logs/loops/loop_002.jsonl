@@ -1,3 +1,9 @@
 {"v": "1.2", "ts": "2026-08-21T05:47:41+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "loop_start", "data": {"goal": "和訳の実機確認・歩き方/設計図アーティファクト作成・フッタ完成(F-05)・app-menu カード追記", "spec_refs": ["F-05"], "scaffold_version": "1.8.0", "agent": "claude-code"}}
 {"v": "1.2", "ts": "2026-08-21T05:58:37+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "failure", "data": {"code": "DATA-QUAL", "severity": "S3", "detected_stage": 5, "introduced_stage": 4, "summary": "ELYZA は og:title が全記事共通のサイト名、Meta AI は機械可読な日付を持たず英文表記のみ。実機の和訳結果の抜き取りで検出", "resolution": "retry"}}
 {"v": "1.2", "ts": "2026-08-21T05:58:38+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "test_run", "data": {"command": "python -m pytest -q", "result": "pass", "passed": 22, "failed": 0}}
+{"v": "1.2", "ts": "2026-08-21T06:01:07+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 1, "stage_name": "計画", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T06:01:07+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 2, "stage_name": "文脈読込", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T06:01:07+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 3, "stage_name": "テスト先行", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T06:01:08+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 4, "stage_name": "実装", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T06:01:08+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 5, "stage_name": "検証", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T06:01:08+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 6, "stage_name": "文書化", "result": "pass"}}

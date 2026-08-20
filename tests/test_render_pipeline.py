@@ -61,6 +61,7 @@ def test_render_pending_note_and_footer():
     assert "取得経路調査中" in html
     for needle in ("MIT License", "© 2026 坂田哲朗",
                    "https://github.com/twill3c/kiban-lens",
+                   "kiban-lens の歩き方", "kiban-lens 設計図",
                    "https://app-menu-amber.vercel.app"):
         assert needle in html
 

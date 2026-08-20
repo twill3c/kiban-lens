@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-20T20:47:32Z",
+ "generated_at": "2026-08-20T20:59:41Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -39,7 +39,7 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -73,7 +73,7 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -107,33 +107,33 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
-     "date": ""
+     "date": "2026-07-09"
     },
     {
      "title": "Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
      "url": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
-     "date": ""
+     "date": "2026-07-27"
     },
     {
      "title": "How Meta’s AI Models Are Powering the First Wave of Genesis Mission Projects",
      "url": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/",
-     "date": ""
+     "date": "2026-07-21"
     },
     {
      "title": "Introducing Muse Image and Muse Video",
      "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
-     "date": ""
+     "date": "2026-07-07"
     },
     {
      "title": "From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery",
      "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
-     "date": ""
+     "date": "2026-06-29"
     }
    ]
   },
@@ -141,7 +141,7 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -175,7 +175,7 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -209,7 +209,7 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -223,9 +223,9 @@
      "date": "2026-08-13"
     },
     {
-     "title": "Your First API Call",
+     "title": "DeepSeek-V3.2 Release",
      "url": "https://api-docs.deepseek.com/news/news251201",
-     "date": ""
+     "date": "2026-08-13"
     },
     {
      "title": "Introducing DeepSeek-V3.2-Exp",
@@ -243,7 +243,7 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -301,7 +301,7 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -338,7 +338,7 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -372,7 +372,7 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -406,7 +406,7 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -440,7 +440,7 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -474,26 +474,26 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
-     "title": "ELYZA",
+     "title": "ELYZA Works、アルティウスリンク株式会社の導入事例記事を公開",
      "url": "https://elyza.ai/news/2026/07/13/works_case_altiuslink",
      "date": "2026-07-13"
     },
     {
-     "title": "ELYZA",
+     "title": "ELYZAが、三井住友カードと入会審査における自動判定AIの利用を開始　～担当者による審査の20％を自動化し、審査の迅速化と審査作業の削減を実現 ～",
      "url": "https://elyza.ai/news/2026/07/10/smcc",
      "date": "2026-07-10"
     },
     {
-     "title": "ELYZA",
+     "title": "ELYZA Works、人の判断や情報追加を挟んで 複数のAIアプリを繋ぐ「後続アプリ設定機能」を提供開始",
      "url": "https://elyza.ai/news/2026/07/01/works_feature_connectapps",
      "date": "2026-07-01"
     },
     {
-     "title": "ELYZA",
+     "title": "ELYZAがKDDIに提供し再販する法人向け生成AI活用ツール 「ELYZA Works with KDDI」が初の動画広告を配信開始。〜「エライぞ！イライザ」篇と題し、5月11日（月）より配信開始 〜",
      "url": "https://elyza.ai/news/2026/05/11/works_promotion_start",
      "date": "2026-05-11"
     }
@@ -511,7 +511,7 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -545,7 +545,7 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -579,7 +579,7 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
@@ -613,7 +613,7 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-08-20T20:47:32Z",
+   "fetched_at": "2026-08-20T20:59:41Z",
    "ok": true,
    "items": [
     {
