@@ -74,7 +74,27 @@ def test_extract_date_variants():
     assert extract_date("no date here") == ""
 
 
+def test_extract_date_english():
+    # 機械可読な日付を持たないサイト(Meta AI 等)向けの英文日付
+    assert extract_date("<span>July 9, 2026</span>") == "2026-07-09"
+    assert extract_date("<span>9 July 2026</span>") == "2026-07-09"
+    assert extract_date("<p>Jubilee 2026</p>") == ""  # 月名でない語は拾わない
+
+
 def test_extract_title_variants():
     assert extract_title('<meta property="og:title" content="A &amp; B">') == "A & B"
     assert extract_title("<title>Hello – Site Name</title>") == "Hello"
     assert extract_title("<p>nothing</p>") == ""
+
+
+def test_extract_title_skips_site_name():
+    # og:title が全記事共通のサイト名になっているサイト(ELYZA 等)
+    page = ('<meta property="og:title" content="ELYZA | 未踏の領域で、あたりまえを創る">'
+            "<title>記事の見出し | 株式会社ELYZA</title>")
+    assert extract_title(page, site_name="ELYZA") == "記事の見出し"
+    assert extract_title(page) == "ELYZA"  # site_name 未指定なら従来どおり
+
+
+def test_extract_title_falls_back_to_h1():
+    page = '<meta property="og:title" content="SiteName"><h1>  実際の見出し  </h1>'
+    assert extract_title(page, site_name="SiteName") == "実際の見出し"

@@ -32,10 +32,20 @@ _DATE_PATTERNS = [
     re.compile(r'<time[^>]+datetime="([^"]+)"'),
     re.compile(r"(\d{4})[年/.\-](\d{1,2})[月/.\-](\d{1,2})"),
 ]
+
+_MONTHS = {m: i for i, m in enumerate(
+    ["january", "february", "march", "april", "may", "june", "july",
+     "august", "september", "october", "november", "december"], start=1)}
+# 英文日付("July 9, 2026" / "9 July 2026")— 機械可読な日付を持たないサイト向け(Meta AI 等)
+_MONTH_ALT = "|".join(m.capitalize() for m in _MONTHS)
+_EN_DATE_MDY = re.compile(rf"\b({_MONTH_ALT})\s+(\d{{1,2}}),\s*(\d{{4}})\b")
+_EN_DATE_DMY = re.compile(rf"\b(\d{{1,2}})\s+({_MONTH_ALT})\s+(\d{{4}})\b")
+
 _TITLE_PATTERNS = [
     re.compile(r'property="og:title"\s+content="([^"]+)"'),
     re.compile(r'content="([^"]+)"\s+property="og:title"'),
     re.compile(r"<title[^>]*>([^<]+)</title>"),
+    re.compile(r"<h1[^>]*>\s*([^<]{4,160}?)\s*</h1>"),
 ]
 
 
@@ -51,18 +61,36 @@ def extract_date(page: str) -> str:
         y, mo, d = (int(g) for g in m.groups())
         if 2000 <= y <= 2100 and 1 <= mo <= 12 and 1 <= d <= 31:
             return f"{y:04d}-{mo:02d}-{d:02d}"
+    m = _EN_DATE_MDY.search(page)
+    if m:
+        mo, d, y = _MONTHS[m.group(1).lower()], int(m.group(2)), int(m.group(3))
+        if 2000 <= y <= 2100 and 1 <= d <= 31:
+            return f"{y:04d}-{mo:02d}-{d:02d}"
+    m = _EN_DATE_DMY.search(page)
+    if m:
+        d, mo, y = int(m.group(1)), _MONTHS[m.group(2).lower()], int(m.group(3))
+        if 2000 <= y <= 2100 and 1 <= d <= 31:
+            return f"{y:04d}-{mo:02d}-{d:02d}"
     return ""
 
 
-def extract_title(page: str) -> str:
+def extract_title(page: str, site_name: str = "") -> str:
+    """記事タイトルを抽出する。
+
+    og:title がサイト共通名(全記事で同じ)になっているサイトがあるため、
+    site_name と一致する候補は捨てて次の候補(<title> / <h1>)に進む。"""
     for pat in _TITLE_PATTERNS:
         m = pat.search(page)
-        if m:
-            t = html_mod.unescape(m.group(1)).strip()
-            # サイト名サフィックスの除去(" | Site" / " - Site" / " – Site")
-            t = re.split(r"\s+[|–—]\s+", t)[0].strip()
-            if t:
-                return t
+        if not m:
+            continue
+        t = html_mod.unescape(m.group(1)).strip()
+        # サイト名サフィックスの除去(" | Site" / " - Site" / " – Site")
+        t = re.split(r"\s+[|–—]\s+", t)[0].strip()
+        if not t:
+            continue
+        if site_name and t.strip().casefold() == site_name.strip().casefold():
+            continue  # サイト共通名 — 記事タイトルではない
+        return t
     return ""
 
 
@@ -104,7 +132,7 @@ def fetch_html(company: dict, get) -> list[dict]:
     for url in urls[: MAX_ITEMS]:
         try:
             page = get(url, ua).decode("utf-8", "replace")
-            title = list_titles.get(abs_map[url]) or extract_title(page)
+            title = list_titles.get(abs_map[url]) or extract_title(page, company.get("name", ""))
             date = extract_date(page)
         except Exception:
             title, date = list_titles.get(abs_map[url], ""), ""
