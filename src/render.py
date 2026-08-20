@@ -16,7 +16,7 @@ REGION_LABEL = dict(REGIONS)
 CSS = """
 :root{--bg:#0f1115;--panel:#171a21;--panel2:#1d212a;--line:#2a2f3a;--fg:#e6e8ec;
   --muted:#9aa3b2;--faint:#6b7280;--accent:#7aa2f7;--us:#79c0ff;--cn:#f8a3a3;--jp:#7ee787;
-  --time:#c4b5fd}
+  --time:#c4b5fd;--warnc:#f0b072}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);line-height:1.65;
   font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Segoe UI",sans-serif;
@@ -53,6 +53,7 @@ main{max-width:1400px;margin:0 auto;padding:8px 24px 40px}
 .spacer{flex:1}
 .bio{font-size:12.4px;color:#c9cfd9;margin:8px 0 2px;padding:8px 10px;background:var(--panel2);
   border-radius:7px;border-left:2px solid var(--line)}
+.warn{font-size:11.5px;color:var(--warnc);margin-top:6px;padding-top:6px;border-top:1px dashed var(--line)}
 .hidden{display:none}
 .empty{color:var(--faint);font-size:13px;padding:20px 0}
 .badge{font-size:10px;padding:0 6px;border-radius:3px;font-weight:600}
@@ -100,7 +101,15 @@ def latest_date(record: dict) -> str:
     return max(dates) if dates else ""
 
 
-def _card_html(co: dict, record: dict, translations: dict, profile: str = "") -> str:
+HEALTH_LABEL = {
+    "failing": "経路の点検対象 — ",
+    "stale": "経路の点検対象 — ",
+    "undated": "",
+}
+
+
+def _card_html(co: dict, record: dict, translations: dict, profile: str = "",
+               health: dict | None = None) -> str:
     h = (f'<div class="card" data-region="{co["region"]}" '
          f'data-latest="{latest_date(record)}">'
          f'<div class="chead"><span class="name">{escape(co["name"])}</span>')
@@ -119,16 +128,24 @@ def _card_html(co: dict, record: dict, translations: dict, profile: str = "") ->
         h += '<div class="none">取得できませんでした(次回自動再試行)</div>'
     if co.get("note") and co["strategy"] != "pending":
         h += f'<div class="stale">{escape(co["note"])}</div>'
+    if health and health["status"] in ("failing", "stale"):
+        h += (f'<div class="warn">⚠ {HEALTH_LABEL[health["status"]]}'
+              f'{escape(health["detail"])}</div>')
     return h + "</div>"
 
 
 def render_html(data: dict, companies: list[dict], translations: dict,
-                profiles: dict | None = None) -> str:
+                profiles: dict | None = None, health: dict | None = None) -> str:
     by_id = {c["id"]: c for c in companies}
     profiles = profiles or {}
+    health_by_id = {h["id"]: h for h in (health or {}).get("companies", [])}
     generated = _jst(data["generated_at"])
     n_ok = sum(1 for r in data["companies"] if r["ok"])
     n_all = len(data["companies"])
+    n_attention = sum(1 for h in health_by_id.values()
+                      if h["status"] in ("failing", "stale"))
+    attention = (f" · 経路の点検対象 {n_attention} 社" if n_attention else
+                 " · 経路はすべて正常")
 
     body = ""
     for rid, rlabel in REGIONS:
@@ -137,7 +154,8 @@ def render_html(data: dict, companies: list[dict], translations: dict,
             co = by_id[rec["id"]]
             if co["region"] != rid:
                 continue
-            cards += _card_html(co, rec, translations, profiles.get(co["id"], ""))
+            cards += _card_html(co, rec, translations, profiles.get(co["id"], ""),
+                                health_by_id.get(co["id"]))
         n = sum(1 for c in companies if c["region"] == rid)
         body += (f'<section data-section="{rid}">'
                  f'<div class="secthead">{rlabel}({n}社)</div>'
@@ -155,7 +173,7 @@ def render_html(data: dict, companies: list[dict], translations: dict,
 <header>
   <h1>AI基盤モデル企業 公式ブログレンズ — 基盤レンズ</h1>
   <p class="sub">AI 基盤モデルを提供する米国 6・中国 7・日本 10 の計 {n_all} 社について、公式ブログ / ニュースの最新 5 件を和訳付きで一覧。英語・中国語の見出しは Claude(Haiku)が和訳し、原文を併記します。</p>
-  <p class="updated">最終更新 {generated} JST(6 時間ごとに自動更新)· 取得成功 {n_ok}/{n_all} 社 · 取得失敗時は前回分を保持</p>
+  <p class="updated">最終更新 {generated} JST(6 時間ごとに自動更新)· 取得成功 {n_ok}/{n_all} 社{attention}</p>
 </header>
 <div class="controls"><div class="controls-in">
   <span class="chip c-all on" data-region="ALL">すべての地域</span>

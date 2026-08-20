@@ -41,6 +41,7 @@ Conventional Commits(feat/fix/test/docs/refactor/chore)。スキャフォール�
 - **翻訳規範**: 新出見出しのみ一括翻訳(claude-haiku-4-5・構造化出力)。キー未設定/障害時は原文表示で劣化継続。和訳には必ず原文を併記
 - **経路変更時**: sources.py を編集 → tools/probe_endpoints.py で実地確認 → pytest(オフライン)→ 実行テスト → コミット。**新経路は必ず実機でタイトル・日付を抜き取り確認する**(og:title がサイト共通名 / 機械可読な日付なし、が頻出)
 - **strategy**: feed(RSS)/ html(静的一覧)/ browser(Playwright で描画。CI が Chromium を導入、ローカル未導入なら劣化継続)/ pending(経路未確立)。タイトルは list_re(一覧の alt/テキスト)> title_re(記事内位置)> og:title/title/h1 の順で解決
-- **説明文**: `data/profiles.json`(会社ID → 2〜3 文)。月次クラウド routine が点検・更新する(仕様正本 `docs/routine-monthly-profiles.md` — 任務変更はこのファイルの編集だけでよい)。会社を増減したら profiles.json も同時に更新すること(T-06 が過不足を検査)
+- **説明文**: `data/profiles.json`(会社ID → 2〜3 文)。月次クラウド routine が点検・更新する(仕様正本 `docs/routine-monthly.md` — 任務変更はこのファイルの編集だけでよい)。会社を増減したら profiles.json も同時に更新すること(T-06 が過不足を検査)
 - **フィルタ**: 地域(すべて/米国/中国/日本)と期間(直近1ヶ月/1週間・排他)。**期間の基準は閲覧時点から JS が計算する** — ビルド時に日付を焼き込まないこと(腐るため)
+- **経路健全性(F-09)**: `src/health.py` が毎回 failing/stale/undated/healthy を判定し `data/health.json` に出力。pipeline が `fail_streak` と `last_ok_at` を記録する(劣化継続で前回分を出し続けるため、これが無いと経路の生死を判別できない)。閾値変更は健全性の意味が変わるので SPEC F-09 と合わせて更新すること
 - **テストは全てオフライン**。ネットワークを触るテストを追加しないこと(CI は 6h cron と分離)

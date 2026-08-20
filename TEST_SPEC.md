@@ -12,6 +12,7 @@
 | T-04 | パイプライン: 取得失敗時の前回分保持(items/fetched_at)・全社失敗のみ exit 1 | F-02 | tests/test_render_pipeline.py |
 | T-05 | レンダラ: 全 23 社と地域見出しの出現・JST 変換・和訳+原文併記・pending 表示・フッタ規約・決定性 | F-04, F-05, N-02 | tests/test_render_pipeline.py |
 | T-06 | 説明文: 23 社を過不足なく網羅・字数(20〜200)・updated_on の存在・カード表示・欠落時も描画継続 | F-06 | tests/test_render_pipeline.py |
+| T-08 | 健全性: failing(連続失敗・未取得)/ stale(長期未更新)/ undated / healthy の判定と閾値の内外・重い順の整列・レポート整形・pipeline の fail_streak と last_ok_at の記録とリセット・ページの警告表示と後方互換 | F-09 | tests/test_health.py, tests/test_render_pipeline.py |
 | T-07 | フィルタ: 地域/期間チップの出現・カードの data-region/data-latest・セクションの地域束ね・閲覧時点基準(cutoff 関数)・latest_date ヘルパ | F-07 | tests/test_render_pipeline.py |
 
 ## 実行

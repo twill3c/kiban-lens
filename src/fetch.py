@@ -15,6 +15,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .fetchers import fetch_company
+from .health import check, format_report
 from .pipeline import collect
 from .render import render_html
 from .sources import COMPANIES
@@ -23,6 +24,7 @@ from .translate import translate_all
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "releases.json"
 PROFILES = ROOT / "data" / "profiles.json"
+HEALTH = ROOT / "data" / "health.json"
 OUT = ROOT / "out" / "index.html"
 
 
@@ -54,11 +56,15 @@ def main() -> int:
         json.dumps(data, ensure_ascii=False, indent=1) + "\n",
         encoding="utf-8", newline="\n")
 
+    report = check(data)
+    HEALTH.write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n",
+                      encoding="utf-8", newline="\n")
+
     titles = [i["title"] for rec in data["companies"] for i in rec["items"]]
     translations = translate_all(titles)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(render_html(data, COMPANIES, translations, load_profiles()),
+    OUT.write_text(render_html(data, COMPANIES, translations, load_profiles(), report),
                    encoding="utf-8", newline="\n")
 
     ok = sum(1 for c in data["companies"] if c["ok"])
@@ -67,6 +73,7 @@ def main() -> int:
     for c in data["companies"]:
         mark = "ok " if c["ok"] else "NG "
         print(f"  {mark}{c['id']}: {len(c['items'])} 件")
+    print(format_report(report))
     return code
 
 

@@ -121,3 +121,31 @@ def test_latest_date_helper():
     assert latest_date({"items": [{"date": "2026-01-01"}, {"date": "2026-08-05"}]}) == "2026-08-05"
     assert latest_date({"items": [{"date": ""}, {"date": ""}]}) == ""
     assert latest_date({"items": []}) == ""
+
+
+# ---- T-08: 健全性のページ表示 ----
+
+def test_render_health_warnings():
+    from src.health import FAIL_STREAK_ALERT, check
+    data = make_data()
+    # 1 社を長期未更新、1 社を連続失敗に見せかける
+    for r in data["companies"]:
+        if r["id"] == "qwen":
+            r["items"] = [{"title": "old", "url": "https://ex.com/o", "date": "2026-01-01"}]
+        if r["id"] == "baidu":
+            r["fail_streak"] = FAIL_STREAK_ALERT
+    report = check(data)
+    html = render_html(data, COMPANIES, {}, {}, report)
+    assert "経路の点検対象 2 社" in html
+    assert html.count('class="warn"') == 2
+    assert "回連続で取得に失敗" in html
+
+    # 全社正常ならヘッダーは「すべて正常」、警告は出ない
+    clean = render_html(make_data(), COMPANIES, {}, {}, check(make_data()))
+    assert "経路はすべて正常" in clean
+    assert 'class="warn"' not in clean
+
+
+def test_render_without_health_is_backward_compatible():
+    html = render_html(make_data(), COMPANIES, {})
+    assert 'class="warn"' not in html
