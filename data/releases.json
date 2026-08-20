@@ -1,0 +1,647 @@
+{
+ "generated_at": "2026-08-20T14:10:02Z",
+ "companies": [
+  {
+   "id": "openai",
+   "name": "OpenAI",
+   "source_url": "https://openai.com/news/",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "Offering Zero Data Retention for frontier models",
+     "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+     "date": "2026-08-19"
+    },
+    {
+     "title": "Replit expands access to software creation with GPT-5.6 Luna",
+     "url": "https://openai.com/index/replit",
+     "date": "2026-08-19"
+    },
+    {
+     "title": "ChatGPT Ads expands across Europe",
+     "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+     "date": "2026-08-18"
+    },
+    {
+     "title": "Strengthening democratic oversight in national security",
+     "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+     "date": "2026-08-18"
+    },
+    {
+     "title": "Partnering with CodeAI to prepare the first AI generation",
+     "url": "https://openai.com/index/partnering-with-codeai",
+     "date": "2026-08-18"
+    }
+   ]
+  },
+  {
+   "id": "anthropic",
+   "name": "Anthropic",
+   "source_url": "https://www.anthropic.com/news",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "Introducing Claude Opus 5",
+     "url": "https://www.anthropic.com/news/claude-opus-5",
+     "date": "2026-07-23"
+    },
+    {
+     "title": "Inviting hard questions",
+     "url": "https://www.anthropic.com/news/hard-questions",
+     "date": "2023-11-03"
+    },
+    {
+     "title": "Redeploying Claude Fable 5",
+     "url": "https://www.anthropic.com/news/redeploying-fable-5",
+     "date": "2023-11-03"
+    },
+    {
+     "title": "Introducing Claude Sonnet 5",
+     "url": "https://www.anthropic.com/news/claude-sonnet-5",
+     "date": "2023-11-03"
+    },
+    {
+     "title": "How Claude's text watermarking works",
+     "url": "https://www.anthropic.com/news/claude-text-watermark",
+     "date": "2026-08-13"
+    }
+   ]
+  },
+  {
+   "id": "deepmind",
+   "name": "Google DeepMind",
+   "source_url": "https://deepmind.google/blog/",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "Introducing Gemini 3.7 Flash",
+     "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+     "date": "2026-08-13"
+    },
+    {
+     "title": "Putting sign language AI into users’ hands",
+     "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+     "date": "2026-08-12"
+    },
+    {
+     "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+     "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+     "date": "2026-08-06"
+    },
+    {
+     "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+     "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+     "date": "2026-07-30"
+    },
+    {
+     "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+     "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+     "date": "2026-07-29"
+    }
+   ]
+  },
+  {
+   "id": "meta",
+   "name": "Meta AI",
+   "source_url": "https://ai.meta.com/blog/",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "Introducing Muse Spark 1.1",
+     "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+     "date": ""
+    },
+    {
+     "title": "Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+     "url": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
+     "date": ""
+    },
+    {
+     "title": "How Meta’s AI Models Are Powering the First Wave of Genesis Mission Projects",
+     "url": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/",
+     "date": ""
+    },
+    {
+     "title": "Introducing Muse Image and Muse Video",
+     "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+     "date": ""
+    },
+    {
+     "title": "From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery",
+     "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "xai",
+   "name": "xAI",
+   "source_url": "https://x.ai/news",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "Introducing Grok 4.6",
+     "url": "https://x.ai/news/grok-4-6",
+     "date": "2026-08-12"
+    },
+    {
+     "title": "Grok 4.6 on Amazon Bedrock",
+     "url": "https://x.ai/news/grok-4-6-amazon-bedrock",
+     "date": "2026-08-19"
+    },
+    {
+     "title": "Grok 4.6 in GitHub Copilot",
+     "url": "https://x.ai/news/grok-4-6-github-copilot",
+     "date": "2026-08-14"
+    },
+    {
+     "title": "Introducing Grok Bot",
+     "url": "https://x.ai/news/introducing-grok-bot",
+     "date": "2026-08-11"
+    },
+    {
+     "title": "Imagine Image 2.0",
+     "url": "https://x.ai/news/grok-imagine-image-2",
+     "date": "2026-08-07"
+    }
+   ]
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "source_url": "https://news.microsoft.com/source/topics/ai/",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "How to build an AI agent: A simple guide for anyone",
+     "url": "https://news.microsoft.com/signal/articles/how-to-build-an-ai-agent-guide/",
+     "date": "2026-08-10"
+    },
+    {
+     "title": "Teaching AI to speak the language of pathology",
+     "url": "https://news.microsoft.com/signal/articles/teaching-ai-to-speak-the-language-of-pathology/",
+     "date": "2026-08-04"
+    },
+    {
+     "title": "Fantasy Premier League Companion gives managers a new tool for success",
+     "url": "https://news.microsoft.com/source/emea/features/fantasy-premier-league-companion-gives-managers-a-new-tool-for-success/",
+     "date": "2026-07-27"
+    },
+    {
+     "title": "A new approach to AI data puts communities in charge",
+     "url": "https://news.microsoft.com/signal/articles/a-new-approach-to-ai-data-puts-communities-in-charge/",
+     "date": "2026-07-22"
+    },
+    {
+     "title": "Microsoft expands Azure AI and HPC infrastructure with AMD",
+     "url": "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd/",
+     "date": "2026-07-20"
+    }
+   ]
+  },
+  {
+   "id": "deepseek",
+   "name": "DeepSeek",
+   "source_url": "https://api-docs.deepseek.com/news/",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "DeepSeek-V4-Pro GA Release",
+     "url": "https://api-docs.deepseek.com/news/news260813",
+     "date": "2026-08-13"
+    },
+    {
+     "title": "DeepSeek V4 Preview Release",
+     "url": "https://api-docs.deepseek.com/news/news260424",
+     "date": "2026-08-13"
+    },
+    {
+     "title": "DeepSeek-V3.2 Release",
+     "url": "https://api-docs.deepseek.com/news/news251201",
+     "date": "2026-08-13"
+    },
+    {
+     "title": "Introducing DeepSeek-V3.2-Exp",
+     "url": "https://api-docs.deepseek.com/news/news250929",
+     "date": "2026-08-13"
+    },
+    {
+     "title": "DeepSeek-V3.1-Terminus",
+     "url": "https://api-docs.deepseek.com/news/news250922",
+     "date": "2026-08-13"
+    }
+   ]
+  },
+  {
+   "id": "qwen",
+   "name": "Alibaba(Qwen)",
+   "source_url": "https://qwen.ai/blog",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
+     "url": "https://qwenlm.github.io/blog/qwen3guard/",
+     "date": "2025-09-23"
+    },
+    {
+     "title": "Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency",
+     "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
+     "date": "2025-08-19"
+    },
+    {
+     "title": "Qwen-Image: Crafting with Native Text Rendering",
+     "url": "https://qwenlm.github.io/blog/qwen-image/",
+     "date": "2025-08-04"
+    },
+    {
+     "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
+     "url": "https://qwenlm.github.io/blog/gspo/",
+     "date": "2025-07-27"
+    },
+    {
+     "title": "Qwen-MT: Where Speed Meets Smart Translation",
+     "url": "https://qwenlm.github.io/blog/qwen-mt/",
+     "date": "2025-07-24"
+    }
+   ]
+  },
+  {
+   "id": "moonshot",
+   "name": "Moonshot AI(Kimi)",
+   "source_url": "https://www.moonshot.ai/",
+   "fetched_at": "2026-08-20T14:07:47Z",
+   "ok": false,
+   "items": []
+  },
+  {
+   "id": "zhipu",
+   "name": "Zhipu AI(GLM)",
+   "source_url": "https://www.zhipuai.cn/news",
+   "fetched_at": "2026-08-20T14:07:47Z",
+   "ok": false,
+   "items": []
+  },
+  {
+   "id": "bytedance",
+   "name": "ByteDance Seed(豆包)",
+   "source_url": "https://seed.bytedance.com/en/blog",
+   "fetched_at": "2026-08-20T14:07:47Z",
+   "ok": false,
+   "items": []
+  },
+  {
+   "id": "baidu",
+   "name": "Baidu(ERNIE)",
+   "source_url": "https://home.baidu.com/home/index/news_list",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "在迪拜，手机一键打萝卜！最大规模无人车队已就位→",
+     "url": "https://home.baidu.com/home/index/news_detail/id/18046",
+     "date": "2026-03-31"
+    },
+    {
+     "title": "全球第二！入选「最具创新力企业」榜单",
+     "url": "https://home.baidu.com/home/index/news_detail/id/18047",
+     "date": "2026-03-24"
+    },
+    {
+     "title": "够力！百度+海南，来自贸港搞AI",
+     "url": "https://home.baidu.com/home/index/news_detail/id/18050",
+     "date": "2026-03-03"
+    },
+    {
+     "title": "文心大模型5.0正式版，上线！",
+     "url": "https://home.baidu.com/home/index/news_detail/id/18049",
+     "date": "2026-01-22"
+    }
+   ]
+  },
+  {
+   "id": "tencent",
+   "name": "Tencent(混元)",
+   "source_url": "https://www.tencent.com/zh-cn/media/news.html",
+   "fetched_at": "2026-08-20T14:07:47Z",
+   "ok": false,
+   "items": []
+  },
+  {
+   "id": "sbintuitions",
+   "name": "SB Intuitions",
+   "source_url": "https://www.sbintuitions.co.jp/news/",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "DevRel日記#5: JSAI × テックブログ企画Part1「国産AIの安全性を支える技術を読み解く レッドチーミングチャレンジでガードレールに触れて感じること 前編」",
+     "url": "https://note.com/sb_intuitions/n/nca86e05b6735",
+     "date": "2026-08-14"
+    },
+    {
+     "title": "DevRel日記#4: NVIDIAオンサイトイベント「Build-a-Claw-Tokyo」でNVIDIA® NemoClaw™を活用した日本語ASR・同音異義語の個人デモを展示発表しました",
+     "url": "https://note.com/sb_intuitions/n/n2466ed5e896b",
+     "date": "2026-08-03"
+    },
+    {
+     "title": "人とAIの「接点」をつくるHCIチームリーダー。目指す「AIが主役にならない社会」とは",
+     "url": "https://note.com/sb_intuitions/n/nbfbf22ab2d0e",
+     "date": "2026-07-30"
+    },
+    {
+     "title": "DevRel日記#3: 番外編！[コード全公開] SB Intuitions nest-ja-0.1bを使い、自分の声でASRできるのか？",
+     "url": "https://note.com/sb_intuitions/n/n88e1c931d492",
+     "date": "2026-06-17"
+    },
+    {
+     "title": "[イベントレポート]第1回オフライン交流会",
+     "url": "https://note.com/sb_intuitions/n/n433d3caeb26d",
+     "date": "2026-06-08"
+    }
+   ]
+  },
+  {
+   "id": "ntt",
+   "name": "NTT(tsuzumi)",
+   "source_url": "https://group.ntt/jp/newsrelease/",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "世界初、イネの4つの品種を同時に交雑する「多品種交雑技術」を確立 ～4つの品種を",
+     "url": "https://group.ntt/jp/newsrelease/2026/08/20/260820a.html",
+     "date": "2026-08-20"
+    },
+    {
+     "title": "2026年度 第1四半期決算について",
+     "url": "https://group.ntt/jp/newsrelease/2026/08/06/260806a.html",
+     "date": "2026-08-06"
+    },
+    {
+     "title": "当社および当社子会社の取締役等に対する業績連動型株式報酬制度の一部改定に伴う追加拠出に関するお知らせ",
+     "url": "https://group.ntt/jp/newsrelease/2026/08/06/260806b.html",
+     "date": "2026-08-06"
+    },
+    {
+     "title": "令和8年7月熊本地震災害に対する支援（義援金の拠出）について",
+     "url": "https://group.ntt/jp/newsrelease/2026/08/05/260805a.html",
+     "date": "2026-08-05"
+    },
+    {
+     "title": "自己株式の取得状況に関するお知らせ（会社法第165条第2項の規定による定款の定めに基づく自己株式の取得）",
+     "url": "https://group.ntt/jp/newsrelease/2026/08/03/260803b.html",
+     "date": "2026-08-03"
+    }
+   ]
+  },
+  {
+   "id": "pfn",
+   "name": "Preferred Networks(PLaMo)",
+   "source_url": "https://www.preferred.jp/ja/news/",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "PFN、防衛装備庁の 「生成AI等を用いた作戦環境情報分析支援実現に関する実証」を受託 - 株式会社Preferred Networks",
+     "url": "https://www.preferred.jp/ja/news/pr20260729",
+     "date": "2026-07-29"
+    },
+    {
+     "title": "当社および当社グループ会社名を装った採用勧誘にご注意ください - 株式会社Preferred Networks",
+     "url": "https://www.preferred.jp/ja/news/pr20260722",
+     "date": "2026-07-22"
+    },
+    {
+     "title": "PFN、NoetraによるフィジカルAI向け国産マルチモーダル基盤モデル開発に参画 - 株式会社Preferred Networks",
+     "url": "https://www.preferred.jp/ja/news/pr20260716",
+     "date": "2026-07-16"
+    },
+    {
+     "title": "エフサステクノロジーズのオンプレミス生成AI基盤 Private AI Platform on PRIMERGY でPFNの国産LLM PLaMo 2.2 Prime、PLaMo翻訳 が利用可能に - 株式会社Preferred Networks",
+     "url": "https://www.preferred.jp/ja/news/pr20260714",
+     "date": "2026-07-14"
+    },
+    {
+     "title": "PFN、日本語に特化したAI翻訳サービス PLaMo翻訳 のProプラン・ライブ音声翻訳・英文添削を提供開始 - 株式会社Preferred Networks",
+     "url": "https://www.preferred.jp/ja/news/pr20260701",
+     "date": "2026-07-01"
+    }
+   ]
+  },
+  {
+   "id": "sakana",
+   "name": "Sakana AI",
+   "source_url": "https://sakana.ai/blog/",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "Sakana Chatがアップデート：「Sakana Fugu」と新世代「Sakana Namazu」が利用可能に",
+     "url": "/chat-update/",
+     "date": "2026-08-13"
+    },
+    {
+     "title": "ベースモデルに依存しないオーケストレーションに向けて：Gemma 4版 Sakana Fuguの検証",
+     "url": "/fugu-gemma4/",
+     "date": "2026-08-10"
+    },
+    {
+     "title": "Sakana AI、大和証券グループとの共同AIプロジェクトを本格展開フェーズへ移行　ウェルスマネジメント業務支援AIの開発を開始",
+     "url": "/daiwa-shoken-full-scale/",
+     "date": "2026-08-05"
+    },
+    {
+     "title": "Sakana AI、日本語特化のLLM API「Sakana Namazu」を提供開始",
+     "url": "/namazu-api/",
+     "date": "2026-08-03"
+    },
+    {
+     "title": "From Japan, Products the World Will Use: An Interview with Sakana AI’s Head of Product Development",
+     "url": "/product-development-interview/",
+     "date": "2026-07-31"
+    }
+   ]
+  },
+  {
+   "id": "elyza",
+   "name": "ELYZA",
+   "source_url": "https://elyza.ai/news",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "ELYZA",
+     "url": "https://elyza.ai/news/2026/07/13/works_case_altiuslink",
+     "date": "2026-07-13"
+    },
+    {
+     "title": "ELYZA",
+     "url": "https://elyza.ai/news/2026/07/10/smcc",
+     "date": "2026-07-10"
+    },
+    {
+     "title": "ELYZA",
+     "url": "https://elyza.ai/news/2026/07/01/works_feature_connectapps",
+     "date": "2026-07-01"
+    },
+    {
+     "title": "ELYZA",
+     "url": "https://elyza.ai/news/2026/05/11/works_promotion_start",
+     "date": "2026-05-11"
+    }
+   ]
+  },
+  {
+   "id": "rinna",
+   "name": "rinna",
+   "source_url": "https://rinna.co.jp/news/",
+   "fetched_at": "2026-08-20T14:07:47Z",
+   "ok": false,
+   "items": []
+  },
+  {
+   "id": "cyberagent",
+   "name": "CyberAgent(CALM)",
+   "source_url": "https://www.cyberagent.co.jp/news/",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "AI Lab、保育所入所選考システム「ChilmAI」のOSSを公開",
+     "url": "https://www.cyberagent.co.jp/news/detail/id=33725",
+     "date": "2026-08-18"
+    },
+    {
+     "title": "TVアニメ20周年記念「涼宮ハルヒの憂鬱 ABEMAチャンネル」初開設決定、TVアニメ全28話＆劇場版『涼宮ハルヒの消失』を 8月16日（日）より4日間にわたり毎日無料配信",
+     "url": "https://www.cyberagent.co.jp/news/detail/id=33719",
+     "date": "2026-08-13"
+    },
+    {
+     "title": "ABEMA、RIZINの公式メディアパートナーに決定 9月10日（木）開催『ANGEL CHAMPAGNE presents 超RIZIN.5 浪速の超復活祭り』を「ABEMA PPV」で全試合生中継決定",
+     "url": "https://www.cyberagent.co.jp/news/detail/id=33710",
+     "date": "2026-08-13"
+    },
+    {
+     "title": "日本最大の小学生向けプログラミングコンテスト 「Tech Kids Grand Prix 2026」Supported by Cygames  全国の小学校で無料のプログラミング出張授業を実施 ～授業の実施を希望する全国の小学校を募集～",
+     "url": "https://www.cyberagent.co.jp/news/detail/id=33703",
+     "date": "2026-08-12"
+    },
+    {
+     "title": "AI Lab、理論計算機科学分野のトップカンファレンス「FOCS 2026」にて論文採択",
+     "url": "https://www.cyberagent.co.jp/news/detail/id=33690",
+     "date": "2026-08-10"
+    }
+   ]
+  },
+  {
+   "id": "stockmark",
+   "name": "Stockmark",
+   "source_url": "https://stockmark.co.jp/news",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
+     "url": "https://stockmark.co.jp/news/20260515/",
+     "date": "2026-05-26"
+    },
+    {
+     "title": "【製造業に従事する実務者における生成AIの業務活用実態調査】 製造業実務者の7割超が生成AIに「頼みたいのに頼めない」限界を痛感",
+     "url": "https://stockmark.co.jp/news/20260819/",
+     "date": "2026-08-19"
+    },
+    {
+     "title": "ストックマーク自社LLMを活用し「非構造データ」「熟練者の暗黙知」をコア資産へ変革するFDE組織を拡大",
+     "url": "https://stockmark.co.jp/news/20260818/",
+     "date": "2026-08-18"
+    },
+    {
+     "title": "「Aconnect」新機能 情報収集を「開発テーマ創出」の契機に変える「発想のヒント(β版)」をリリース",
+     "url": "https://stockmark.co.jp/news/20260723/",
+     "date": "2026-07-23"
+    },
+    {
+     "title": "製造業R&D向けAIエージェント「Aconnect」の技術探索エージェント新機能 評価の属人化/曖昧さを客観的比較へ転換する「根拠文献参照機能」をリリース",
+     "url": "https://stockmark.co.jp/news/20260715/",
+     "date": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "id": "abeja",
+   "name": "ABEJA",
+   "source_url": "https://www.abejainc.com/news",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "ABEJA、先行認証取得企業としてJDLAが創設したAIガバナンス第三者認証制度「C認証」を取得",
+     "url": "https://prtimes.jp/main/html/rd/p/000000228.000010628.html",
+     "date": "2026-08-18"
+    },
+    {
+     "title": "ABEJA、「第21回言語処理若手シンポジウム（YANS2026）」に参加",
+     "url": "https://prtimes.jp/main/html/rd/p/000000226.000010628.html",
+     "date": "2026-08-06"
+    },
+    {
+     "title": "ABEJA、NEDOの採択を受け、一般社団法人AIデータ主権共創機構（CODAS）が進める「データの秘匿性を考慮した効率的なAI学習手法の開発」に参画",
+     "url": "https://prtimes.jp/main/html/rd/p/000000222.000010628.html",
+     "date": "2026-08-04"
+    },
+    {
+     "title": "ABEJA、米国カーネギーメロン大学創始者記念全学教授、京都大学高等研究院招聘特別教授等を務める金出 武雄氏が特別顧問に就任",
+     "url": "https://prtimes.jp/main/html/rd/p/000000225.000010628.html",
+     "date": "2026-08-03"
+    },
+    {
+     "title": "ABEJA、AIマネジメントシステム（AIMS）の国際規格「ISO/IEC 42001」の認証を取得",
+     "url": "https://prtimes.jp/main/html/rd/p/000000224.000010628.html",
+     "date": "2026-07-29"
+    }
+   ]
+  },
+  {
+   "id": "fujitsu",
+   "name": "富士通(Takane)",
+   "source_url": "https://global.fujitsu/ja-jp/pr/news",
+   "fetched_at": "2026-08-20T14:10:02Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "米Exostarの機能を活用し、日本国内のデータ管理・運用による高セキュアなサプライチェーンの情報連携サービスを提供開始",
+     "url": "https://prtimes.jp/main/html/rd/p/000000597.000093942.html",
+     "date": "2026-08-20"
+    },
+    {
+     "title": "JA共済連様の情報系システムの安定運用と高度な活用促進に向け「Fujitsu クラウドサービス powered by Oracle Alloy」と「Oracle Analytics Cloud」を導入",
+     "url": "https://prtimes.jp/main/html/rd/p/000000596.000093942.html",
+     "date": "2026-08-18"
+    },
+    {
+     "title": "富士通、豪州モナシュ大学、CSIROが日豪の量子パートナーシップを強化",
+     "url": "https://prtimes.jp/main/html/rd/p/000000595.000093942.html",
+     "date": "2026-08-04"
+    },
+    {
+     "title": "富士通、金融機関向けに専有型AIプラットフォームの開発を開始",
+     "url": "https://prtimes.jp/main/html/rd/p/000000594.000093942.html",
+     "date": "2026-07-28"
+    },
+    {
+     "title": "ワット・ビット構想実現に向けた次世代分散型 AI処理インフラの実証実験の開始について",
+     "url": "https://prtimes.jp/main/html/rd/p/000000593.000093942.html",
+     "date": "2026-07-27"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+{"v": "1.2", "ts": "2026-08-20T22:57:02+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "loop_start", "data": {"goal": "AI基盤モデル23社(米6中7日10)の公式ブログ最新5件+Claude和訳の一覧: 収集基盤・翻訳キャッシュ・レンダラ・cron", "spec_refs": ["F-01", "F-02", "F-03", "F-04"], "scaffold_version": "1.8.0", "agent": "claude-code"}}
+{"v": "1.2", "ts": "2026-08-21T05:33:39+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "test_run", "data": {"command": "python -m pytest -q", "result": "pass", "passed": 19, "failed": 0}}
+{"v": "1.2", "ts": "2026-08-21T05:33:39+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 1, "stage_name": "計画", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T05:33:40+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 2, "stage_name": "文脈読込", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T05:33:40+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 3, "stage_name": "テスト先行", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T05:33:40+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 4, "stage_name": "実装", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T05:33:40+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 5, "stage_name": "検証", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T05:33:41+09:00", "project": "kiban-lens", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 6, "stage_name": "文書化", "result": "pass"}}
