@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-20T21:49:51Z",
+ "generated_at": "2026-08-20T21:53:02Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -39,7 +39,7 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -73,7 +73,7 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -107,7 +107,7 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -141,7 +141,7 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -175,7 +175,7 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -209,7 +209,7 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -223,9 +223,9 @@
      "date": "2026-08-13"
     },
     {
-     "title": "DeepSeek-V3.2 Release",
+     "title": "Your First API Call",
      "url": "https://api-docs.deepseek.com/news/news251201",
-     "date": "2026-08-13"
+     "date": ""
     },
     {
      "title": "Introducing DeepSeek-V3.2-Exp",
@@ -243,7 +243,7 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -277,7 +277,7 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -311,7 +311,7 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -345,7 +345,7 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -379,7 +379,7 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -408,7 +408,7 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -442,7 +442,7 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -476,7 +476,7 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -510,7 +510,7 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -544,7 +544,7 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -578,7 +578,7 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -612,7 +612,7 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -646,7 +646,7 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -680,7 +680,7 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -714,7 +714,7 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
@@ -748,7 +748,7 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-08-20T21:49:51Z",
+   "fetched_at": "2026-08-20T21:53:02Z",
    "ok": true,
    "items": [
     {
