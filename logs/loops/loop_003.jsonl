@@ -6,3 +6,6 @@
 {"v": "1.2", "ts": "2026-08-21T06:12:18+09:00", "project": "kiban-lens", "loop_id": "loop_003", "event": "stage_end", "data": {"stage": 5, "stage_name": "検証", "result": "pass"}}
 {"v": "1.2", "ts": "2026-08-21T06:12:18+09:00", "project": "kiban-lens", "loop_id": "loop_003", "event": "stage_end", "data": {"stage": 6, "stage_name": "文書化", "result": "pass"}}
 {"v": "1.2", "ts": "2026-08-21T06:12:19+09:00", "project": "kiban-lens", "loop_id": "loop_003", "event": "test_run", "data": {"command": "python -m pytest -q", "result": "pass", "passed": 26, "failed": 0}}
+{"v": "1.2", "ts": "2026-08-21T06:12:19+09:00", "project": "kiban-lens", "loop_id": "loop_003", "event": "commit", "data": {"kind": "feat", "sha": "8be5127", "message": "説明文と地域/期間フィルタ"}}
+{"v": "1.2", "ts": "2026-08-21T06:12:20+09:00", "project": "kiban-lens", "loop_id": "loop_003", "event": "stage_end", "data": {"stage": 7, "stage_name": "完了", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T06:12:20+09:00", "project": "kiban-lens", "loop_id": "loop_003", "event": "loop_end", "data": {"outcome": "success", "failure_count": 0, "summary": "説明文23社+地域/期間フィルタ。テスト26件緑。月次 routine 仕様を整備"}}
