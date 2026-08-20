@@ -36,7 +36,7 @@ def test_collect_all_fail_exit_1():
 
 
 def make_data():
-    data, _ = collect(COMPANIES, fake_fetcher({c["id"] for c in COMPANIES if c["strategy"] != "pending"}),
+    data, _ = collect(COMPANIES, fake_fetcher({c["id"] for c in COMPANIES}),
                       None, "2026-08-21T03:00:00Z")
     return data
 
@@ -56,9 +56,13 @@ def test_render_translation_with_original():
     assert "原文: Hello release" in html
 
 
-def test_render_pending_note_and_footer():
+def test_render_failure_and_footer():
+    # 一度も取得できていない会社は再試行の案内を出す(pending の場合は理由を表示)
+    data, _ = collect(COMPANIES, fake_fetcher({"openai"}), None, "2026-08-21T03:00:00Z")
+    html = render_html(data, COMPANIES, {})
+    assert "取得できませんでした(次回自動再試行)" in html
+
     html = render_html(make_data(), COMPANIES, {})
-    assert "取得経路調査中" in html
     for needle in ("MIT License", "© 2026 坂田哲朗",
                    "https://github.com/twill3c/kiban-lens",
                    "kiban-lens の歩き方", "kiban-lens 設計図",

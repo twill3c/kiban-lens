@@ -5,9 +5,10 @@ fetch_company(company, get) -> [{"title","url","date"}...](新しい順・最大
 get(url, ua) -> bytes は注入可能(テストではフィクスチャ、実運用では http_get)。
 
 - feed: フィードをパースして先頭 5 件
-- html: 一覧 HTML から link_re でリンク採取 → 上位 5 件の記事ページを取得し、
-  タイトル(og:title / <title>)と日付(extract_date)を抽出する統一方式
-- pending: 常に空(pipeline 側で ok=False → 劣化継続 / 経路調査中表示)
+- html: 一覧 HTML から link_re/list_re でリンク採取 → 記事ページを取得し、
+  タイトル(list_re / title_re / og:title / <title> / <h1>)と日付を抽出する統一方式
+- browser: JS レンダリング必須サイト。一覧を Playwright で描画してから html と同じ抽出
+- pending: 常に空(pipeline 側で ok=False → 劣化継続)
 
 失敗は例外にせず 0 件で返す(pipeline が前回分を保持する)。
 """
@@ -40,6 +41,8 @@ _MONTHS = {m: i for i, m in enumerate(
 _MONTH_ALT = "|".join(m.capitalize() for m in _MONTHS)
 _EN_DATE_MDY = re.compile(rf"\b({_MONTH_ALT})\s+(\d{{1,2}}),\s*(\d{{4}})\b")
 _EN_DATE_DMY = re.compile(rf"\b(\d{{1,2}})\s+({_MONTH_ALT})\s+(\d{{4}})\b")
+
+_BAD_TITLE_RE = re.compile(r"(404|403|500|not found|page not found|页面不存在|お探しのページ.*)", re.I)
 
 _TITLE_PATTERNS = [
     re.compile(r'property="og:title"\s+content="([^"]+)"'),
@@ -110,10 +113,42 @@ def fetch_feed(company: dict, get) -> list[dict]:
     return [{"title": i["title"], "url": i["url"], "date": i["date"]} for i in items]
 
 
+def render_page(url: str, ua: str = BROWSER_UA, wait_ms: int = 4000,
+                attempts: int = 3) -> bytes:
+    """JS 描画後の HTML を返す(browser 戦略)。
+
+    描画対象は海外サイトで揺らぎが大きいため、タイムアウトを伸ばしつつ 3 回試す。
+    Playwright 未導入・全試行失敗時は例外を上げ、pipeline が劣化継続で受け止める。
+    実取得は CI(collect.yml が Chromium を導入)で行う。"""
+    from playwright.sync_api import sync_playwright
+
+    last = None
+    for i in range(attempts):
+        try:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(args=["--no-sandbox"])
+                try:
+                    page = browser.new_page(user_agent=ua, locale="ja-JP")
+                    # networkidle は常時通信のあるサイト(中国系に多い)で成立しないため
+                    # DOM 構築完了で待ち、以後は固定待機でハイドレーションを待つ
+                    page.goto(url, wait_until="domcontentloaded",
+                              timeout=45000 + 30000 * i)
+                    page.wait_for_timeout(wait_ms + 2000 * i)
+                    return page.content().encode("utf-8")
+                finally:
+                    browser.close()
+        except Exception as e:  # 次の試行へ(最後の例外は呼び出し側へ)
+            last = e
+    raise last
+
+
 def fetch_html(company: dict, get) -> list[dict]:
     base = company["primary_url"]
     ua = PROJECT_UA if company.get("ua") == "project" else BROWSER_UA
-    listing = get(base, ua).decode("utf-8", "replace")
+    if company["strategy"] == "browser":
+        listing = render_page(base, ua).decode("utf-8", "replace")
+    else:
+        listing = get(base, ua).decode("utf-8", "replace")
     list_titles: dict[str, str] = {}
     if "list_re" in company:
         # 2 グループ(href, title)。タイトルは一覧のアンカーテキストから取る
@@ -129,14 +164,25 @@ def fetch_html(company: dict, get) -> list[dict]:
     if company.get("sort_desc"):
         urls = sorted(urls, reverse=True)
     items = []
-    for url in urls[: MAX_ITEMS]:
+    # 除外(エラーページ・タイトル取得失敗)を見込んで多めに当たり、MAX_ITEMS で打ち切る
+    for url in urls[: MAX_ITEMS * 2]:
+        if len(items) >= MAX_ITEMS:
+            break
         try:
             page = get(url, ua).decode("utf-8", "replace")
-            title = list_titles.get(abs_map[url]) or extract_title(page, company.get("name", ""))
+            title = list_titles.get(abs_map[url]) or ""
+            if not title and company.get("title_re"):
+                # og:title がサイト共通名のサイト向けに、記事ページ内の位置を明示指定
+                m = re.search(company["title_re"], page)
+                if m:
+                    title = html_mod.unescape(m.group(1)).strip()
+            if not title:
+                title = extract_title(page, company.get("name", ""))
             date = extract_date(page)
         except Exception:
             title, date = list_titles.get(abs_map[url], ""), ""
-        if not title or "{{" in title:  # テンプレート残骸は除外
+        # テンプレート残骸・エラーページ・空タイトルは除外
+        if not title or "{{" in title or _BAD_TITLE_RE.fullmatch(title.strip()):
             continue
         items.append({"title": title, "url": url, "date": date})
     return items
@@ -145,7 +191,7 @@ def fetch_html(company: dict, get) -> list[dict]:
 def fetch_company(company: dict, get) -> list[dict]:
     if company["strategy"] == "feed":
         return fetch_feed(company, get)
-    if company["strategy"] == "html":
+    if company["strategy"] in ("html", "browser"):
         return fetch_html(company, get)
     return []  # pending
 

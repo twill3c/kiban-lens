@@ -22,7 +22,9 @@ python -m pytest -q            # テスト(すべてオフライン)
 
 ## 既知の制約
 
-- **取得経路調査中(5 社)**: Moonshot AI・Zhipu AI・ByteDance Seed・Tencent は JS レンダリング必須、
-  rinna は収集環境から DNS 不達。カードに理由を表示し、経路確立は後続ループで対応
+- **browser 戦略の 2 社**(Zhipu AI・Tencent)は JS レンダリング必須のため Playwright で取得する。
+  ローカルで `pip install playwright && python -m playwright install chromium` していない場合は
+  この 2 社だけ取得失敗(前回分を保持)になる — CI では自動導入される
 - Qwen は公式ブログの qwen.ai 移転(JS 必須)により旧公式フィードを使用(新着が遅延する可能性)
-- Baidu・Tencent 等は AI 専門ブログが JS 必須のため公式コーポレートニュースで代替
+- Baidu・Tencent は AI 専門ブログが JS 必須のため公式コーポレートニュースで代替
+- rinna は rinna.co.jp が NXDOMAIN(ドメイン消滅)のため対象から除外し、LLM-jp を追加した(2026-08-21)

@@ -98,3 +98,27 @@ def test_extract_title_skips_site_name():
 def test_extract_title_falls_back_to_h1():
     page = '<meta property="og:title" content="SiteName"><h1>  実際の見出し  </h1>'
     assert extract_title(page, site_name="SiteName") == "実際の見出し"
+
+
+def test_browser_strategy_uses_renderer(monkeypatch):
+    """browser は描画後 HTML を使い、それ以外は素の HTTP 取得を使う。"""
+    from src import fetchers
+    calls = []
+    monkeypatch.setattr(fetchers, "render_page",
+                        lambda url, ua=None, wait_ms=2500: (calls.append(url), LISTING.encode())[1])
+    co = dict(CO, strategy="browser")
+    items = fetchers.fetch_html(co, fake_get_factory())
+    assert calls == ["https://ex.com/list"]      # 一覧は描画経由
+    assert len(items) == 2
+
+
+def test_title_re_override():
+    """og:title がサイト共通名のサイト向けに、記事内の位置を指定できる。"""
+    listing = '<a href="/news/a1">x</a>'
+    article = ('<meta property="og:title" content="Seed News - Team">'
+               "<h1>Introducing Seedance 2.5</h1>")
+    co = dict(CO, title_re=r"<h1[^>]*>([^<]{6,160})</h1>",
+              link_re=r'href="(/news/[a-z0-9]+)"')
+    def get(url, ua):
+        return (listing if url.endswith("/list") else article).encode()
+    assert fetch_html(co, get)[0]["title"] == "Introducing Seedance 2.5"

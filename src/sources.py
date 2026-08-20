@@ -5,8 +5,10 @@ strategy:
 - feed: primary_url が RSS/Atom/RDF フィード
 - html: primary_url の静的 HTML 一覧から link_re でリンク採取 →
         各記事ページから日付抽出(fetchers.extract_date)
-- pending: 取得経路が未確立(JS レンダリング必須・DNS 不達等)。
-  collect では常に失敗扱い → カードに「経路調査中」を表示
+- browser: JS レンダリング必須。Playwright(ヘッドレス Chromium)で描画後の
+  HTML を得てから html と同じ抽出を行う。Playwright 未導入の環境では
+  失敗扱い(劣化継続)になるため、実取得は CI のみ
+- pending: 取得経路が未確立。collect では常に失敗扱い → カードに理由を表示
 
 調査経緯(2026-08-20 loop_001):
 - OpenAI/DeepMind/Microsoft/Sakana は公式フィードあり。Meta AI 公式ブログの
@@ -16,7 +18,9 @@ strategy:
 - Baidu は research.baidu.com が JS シェルのため公式コーポレートニュース
   (home.baidu.com)を、Tencent は hunyuan.tencent.com が JS シェルのため
   公式ニュースルーム(tencent.com/zh-cn/media)を使用
-- Moonshot AI は全ページ SPA、rinna は当環境から DNS 不達 → pending
+- Moonshot AI・Zhipu AI・Tencent は SPA のため browser 戦略(Playwright)
+- rinna は rinna.co.jp が NXDOMAIN(ドメイン消滅)を確認し対象から除外。
+  代わりに LLM-jp(国立情報学研究所主導の国産 LLM 開発プロジェクト)を追加
 - 富士通/ABEJA は koho-lens で実証済みの公式 PR TIMES アカウント RDF
 """
 
@@ -61,26 +65,31 @@ COMPANIES = [
      "primary_url": "https://qwenlm.github.io/blog/index.xml", "strategy": "feed",
      "note": "公式ブログは qwen.ai へ移転済み(JS 必須)。旧公式フィードのため新着が遅延する可能性"},
     {"id": "moonshot", "name": "Moonshot AI(Kimi)", "region": "cn",
-     "source_url": "https://www.moonshot.ai/",
-     "primary_url": "", "strategy": "pending",
-     "note": "全ページ JS レンダリング必須のため取得経路調査中"},
+     "source_url": "https://www.kimi.ai/blog/",
+     "primary_url": "https://www.kimi.ai/blog/", "strategy": "html",
+     "link_re": r'href="((?:https://www\.kimi\.ai)?/blog/[a-z0-9-]+)"',
+     "note": "公式サイトは moonshot.ai から kimi.ai へ移転(2026 年時点)"},
     {"id": "zhipu", "name": "Zhipu AI(GLM)", "region": "cn",
-     "source_url": "https://www.zhipuai.cn/news",
-     "primary_url": "", "strategy": "pending",
-     "note": "ニュース一覧が JS レンダリング必須のため取得経路調査中"},
+     "source_url": "https://zhipuai.cn/zh/news",
+     "primary_url": "https://zhipuai.cn/zh/news", "strategy": "browser",
+     "list_re": r'href="((?:https://zhipuai\.cn)?/zh/news/[0-9]+)".*?<img alt="([^"]{4,120})"',
+     "note": "ニュース一覧が JS レンダリング必須のためヘッドレスブラウザで取得"},
     {"id": "bytedance", "name": "ByteDance Seed(豆包)", "region": "cn",
      "source_url": "https://seed.bytedance.com/en/blog",
-     "primary_url": "", "strategy": "pending",
-     "note": "ブログ一覧が JS レンダリング必須のため取得経路調査中"},
+     "primary_url": "https://seed.bytedance.com/sitemap.xml", "strategy": "html",
+     "link_re": r"<loc>(https://seed\.bytedance\.com/blog/[a-z0-9-]+)</loc>",
+     "title_re": r"<h1[^>]*>([^<]{6,160})</h1>",
+     "note": "ブログ一覧は JS レンダリング必須のため sitemap から記事 URL を取得"},
     {"id": "baidu", "name": "Baidu(ERNIE)", "region": "cn",
      "source_url": "https://home.baidu.com/home/index/news_list",
      "primary_url": "https://home.baidu.com/home/index/news_list", "strategy": "html",
      "list_re": r'href="((?:https?://home\.baidu\.com)?/home/index/news_detail[^"]*)"[^>]*>.*?news-item-con">([^<]+)<',
      "note": "AI 研究ブログ(research.baidu.com)は JS 必須のため公式コーポレートニュースを表示"},
     {"id": "tencent", "name": "Tencent(混元)", "region": "cn",
-     "source_url": "https://www.tencent.com/zh-cn/media/news.html",
-     "primary_url": "", "strategy": "pending",
-     "note": "混元公式・ニュースルームとも JS レンダリング必須のため取得経路調査中"},
+     "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
+     "primary_url": "https://www.tencent.com/zh-cn/newsroom/all-news/", "strategy": "browser",
+     "link_re": r'href="(https://www\.tencent\.com/zh-cn/(?!newsroom|who-we-are|investors|about|contact|media|articles)[a-z0-9%.-]{10,}/?)"',
+     "note": "混元公式(hunyuan.tencent.com)は JS 必須のため公式ニュースルームをヘッドレスブラウザで取得"},
     # ---- 日本 10 ----
     {"id": "sbintuitions", "name": "SB Intuitions", "region": "jp",
      "source_url": "https://www.sbintuitions.co.jp/news/",
@@ -101,10 +110,9 @@ COMPANIES = [
      "source_url": "https://elyza.ai/news",
      "primary_url": "https://elyza.ai/news", "strategy": "html",
      "link_re": r'href="(/news/2[0-9]{3}/[^"]+)"'},
-    {"id": "rinna", "name": "rinna", "region": "jp",
-     "source_url": "https://rinna.co.jp/news/",
-     "primary_url": "", "strategy": "pending",
-     "note": "rinna.co.jp が収集環境から DNS 不達のため取得経路調査中"},
+    {"id": "llmjp", "name": "LLM-jp(国立情報学研究所)", "region": "jp",
+     "source_url": "https://llm-jp.nii.ac.jp/news/",
+     "primary_url": "https://llm-jp.nii.ac.jp/news/feed/", "strategy": "feed"},
     {"id": "cyberagent", "name": "CyberAgent(CALM)", "region": "jp",
      "source_url": "https://www.cyberagent.co.jp/news/",
      "primary_url": "https://www.cyberagent.co.jp/news/", "strategy": "html",

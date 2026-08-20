@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-20T21:01:25Z",
+ "generated_at": "2026-08-20T21:49:51Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -14,7 +14,7 @@
      "date": "2026-08-20"
     },
     {
-     "title": "How ChatGPT Work helps Stampli move ideas to market",
+     "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
      "url": "https://openai.com/index/stampli",
      "date": "2026-08-20"
     },
@@ -39,7 +39,7 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -73,7 +73,7 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -107,7 +107,7 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -141,7 +141,7 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -175,7 +175,7 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -209,7 +209,7 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -223,9 +223,9 @@
      "date": "2026-08-13"
     },
     {
-     "title": "Your First API Call",
+     "title": "DeepSeek-V3.2 Release",
      "url": "https://api-docs.deepseek.com/news/news251201",
-     "date": ""
+     "date": "2026-08-13"
     },
     {
      "title": "Introducing DeepSeek-V3.2-Exp",
@@ -243,7 +243,7 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -276,32 +276,110 @@
   {
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
-   "source_url": "https://www.moonshot.ai/",
-   "fetched_at": "2026-08-20T14:07:47Z",
-   "ok": false,
-   "items": []
+   "source_url": "https://www.kimi.ai/blog/",
+   "fetched_at": "2026-08-20T21:49:51Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
+     "url": "https://www.kimi.ai/blog/kimi-k3",
+     "date": "2026-07-17"
+    },
+    {
+     "title": "PerceptionBench: Evaluating Atomic Visual Perception in MLLMs",
+     "url": "https://www.kimi.ai/blog/perception-bench",
+     "date": "2026-07-22"
+    },
+    {
+     "title": "Kimi K2.6 Tech Blog: Advancing Open-Source Coding",
+     "url": "https://www.kimi.ai/blog/kimi-k2-6",
+     "date": "2026-04-20"
+    },
+    {
+     "title": "Kimi Agent Swarm: 100 Sub-Agents at Scale",
+     "url": "https://www.kimi.ai/blog/agent-swarm",
+     "date": "2026-02-13"
+    },
+    {
+     "title": "WorldVQA: Measuring Atomic World Knowledge in MLLMs",
+     "url": "https://www.kimi.ai/blog/worldvqa",
+     "date": "2026-02-13"
+    }
+   ]
   },
   {
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
-   "source_url": "https://www.zhipuai.cn/news",
-   "fetched_at": "2026-08-20T14:07:47Z",
-   "ok": false,
-   "items": []
+   "source_url": "https://zhipuai.cn/zh/news",
+   "fetched_at": "2026-08-20T21:49:51Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "智谱首份业绩报告发布，探索AGI智能上界",
+     "url": "https://zhipuai.cn/zh/news/152",
+     "date": "2026-03-31"
+    },
+    {
+     "title": "智谱（02513.HK）公布2025年度业绩发布会安排",
+     "url": "https://zhipuai.cn/zh/news/151",
+     "date": "2026-03-30"
+    },
+    {
+     "title": "中关村自主大模型产业联盟第一次会员大会 结果公示",
+     "url": "https://zhipuai.cn/zh/news/97",
+     "date": "2025-08-25"
+    },
+    {
+     "title": "GLM-PC 基座模型，CogAgent-9B 开源",
+     "url": "https://zhipuai.cn/zh/news/76",
+     "date": "2024-12-30"
+    },
+    {
+     "title": "Agent 新进展：跨 app、跨设备、更多玩法｜智谱 Agent OpenDay",
+     "url": "https://zhipuai.cn/zh/news/68",
+     "date": "2024-11-28"
+    }
+   ]
   },
   {
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-08-20T14:07:47Z",
-   "ok": false,
-   "items": []
+   "fetched_at": "2026-08-20T21:49:51Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction",
+     "url": "https://seed.bytedance.com/blog/seedrealtime-audio-visual-full-duplex-llm-released-toward-omni-modal-natural-interaction",
+     "date": "2026-08-05"
+    },
+    {
+     "title": "One-take Creation, Flexible Referencing: Introducing Seedance 2.5",
+     "url": "https://seed.bytedance.com/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+     "date": "2026-07-31"
+    },
+    {
+     "title": "From Speech to Audio Creation | Introducing the Seed Audio 1.0 Audio Creation Model",
+     "url": "https://seed.bytedance.com/blog/from-speech-to-audio-creation-introducing-the-seed-audio-1-0-audio-creation-model",
+     "date": "2026-07-20"
+    },
+    {
+     "title": "Beyond Generation, It Understands Design | Introducing Seedream 5.0 Pro",
+     "url": "https://seed.bytedance.com/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro",
+     "date": "2026-07-08"
+    },
+    {
+     "title": "EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
+     "url": "https://seed.bytedance.com/blog/edgebench-measuring-real-world-environment-learning-and-discovering-a-new-scaling-law",
+     "date": "2026-07-07"
+    }
+   ]
   },
   {
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -329,16 +407,42 @@
   {
    "id": "tencent",
    "name": "Tencent(混元)",
-   "source_url": "https://www.tencent.com/zh-cn/media/news.html",
-   "fetched_at": "2026-08-20T14:07:47Z",
-   "ok": false,
-   "items": []
+   "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
+   "fetched_at": "2026-08-20T21:49:51Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "微信小游戏：如何拉近人与人之间的距离",
+     "url": "https://www.tencent.com/zh-cn/how-weixin-mini-games-bring-people-together/",
+     "date": "2026-08-20"
+    },
+    {
+     "title": "腾讯碳中和中期报告 - Tencent",
+     "url": "https://www.tencent.com/zh-cn/tencent-releases-its-carbon-neutrality-mid-term-report/",
+     "date": ""
+    },
+    {
+     "title": "腾讯公布碳中和进展，聚焦AI时代减碳策略",
+     "url": "https://www.tencent.com/zh-cn/tencent-details-progress-toward-carbon-neutrality-goals-and-outlines-ai-era-priorities/",
+     "date": "2026-08-17"
+    },
+    {
+     "title": "实现化石燃料“零依赖”：科学家如何造出工业基石乙烯？",
+     "url": "https://www.tencent.com/zh-cn/reinventing-a-critical-chemical-without-relying-on-fossil-fuels/",
+     "date": "2026-08-14"
+    },
+    {
+     "title": "业绩",
+     "url": "https://www.tencent.com/zh-cn/tencent-announces-results/",
+     "date": "2022-12-11"
+    }
+   ]
   },
   {
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -372,7 +476,7 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -406,7 +510,7 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -440,7 +544,7 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -474,7 +578,7 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -496,22 +600,53 @@
      "title": "ELYZAがKDDIに提供し再販する法人向け生成AI活用ツール 「ELYZA Works with KDDI」が初の動画広告を配信開始。〜「エライぞ！イライザ」篇と題し、5月11日（月）より配信開始 〜",
      "url": "https://elyza.ai/news/2026/05/11/works_promotion_start",
      "date": "2026-05-11"
+    },
+    {
+     "title": "新経営体制および執行役員の選任に関するお知らせ 〜経営体制を強化し、事業推進と新規領域への挑戦を加速〜",
+     "url": "https://elyza.ai/news/2026/05/01/20260501_board2026",
+     "date": "2026-05-01"
     }
    ]
   },
   {
-   "id": "rinna",
-   "name": "rinna",
-   "source_url": "https://rinna.co.jp/news/",
-   "fetched_at": "2026-08-20T14:07:47Z",
-   "ok": false,
-   "items": []
+   "id": "llmjp",
+   "name": "LLM-jp(国立情報学研究所)",
+   "source_url": "https://llm-jp.nii.ac.jp/news/",
+   "fetched_at": "2026-08-20T21:49:51Z",
+   "ok": true,
+   "items": [
+    {
+     "title": "約332億パラメータのDense型LLM「LLM-jp-4 33B」モデルを公開",
+     "url": "https://llm-jp.nii.ac.jp/news/20260818/",
+     "date": "2026-08-18"
+    },
+    {
+     "title": "llm-jp-judge v2.0.0 の公開",
+     "url": "https://llm-jp.nii.ac.jp/news/llm-jp-judge-v2-0-0-%e3%81%ae%e5%85%ac%e9%96%8b/",
+     "date": "2026-07-23"
+    },
+    {
+     "title": "第31回LLM勉強会",
+     "url": "https://llm-jp.nii.ac.jp/news/%e7%ac%ac31%e5%9b%9ellm%e5%8b%89%e5%bc%b7%e4%bc%9a/",
+     "date": "2026-07-21"
+    },
+    {
+     "title": "インド工科大学ボンベイ校、BharatGen Technology Foundationと大規模言語モデル研究に関する連携・協力の覚書（MoU）を締結",
+     "url": "https://llm-jp.nii.ac.jp/news/%e3%82%a4%e3%83%b3%e3%83%89%e5%b7%a5%e7%a7%91%e5%a4%a7%e5%ad%a6%e3%83%9c%e3%83%b3%e3%83%99%e3%82%a4%e6%a0%a1%e3%80%81bharatgen-technology-foundation%e3%81%a8%e5%a4%a7%e8%a6%8f%e6%a8%a1%e8%a8%80/",
+     "date": "2026-07-03"
+    },
+    {
+     "title": "LLM-jp-4 Thinking モデルの量子化版の公開",
+     "url": "https://llm-jp.nii.ac.jp/news/llm-jp-4-thinking-%e3%83%a2%e3%83%87%e3%83%ab%e3%81%ae%e9%87%8f%e5%ad%90%e5%8c%96%e7%89%88%e3%81%ae%e5%85%ac%e9%96%8b/",
+     "date": "2026-06-24"
+    }
+   ]
   },
   {
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -545,7 +680,7 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -579,7 +714,7 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
@@ -613,7 +748,7 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-08-20T21:01:25Z",
+   "fetched_at": "2026-08-20T21:49:51Z",
    "ok": true,
    "items": [
     {
