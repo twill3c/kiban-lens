@@ -40,4 +40,6 @@ Conventional Commits(feat/fix/test/docs/refactor/chore)。スキャフォール�
 - **構成**: sources.py(経路宣言)→ fetch.py(収集・劣化継続)→ translate.py(Haiku 和訳+data/translations.json キャッシュ)→ render.py(out/index.html)。collect.yml が 6 時間 cron
 - **翻訳規範**: 新出見出しのみ一括翻訳(claude-haiku-4-5・構造化出力)。キー未設定/障害時は原文表示で劣化継続。和訳には必ず原文を併記
 - **経路変更時**: sources.py を編集 → tools/probe_endpoints.py で実地確認 → pytest(オフライン)→ 実行テスト → コミット。pending 解消(JS サイト)は headless 化か代替経路で
+- **説明文**: `data/profiles.json`(会社ID → 2〜3 文)。月次クラウド routine が点検・更新する(仕様正本 `docs/routine-monthly-profiles.md` — 任務変更はこのファイルの編集だけでよい)。会社を増減したら profiles.json も同時に更新すること(T-06 が過不足を検査)
+- **フィルタ**: 地域(すべて/米国/中国/日本)と期間(直近1ヶ月/1週間・排他)。**期間の基準は閲覧時点から JS が計算する** — ビルド時に日付を焼き込まないこと(腐るため)
 - **テストは全てオフライン**。ネットワークを触るテストを追加しないこと(CI は 6h cron と分離)

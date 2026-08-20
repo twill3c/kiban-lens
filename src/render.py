@@ -15,7 +15,8 @@ REGION_LABEL = dict(REGIONS)
 
 CSS = """
 :root{--bg:#0f1115;--panel:#171a21;--panel2:#1d212a;--line:#2a2f3a;--fg:#e6e8ec;
-  --muted:#9aa3b2;--faint:#6b7280;--accent:#7aa2f7;--us:#79c0ff;--cn:#f8a3a3;--jp:#7ee787}
+  --muted:#9aa3b2;--faint:#6b7280;--accent:#7aa2f7;--us:#79c0ff;--cn:#f8a3a3;--jp:#7ee787;
+  --time:#c4b5fd}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);line-height:1.65;
   font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Segoe UI",sans-serif;
@@ -32,6 +33,28 @@ main{max-width:1400px;margin:0 auto;padding:8px 24px 40px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px 12px}
 .chead{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
 .name{font-size:15.5px;font-weight:650}
+.controls{position:sticky;top:0;z-index:10;background:rgba(15,17,21,.94);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);padding:11px 24px;margin-bottom:4px}
+.controls-in{max-width:1400px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{background:var(--panel2);border:1px solid var(--line);color:var(--muted);border-radius:999px;
+  padding:5px 12px;font-size:12.5px;cursor:pointer;user-select:none;white-space:nowrap}
+.chip:hover{color:var(--fg)}
+.chip.c-all.on{background:var(--accent);border-color:var(--accent);color:#0f1115;font-weight:600}
+.chip.c-us{color:var(--us);border-color:rgba(121,192,255,.45)}
+.chip.c-cn{color:var(--cn);border-color:rgba(248,163,163,.45)}
+.chip.c-jp{color:var(--jp);border-color:rgba(126,231,135,.45)}
+.chip.c-time{color:var(--time);border-color:rgba(196,181,253,.45)}
+.chip.c-us:hover{color:var(--us)}.chip.c-cn:hover{color:var(--cn)}
+.chip.c-jp:hover{color:var(--jp)}.chip.c-time:hover{color:var(--time)}
+.chip.c-us.on{background:var(--us);border-color:var(--us);color:#0f1115;font-weight:600}
+.chip.c-cn.on{background:var(--cn);border-color:var(--cn);color:#0f1115;font-weight:600}
+.chip.c-jp.on{background:var(--jp);border-color:var(--jp);color:#0f1115;font-weight:600}
+.chip.c-time.on{background:var(--time);border-color:var(--time);color:#0f1115;font-weight:600}
+.spacer{flex:1}
+.bio{font-size:12.4px;color:#c9cfd9;margin:8px 0 2px;padding:8px 10px;background:var(--panel2);
+  border-radius:7px;border-left:2px solid var(--line)}
+.hidden{display:none}
+.empty{color:var(--faint);font-size:13px;padding:20px 0}
 .badge{font-size:10px;padding:0 6px;border-radius:3px;font-weight:600}
 .b-us{background:rgba(121,192,255,.14);color:var(--us)}
 .b-cn{background:rgba(248,163,163,.14);color:var(--cn)}
@@ -71,10 +94,20 @@ def _item_html(item: dict, translations: dict) -> str:
     return h + "</li>"
 
 
-def _card_html(co: dict, record: dict, translations: dict) -> str:
-    h = f'<div class="card"><div class="chead"><span class="name">{escape(co["name"])}</span>'
+def latest_date(record: dict) -> str:
+    """カード内の最新日付(不明のみなら空)。フィルタの判定に使う。"""
+    dates = [i["date"] for i in record["items"] if i["date"]]
+    return max(dates) if dates else ""
+
+
+def _card_html(co: dict, record: dict, translations: dict, profile: str = "") -> str:
+    h = (f'<div class="card" data-region="{co["region"]}" '
+         f'data-latest="{latest_date(record)}">'
+         f'<div class="chead"><span class="name">{escape(co["name"])}</span>')
     h += f'<span class="badge b-{co["region"]}">{REGION_LABEL[co["region"]]}</span>'
     h += f'<a class="home" href="{escape(co["source_url"])}" target="_blank" rel="noopener">{escape(co["source_url"])}</a></div>'
+    if profile:
+        h += f'<div class="bio">{escape(profile)}</div>'
     if record["items"]:
         h += "<ol>" + "".join(_item_html(i, translations) for i in record["items"]) + "</ol>"
         if not record["ok"]:
@@ -89,8 +122,10 @@ def _card_html(co: dict, record: dict, translations: dict) -> str:
     return h + "</div>"
 
 
-def render_html(data: dict, companies: list[dict], translations: dict) -> str:
+def render_html(data: dict, companies: list[dict], translations: dict,
+                profiles: dict | None = None) -> str:
     by_id = {c["id"]: c for c in companies}
+    profiles = profiles or {}
     generated = _jst(data["generated_at"])
     n_ok = sum(1 for r in data["companies"] if r["ok"])
     n_all = len(data["companies"])
@@ -102,9 +137,11 @@ def render_html(data: dict, companies: list[dict], translations: dict) -> str:
             co = by_id[rec["id"]]
             if co["region"] != rid:
                 continue
-            cards += _card_html(co, rec, translations)
+            cards += _card_html(co, rec, translations, profiles.get(co["id"], ""))
         n = sum(1 for c in companies if c["region"] == rid)
-        body += f'<div class="secthead">{rlabel}({n}社)</div><div class="grid">{cards}</div>'
+        body += (f'<section data-section="{rid}">'
+                 f'<div class="secthead">{rlabel}({n}社)</div>'
+                 f'<div class="grid">{cards}</div></section>')
 
     return f"""<!DOCTYPE html>
 <html lang="ja">
@@ -120,7 +157,16 @@ def render_html(data: dict, companies: list[dict], translations: dict) -> str:
   <p class="sub">AI 基盤モデルを提供する米国 6・中国 7・日本 10 の計 {n_all} 社について、公式ブログ / ニュースの最新 5 件を和訳付きで一覧。英語・中国語の見出しは Claude(Haiku)が和訳し、原文を併記します。</p>
   <p class="updated">最終更新 {generated} JST(6 時間ごとに自動更新)· 取得成功 {n_ok}/{n_all} 社 · 取得失敗時は前回分を保持</p>
 </header>
-<main>{body}</main>
+<div class="controls"><div class="controls-in">
+  <span class="chip c-all on" data-region="ALL">すべての地域</span>
+  <span class="chip c-us" data-region="us">米国のみ</span>
+  <span class="chip c-cn" data-region="cn">中国のみ</span>
+  <span class="chip c-jp" data-region="jp">日本のみ</span>
+  <span class="spacer"></span>
+  <span class="chip c-time" id="f1m">直近1ヶ月の発信がある組織</span>
+  <span class="chip c-time" id="f1w">直近1週間の発信がある組織</span>
+</div></div>
+<main>{body}<div class="empty hidden" id="empty">該当する組織がありません</div></main>
 <footer>
   <p><a href="https://github.com/twill3c/kiban-lens/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a> © 2026 坂田哲朗
   ・ <a href="https://github.com/twill3c/kiban-lens" target="_blank" rel="noopener">GitHub</a>
@@ -128,6 +174,46 @@ def render_html(data: dict, companies: list[dict], translations: dict) -> str:
   ・ <a href="https://claude.ai/code/artifact/de6f4153-3e2a-4727-91af-77c881b36b60" target="_blank" rel="noopener">kiban-lens 設計図</a>
   ・ <a href="https://app-menu-amber.vercel.app" target="_blank" rel="noopener">App Menu</a></p>
 </footer>
+<script>
+// 期間の基準は閲覧時点(ビルド時に焼き込まない)
+const cutoff = days => new Date(Date.now() - days*864e5).toISOString().slice(0,10);
+let curRegion = "ALL", only1m = false, only1w = false;
+
+function render() {{
+  const c1m = cutoff(30), c1w = cutoff(7);
+  let shown = 0;
+  for (const sec of document.querySelectorAll("[data-section]")) {{
+    let visible = 0;
+    for (const card of sec.querySelectorAll(".card")) {{
+      const latest = card.dataset.latest;
+      let ok = curRegion === "ALL" || card.dataset.region === curRegion;
+      if (ok && only1m) ok = latest >= c1m;
+      if (ok && only1w) ok = latest >= c1w;
+      card.classList.toggle("hidden", !ok);
+      if (ok) visible++;
+    }}
+    sec.classList.toggle("hidden", visible === 0);
+    shown += visible;
+  }}
+  document.getElementById("empty").classList.toggle("hidden", shown > 0);
+}}
+
+document.querySelectorAll(".chip[data-region]").forEach(el => el.onclick = () => {{
+  document.querySelectorAll(".chip[data-region]").forEach(x => x.classList.remove("on"));
+  el.classList.add("on"); curRegion = el.dataset.region; render();
+}});
+document.getElementById("f1m").onclick = e => {{
+  only1m = !only1m;
+  if (only1m) {{ only1w = false; document.getElementById("f1w").classList.remove("on"); }}
+  e.target.classList.toggle("on", only1m); render();
+}};
+document.getElementById("f1w").onclick = e => {{
+  only1w = !only1w;
+  if (only1w) {{ only1m = false; document.getElementById("f1m").classList.remove("on"); }}
+  e.target.classList.toggle("on", only1w); render();
+}};
+render();
+</script>
 </body>
 </html>
 """

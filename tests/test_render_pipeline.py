@@ -69,3 +69,51 @@ def test_render_pending_note_and_footer():
 def test_render_deterministic():
     data = make_data()
     assert render_html(data, COMPANIES, {}) == render_html(data, COMPANIES, {})
+
+
+# ---- T-06: 説明文 / T-07: フィルタ ----
+
+def test_profiles_cover_all_companies():
+    import json
+    from pathlib import Path
+    data = json.loads((Path(__file__).resolve().parent.parent / "data" / "profiles.json")
+                      .read_text(encoding="utf-8"))
+    profiles = data["profiles"]
+    ids = {c["id"] for c in COMPANIES}
+    assert set(profiles) == ids, f"過不足: {set(profiles) ^ ids}"
+    for cid, text in profiles.items():
+        assert 20 <= len(text) <= 200, f"{cid}: {len(text)} 字"
+    assert "updated_on" in data
+
+
+def test_render_shows_profiles():
+    import json
+    from pathlib import Path
+    profiles = json.loads((Path(__file__).resolve().parent.parent / "data" / "profiles.json")
+                          .read_text(encoding="utf-8"))["profiles"]
+    html = render_html(make_data(), COMPANIES, {}, profiles)
+    assert 'class="bio"' in html
+    assert profiles["openai"] in html
+    # 説明文なしでも描画できる(劣化継続)
+    assert 'class="bio"' not in render_html(make_data(), COMPANIES, {})
+
+
+def test_render_filter_chips_and_metadata():
+    html = render_html(make_data(), COMPANIES, {})
+    for needle in ('data-region="ALL"', 'data-region="us"', 'data-region="cn"',
+                   'data-region="jp"', 'id="f1m"', 'id="f1w"',
+                   "米国のみ", "中国のみ", "日本のみ",
+                   "直近1ヶ月の発信がある組織", "直近1週間の発信がある組織"):
+        assert needle in html, needle
+    # カードは地域と最新日付を持ち、セクションは地域で束ねられる
+    assert 'class="card" data-region="us" data-latest="2026-08-01"' in html
+    assert '<section data-section="jp">' in html
+    # 期間の基準は閲覧時点(ビルド時に焼き込まない)
+    assert "const cutoff = days =>" in html
+
+
+def test_latest_date_helper():
+    from src.render import latest_date
+    assert latest_date({"items": [{"date": "2026-01-01"}, {"date": "2026-08-05"}]}) == "2026-08-05"
+    assert latest_date({"items": [{"date": ""}, {"date": ""}]}) == ""
+    assert latest_date({"items": []}) == ""

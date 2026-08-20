@@ -14,7 +14,9 @@ AI 基盤モデルを提供する主要企業(米国 6・中国 7・日本 10 �
 | F-02 | `src/fetch.py` が各社最新 5 件を収集する。取得失敗・pending は前回分を保持(劣化継続)し、全社失敗のみ exit 1 | must |
 | F-03 | 英語・中国語の見出しは Claude API(claude-haiku-4-5・構造化出力)で和訳し、`data/translations.json` に永続キャッシュする(新出のみ翻訳)。API キー未設定・障害時は原文のまま表示 | must |
 | F-04 | `src/render.py` が地域別 3 セクション・和訳+原文併記・最終更新(JST)・取得成功数を含む自己完結の `out/index.html` を生成する(決定論) | must |
-| F-05 | フッタはフリート規約(MIT License © ・ GitHub ・ App Menu)。歩き方/設計図アーティファクトは後続ループで追加 | should |
+| F-05 | フッタはフリート規約(MIT License © ・ GitHub ・ 歩き方 ・ 設計図 ・ App Menu) | must |
+| F-06 | `data/profiles.json` に各社の説明文(2〜3 文)を保持し、カードに表示する。月次のクラウド routine が現状との齟齬を点検・更新する(仕様正本は docs/routine-monthly-profiles.md)。説明文が欠けていても描画は継続 | must |
+| F-07 | 地域フィルタ(すべて / 米国のみ / 中国のみ / 日本のみ)と期間フィルタ(直近1ヶ月 / 直近1週間の発信がある組織・排他)を提供する。期間の基準は**閲覧時点**から過去 30 日 / 7 日で、ビルド時に焼き込まない | must |
 
 ## 3. 非機能要求
 

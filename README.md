@@ -16,7 +16,8 @@ python -m pytest -q            # テスト(すべてオフライン)
 - `src/sources.py` — 23 社の取得経路(RSS/Atom フィード or 静的 HTML 解析)を宣言
 - `src/fetchers.py` — HTML は「一覧からリンク採取 → 各記事ページから日付・タイトル抽出」の統一方式
 - `src/translate.py` — 英語・中国語の見出しだけを claude-haiku-4-5 で一括和訳し `data/translations.json` に永続キャッシュ(新出のみ翻訳・失敗時は原文)
-- `src/render.py` — 地域別 3 セクション・和訳+原文併記で `out/index.html` を生成
+- `data/profiles.json` — 各社の説明文(月次 routine が点検・更新。仕様は `docs/routine-monthly-profiles.md`)
+- `src/render.py` — 地域別 3 セクション・説明文・和訳+原文併記・地域/期間フィルタ付きの `out/index.html` を生成
 - `.github/workflows/collect.yml` — 6 時間ごとに実行し差分コミット → Vercel 自動デプロイ
 
 ## 既知の制約

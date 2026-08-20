@@ -22,7 +22,15 @@ from .translate import translate_all
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "releases.json"
+PROFILES = ROOT / "data" / "profiles.json"
 OUT = ROOT / "out" / "index.html"
+
+
+def load_profiles() -> dict:
+    """各社の説明文(F-06)。欠けていても描画は続行する。"""
+    if not PROFILES.exists():
+        return {}
+    return json.loads(PROFILES.read_text(encoding="utf-8")).get("profiles", {})
 
 
 def http_get(url: str, ua: str) -> bytes:
@@ -50,7 +58,7 @@ def main() -> int:
     translations = translate_all(titles)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(render_html(data, COMPANIES, translations),
+    OUT.write_text(render_html(data, COMPANIES, translations, load_profiles()),
                    encoding="utf-8", newline="\n")
 
     ok = sum(1 for c in data["companies"] if c["ok"])
