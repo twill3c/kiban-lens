@@ -7,3 +7,6 @@
 {"v": "1.2", "ts": "2026-08-21T06:01:08+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 4, "stage_name": "実装", "result": "pass"}}
 {"v": "1.2", "ts": "2026-08-21T06:01:08+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 5, "stage_name": "検証", "result": "pass"}}
 {"v": "1.2", "ts": "2026-08-21T06:01:08+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 6, "stage_name": "文書化", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T06:01:09+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "commit", "data": {"kind": "feat", "sha": "9c8afd3", "message": "フッタ完成(歩き方/設計図)"}}
+{"v": "1.2", "ts": "2026-08-21T06:01:09+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 7, "stage_name": "完了", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-21T06:01:09+09:00", "project": "kiban-lens", "loop_id": "loop_002", "event": "loop_end", "data": {"outcome": "success", "failure_count": 1, "summary": "和訳45件を実機確認、ELYZA/Meta の抽出不具合を修正、アーティファクト2本公開、app-menu 追記"}}
