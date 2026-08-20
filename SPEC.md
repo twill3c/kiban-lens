@@ -14,7 +14,7 @@ AI 基盤モデルを提供する主要企業(米国 6・中国 7・日本 10 �
 | F-02 | `src/fetch.py` が各社最新 5 件を収集する。取得失敗・pending は前回分を保持(劣化継続)し、全社失敗のみ exit 1 | must |
 | F-03 | 英語・中国語の見出しは Claude API(claude-haiku-4-5・構造化出力)で和訳し、`data/translations.json` に永続キャッシュする(新出のみ翻訳)。API キー未設定・障害時は原文のまま表示 | must |
 | F-04 | `src/render.py` が地域別 3 セクション・和訳+原文併記・最終更新(JST)・取得成功数を含む自己完結の `out/index.html` を生成する(決定論) | must |
-| F-05 | フッタはフリート規約(MIT License © ・ GitHub ・ 歩き方 ・ 設計図 ・ App Menu) | must |
+| F-05 | フッタはフリート規約(MIT License © ・ GitHub ・ 歩き方 ・ 設計図 ・ App Menu)で常に画面最下部に固定表示。本文側に逃げ余白を確保する | must |
 | F-06 | `data/profiles.json` に各社の説明文(2〜3 文)を保持し、カードに表示する。月次のクラウド routine が現状との齟齬を点検・更新する(仕様正本は docs/routine-monthly.md)。説明文が欠けていても描画は継続 | must |
 | F-08 | JS レンダリング必須サイトは `strategy: "browser"` とし、Playwright(ヘッドレス Chromium)で一覧を描画してから html と同じ抽出を行う。Playwright 未導入の環境では失敗扱い(劣化継続)とし、実取得は CI が担う | must |
 | F-09 | 経路の健全性を毎回判定して `data/health.json` に書き出す。判定は failing(連続 4 回以上の失敗 / 一度も取得できていない)・stale(最新記事が 120 日より古い)・undated(日付が 1 件も取れない)・healthy。ページのヘッダーに点検対象数、該当カードに理由を表示し、月次 routine が原因を切り分けて経路を修正する | must |

@@ -149,3 +149,11 @@ def test_render_health_warnings():
 def test_render_without_health_is_backward_compatible():
     html = render_html(make_data(), COMPANIES, {})
     assert 'class="warn"' not in html
+
+
+def test_footer_is_fixed_to_viewport_bottom():
+    """フッタは常に画面最下部(F-05)。本文側に逃げ余白があること。"""
+    html = render_html(make_data(), COMPANIES, {})
+    assert "footer{position:fixed" in html
+    assert "padding:8px 24px 96px" in html      # PC
+    assert "main{padding-bottom:130px}" in html  # モバイル(折り返し分)
