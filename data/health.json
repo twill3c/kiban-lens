@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T07:31:29Z",
+ "generated_at": "2026-08-21T13:34:09Z",
  "healthy": 20,
  "total": 23,
  "thresholds": {
@@ -113,20 +113,20 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "status": "healthy",
-   "detail": "最新記事 2026-08-13",
+   "detail": "最新記事 2026-08-21",
    "fail_streak": 0,
-   "latest": "2026-08-13",
-   "days_since_latest": 8,
+   "latest": "2026-08-21",
+   "days_since_latest": 0,
    "source_url": "https://deepmind.google/blog/"
   },
   {
    "id": "deepseek",
    "name": "DeepSeek",
    "status": "healthy",
-   "detail": "最新記事 2026-08-13",
+   "detail": "最新記事 2026-08-21",
    "fail_streak": 0,
-   "latest": "2026-08-13",
-   "days_since_latest": 8,
+   "latest": "2026-08-21",
+   "days_since_latest": 0,
    "source_url": "https://api-docs.deepseek.com/news/"
   },
   {
@@ -244,7 +244,7 @@
    "name": "Stockmark",
    "status": "healthy",
    "detail": "最新記事 2026-08-19",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-08-19",
    "days_since_latest": 2,
    "source_url": "https://stockmark.co.jp/news"
