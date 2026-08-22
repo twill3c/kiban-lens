@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-08-22T13:21:14Z",
+ "generated_at": "2026-08-22T19:10:08Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "Introducing AI Futures",
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "Introducing Claude Opus 5",
@@ -77,10 +77,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "Grok Bot is now included with more plans",
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "How to build an AI agent: A simple guide for anyone",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "DeepSeek-V4-Flash-Vision-Exp Release: Multimodal API Now Live",
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
@@ -329,10 +329,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "在迪拜，手机一键打萝卜！最大规模无人车队已就位→",
@@ -432,10 +432,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "微信小游戏：如何拉近人与人之间的距离",
@@ -468,10 +468,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "DevRel日記#5: JSAI × テックブログ企画Part 1「国産AIの安全性を支える技術を読み解く レッドチーミングチャレンジでガードレールに触れて感じること 前編」",
@@ -504,10 +504,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "AI時代の低遅延・低消費電力なネットワークの設計指針がITU-Tで国際標準化 ～国内7社が連携し、オール光ネットワークのグローバルな普及を推進～",
@@ -540,10 +540,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "PFN、防衛装備庁の 「生成AI等を用いた作戦環境情報分析支援実現に関する実証」を受託 - 株式会社Preferred Networks",
@@ -576,10 +576,10 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "Sakana Translateをアップデート：翻訳モデルに新世代「Sakana Namazu」を搭載",
@@ -612,10 +612,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "ELYZA Works、アルティウスリンク株式会社の導入事例記事を公開",
@@ -648,10 +648,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "約332億パラメータのDense型LLM「LLM-jp-4 33B」モデルを公開",
@@ -684,10 +684,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "国民的妖怪アニメ「ゲゲゲの鬼太郎」チャンネルがABEMAに初開設決定、映画『鬼太郎誕生 ゲゲゲの謎』もABEMA初配信開始",
@@ -720,10 +720,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -756,10 +756,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "ABEJA、先行認証取得企業としてJDLAが創設したAIガバナンス第三者認証制度「C認証」を取得",
@@ -792,10 +792,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-08-22T13:21:14Z",
+   "fetched_at": "2026-08-22T19:10:08Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-22T13:21:14Z",
+   "last_ok_at": "2026-08-22T19:10:08Z",
    "items": [
     {
      "title": "米Exostarの機能を活用し、日本国内のデータ管理・運用による高セキュアなサプライチェーンの情報連携サービスを提供開始",
