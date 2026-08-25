@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T13:37:46Z",
+ "generated_at": "2026-08-25T19:19:16Z",
  "healthy": 20,
  "total": 23,
  "thresholds": {
@@ -83,10 +83,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "status": "healthy",
-   "detail": "最新記事 2026-08-13",
+   "detail": "最新記事 2026-08-24",
    "fail_streak": 0,
-   "latest": "2026-08-13",
-   "days_since_latest": 12,
+   "latest": "2026-08-24",
+   "days_since_latest": 1,
    "source_url": "https://www.anthropic.com/news"
   },
   {
@@ -244,7 +244,7 @@
    "name": "Stockmark",
    "status": "healthy",
    "detail": "最新記事 2026-08-19",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-08-19",
    "days_since_latest": 6,
    "source_url": "https://stockmark.co.jp/news"
