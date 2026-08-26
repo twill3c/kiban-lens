@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T07:34:05Z",
+ "generated_at": "2026-08-26T13:42:27Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -213,10 +213,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-08-25",
+   "detail": "最新記事 2026-08-26",
    "fail_streak": 0,
-   "latest": "2026-08-25",
-   "days_since_latest": 1,
+   "latest": "2026-08-26",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
