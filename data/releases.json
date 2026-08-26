@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-08-26T02:15:13Z",
+ "generated_at": "2026-08-26T07:34:05Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "The full stack behind abundant intelligence",
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "Introducing Claude Opus 5",
@@ -77,10 +77,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "Grok Bot is now included with more plans",
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "How to build an AI agent: A simple guide for anyone",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "DeepSeek-V4-Flash-Vision-Exp Release: Multimodal API Now Live",
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
@@ -329,10 +329,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "在迪拜，手机一键打萝卜！最大规模无人车队已就位→",
@@ -432,10 +432,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "微信小游戏：如何拉近人与人之间的距离",
@@ -468,11 +468,16 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
+    {
+     "title": "DevRel日記#6: JSAI × テックブログ企画Part 2「国産AIの安全性を支える技術を読み解く レッドチーミングチャレンジでガードレールに触れて感じること 後編」",
+     "url": "https://note.com/sb_intuitions/n/n169553b3b502",
+     "date": "2026-08-26"
+    },
     {
      "title": "DevRel日記#5: JSAI × テックブログ企画Part 1「国産AIの安全性を支える技術を読み解く レッドチーミングチャレンジでガードレールに触れて感じること 前編」",
      "url": "https://note.com/sb_intuitions/n/nca86e05b6735",
@@ -492,11 +497,6 @@
      "title": "DevRel日記#3: 番外編！[コード全公開] SB Intuitions nest-ja-0.1bを使い、自分の声でASRできるのか？",
      "url": "https://note.com/sb_intuitions/n/n88e1c931d492",
      "date": "2026-06-17"
-    },
-    {
-     "title": "[イベントレポート]第1回オフライン交流会",
-     "url": "https://note.com/sb_intuitions/n/n433d3caeb26d",
-     "date": "2026-06-08"
     }
    ]
   },
@@ -504,10 +504,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "AI for Scienceで実現する、次世代のAI駆動型ラボ ～ロボットと機械学習による自律実験から、人が理解・転用できる半導体成膜ルールを創出～",
@@ -540,10 +540,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "PFN、防衛装備庁の 「生成AI等を用いた作戦環境情報分析支援実現に関する実証」を受託 - 株式会社Preferred Networks",
@@ -576,10 +576,10 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "Sakana AI、防衛省から「総合分析業務に必要なAI機能の調査・実証」を受注",
@@ -612,10 +612,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "ELYZA Works、アルティウスリンク株式会社の導入事例記事を公開",
@@ -648,10 +648,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "約332億パラメータのDense型LLM「LLM-jp-4 33B」モデルを公開",
@@ -684,11 +684,26 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
+    {
+     "title": "アニメ＆IP事業本部において、国内外のオフライン店舗を活用したアニメ・IPマーケティングの強化を目的に、株式会社GENDAとパートナーシップを締結",
+     "url": "https://www.cyberagent.co.jp/news/detail/id=33748",
+     "date": "2026-08-26"
+    },
+    {
+     "title": "【オンライン開催】 ABEMA新卒アナウンサー採用 特別ウェビナー（登壇：谷口達彦・西澤由夏アナ）",
+     "url": "https://www.cyberagent.co.jp/news/detail/id=33751",
+     "date": "2026-08-26"
+    },
+    {
+     "title": "AI Lab、推薦システム分野のトップカンファレンス「RecSys 2026」にて論文採択",
+     "url": "https://www.cyberagent.co.jp/news/detail/id=33744",
+     "date": "2026-08-26"
+    },
     {
      "title": "国民的妖怪アニメ「ゲゲゲの鬼太郎」チャンネルがABEMAに初開設決定、映画『鬼太郎誕生 ゲゲゲの謎』もABEMA初配信開始",
      "url": "https://www.cyberagent.co.jp/news/detail/id=33742",
@@ -698,21 +713,6 @@
      "title": "ヘア＆メイクアップアーティスト“令和の美のカリスマ”小田切ヒロの初MC番組『エイジレスボーイズ』 2026年9月3日（木）夜9時より毎週木曜放送決定",
      "url": "https://www.cyberagent.co.jp/news/detail/id=33735",
      "date": "2026-08-21"
-    },
-    {
-     "title": "AI時代の新たなデザイナー像「AIXデザイナー」を定義",
-     "url": "https://www.cyberagent.co.jp/news/detail/id=33737",
-     "date": "2026-08-21"
-    },
-    {
-     "title": "AI Lab、保育所入所選考システム「ChilmAI」のOSSを公開",
-     "url": "https://www.cyberagent.co.jp/news/detail/id=33725",
-     "date": "2026-08-18"
-    },
-    {
-     "title": "TVアニメ20周年記念「涼宮ハルヒの憂鬱 ABEMAチャンネル」初開設決定、TVアニメ全28話＆劇場版『涼宮ハルヒの消失』を 8月16日（日）より4日間にわたり毎日無料配信",
-     "url": "https://www.cyberagent.co.jp/news/detail/id=33719",
-     "date": "2026-08-13"
     }
    ]
   },
@@ -720,10 +720,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -756,11 +756,16 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
+    {
+     "title": "ABEJA、グローバル展開の加速に向けシンガポールに子会社を設立",
+     "url": "https://prtimes.jp/main/html/rd/p/000000232.000010628.html",
+     "date": "2026-08-26"
+    },
     {
      "title": "ABEJA、先行認証取得企業としてJDLAが創設したAIガバナンス第三者認証制度「C認証」を取得",
      "url": "https://prtimes.jp/main/html/rd/p/000000228.000010628.html",
@@ -780,11 +785,6 @@
      "title": "ABEJA、米国カーネギーメロン大学創始者記念全学教授、京都大学高等研究院招聘特別教授等を務める金出 武雄氏が特別顧問に就任",
      "url": "https://prtimes.jp/main/html/rd/p/000000225.000010628.html",
      "date": "2026-08-03"
-    },
-    {
-     "title": "ABEJA、AIマネジメントシステム（AIMS）の国際規格「ISO/IEC 42001」の認証を取得",
-     "url": "https://prtimes.jp/main/html/rd/p/000000224.000010628.html",
-     "date": "2026-07-29"
     }
    ]
   },
@@ -792,11 +792,16 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-08-26T02:15:13Z",
+   "fetched_at": "2026-08-26T07:34:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-08-26T02:15:13Z",
+   "last_ok_at": "2026-08-26T07:34:05Z",
    "items": [
+    {
+     "title": "AI時代の企業のサイバー防衛ライフサイクルを実現するサイバーセキュリティ戦略を策定",
+     "url": "https://prtimes.jp/main/html/rd/p/000000601.000093942.html",
+     "date": "2026-08-26"
+    },
     {
      "title": "富士通、東急建設および北野建設と、建設現場における工事進捗やタスクの抜け漏れリスクを低減する建設工程管理支援AIの実証実験を開始",
      "url": "https://prtimes.jp/main/html/rd/p/000000598.000093942.html",
@@ -816,11 +821,6 @@
      "title": "富士通、豪州モナシュ大学、CSIROが日豪の量子パートナーシップを強化",
      "url": "https://prtimes.jp/main/html/rd/p/000000595.000093942.html",
      "date": "2026-08-04"
-    },
-    {
-     "title": "富士通、金融機関向けに専有型AIプラットフォームの開発を開始",
-     "url": "https://prtimes.jp/main/html/rd/p/000000594.000093942.html",
-     "date": "2026-07-28"
     }
    ]
   }

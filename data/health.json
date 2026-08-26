@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T02:15:13Z",
+ "generated_at": "2026-08-26T07:34:05Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -93,10 +93,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "status": "healthy",
-   "detail": "最新記事 2026-08-18",
+   "detail": "最新記事 2026-08-26",
    "fail_streak": 0,
-   "latest": "2026-08-18",
-   "days_since_latest": 8,
+   "latest": "2026-08-26",
+   "days_since_latest": 0,
    "source_url": "https://www.abejainc.com/news"
   },
   {
@@ -113,10 +113,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "status": "healthy",
-   "detail": "最新記事 2026-08-21",
+   "detail": "最新記事 2026-08-26",
    "fail_streak": 0,
-   "latest": "2026-08-21",
-   "days_since_latest": 5,
+   "latest": "2026-08-26",
+   "days_since_latest": 0,
    "source_url": "https://www.cyberagent.co.jp/news/"
   },
   {
@@ -153,10 +153,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "status": "healthy",
-   "detail": "最新記事 2026-08-25",
+   "detail": "最新記事 2026-08-26",
    "fail_streak": 0,
-   "latest": "2026-08-25",
-   "days_since_latest": 1,
+   "latest": "2026-08-26",
+   "days_since_latest": 0,
    "source_url": "https://global.fujitsu/ja-jp/pr/news"
   },
   {
@@ -243,10 +243,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "status": "healthy",
-   "detail": "最新記事 2026-08-14",
+   "detail": "最新記事 2026-08-26",
    "fail_streak": 0,
-   "latest": "2026-08-14",
-   "days_since_latest": 12,
+   "latest": "2026-08-26",
+   "days_since_latest": 0,
    "source_url": "https://www.sbintuitions.co.jp/news/"
   },
   {
