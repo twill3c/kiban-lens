@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T13:42:27Z",
+ "generated_at": "2026-08-26T21:16:58Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -123,10 +123,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "status": "healthy",
-   "detail": "最新記事 2026-08-21",
+   "detail": "最新記事 2026-08-26",
    "fail_streak": 0,
-   "latest": "2026-08-21",
-   "days_since_latest": 5,
+   "latest": "2026-08-26",
+   "days_since_latest": 0,
    "source_url": "https://deepmind.google/blog/"
   },
   {
@@ -273,10 +273,10 @@
    "id": "xai",
    "name": "xAI",
    "status": "healthy",
-   "detail": "最新記事 2026-08-21",
+   "detail": "最新記事 2026-08-26",
    "fail_streak": 0,
-   "latest": "2026-08-21",
-   "days_since_latest": 5,
+   "latest": "2026-08-26",
+   "days_since_latest": 0,
    "source_url": "https://x.ai/news"
   }
  ]
