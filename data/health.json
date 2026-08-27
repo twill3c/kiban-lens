@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-27T10:36:50Z",
+ "generated_at": "2026-08-27T22:38:01Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -123,10 +123,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "status": "healthy",
-   "detail": "最新記事 2026-08-26",
+   "detail": "最新記事 2026-08-27",
    "fail_streak": 0,
-   "latest": "2026-08-26",
-   "days_since_latest": 1,
+   "latest": "2026-08-27",
+   "days_since_latest": 0,
    "source_url": "https://deepmind.google/blog/"
   },
   {
@@ -213,10 +213,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-08-26",
+   "detail": "最新記事 2026-08-27",
    "fail_streak": 0,
-   "latest": "2026-08-26",
-   "days_since_latest": 1,
+   "latest": "2026-08-27",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
