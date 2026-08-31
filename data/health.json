@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T06:16:42Z",
+ "generated_at": "2026-08-31T14:28:52Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -93,10 +93,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "status": "healthy",
-   "detail": "最新記事 2026-08-26",
+   "detail": "最新記事 2026-08-31",
    "fail_streak": 0,
-   "latest": "2026-08-26",
-   "days_since_latest": 5,
+   "latest": "2026-08-31",
+   "days_since_latest": 0,
    "source_url": "https://www.abejainc.com/news"
   },
   {
@@ -113,10 +113,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "status": "healthy",
-   "detail": "最新記事 2026-08-28",
+   "detail": "最新記事 2026-08-31",
    "fail_streak": 0,
-   "latest": "2026-08-28",
-   "days_since_latest": 3,
+   "latest": "2026-08-31",
+   "days_since_latest": 0,
    "source_url": "https://www.cyberagent.co.jp/news/"
   },
   {
@@ -213,10 +213,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-08-28",
+   "detail": "最新記事 2026-08-31",
    "fail_streak": 0,
-   "latest": "2026-08-28",
-   "days_since_latest": 3,
+   "latest": "2026-08-31",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
@@ -243,10 +243,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "status": "healthy",
-   "detail": "最新記事 2026-08-26",
+   "detail": "最新記事 2026-08-31",
    "fail_streak": 0,
-   "latest": "2026-08-26",
-   "days_since_latest": 5,
+   "latest": "2026-08-31",
+   "days_since_latest": 0,
    "source_url": "https://www.sbintuitions.co.jp/news/"
   },
   {
