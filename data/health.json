@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T05:44:48Z",
+ "generated_at": "2026-09-01T12:05:43Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -42,7 +42,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 154 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-03-31",
    "days_since_latest": 154,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -84,7 +84,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 154 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-03-31",
    "days_since_latest": 154,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -143,10 +143,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "status": "healthy",
-   "detail": "最新記事 2026-07-13",
+   "detail": "最新記事 2026-08-31",
    "fail_streak": 0,
-   "latest": "2026-07-13",
-   "days_since_latest": 50,
+   "latest": "2026-08-31",
+   "days_since_latest": 1,
    "source_url": "https://elyza.ai/news"
   },
   {
@@ -203,10 +203,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "status": "healthy",
-   "detail": "最新記事 2026-08-25",
+   "detail": "最新記事 2026-09-01",
    "fail_streak": 0,
-   "latest": "2026-08-25",
-   "days_since_latest": 7,
+   "latest": "2026-09-01",
+   "days_since_latest": 0,
    "source_url": "https://group.ntt/jp/newsrelease/"
   },
   {
