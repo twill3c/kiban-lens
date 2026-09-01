@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T16:58:45Z",
+ "generated_at": "2026-09-01T21:25:42Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -42,7 +42,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 154 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-03-31",
    "days_since_latest": 154,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -84,7 +84,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 154 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-03-31",
    "days_since_latest": 154,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -123,10 +123,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "status": "healthy",
-   "detail": "最新記事 2026-08-27",
+   "detail": "最新記事 2026-09-01",
    "fail_streak": 0,
-   "latest": "2026-08-27",
-   "days_since_latest": 5,
+   "latest": "2026-09-01",
+   "days_since_latest": 0,
    "source_url": "https://deepmind.google/blog/"
   },
   {
@@ -213,10 +213,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-08-31",
+   "detail": "最新記事 2026-09-01",
    "fail_streak": 0,
-   "latest": "2026-08-31",
-   "days_since_latest": 1,
+   "latest": "2026-09-01",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
