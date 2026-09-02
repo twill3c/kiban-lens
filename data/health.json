@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-02T05:08:29Z",
+ "generated_at": "2026-09-02T11:46:01Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -163,10 +163,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-01",
+   "detail": "最新記事 2026-09-02",
    "fail_streak": 0,
-   "latest": "2026-09-01",
-   "days_since_latest": 1,
+   "latest": "2026-09-02",
+   "days_since_latest": 0,
    "source_url": "https://llm-jp.nii.ac.jp/news/"
   },
   {
@@ -254,7 +254,7 @@
    "name": "Stockmark",
    "status": "healthy",
    "detail": "最新記事 2026-09-15",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-09-15",
    "days_since_latest": -13,
    "source_url": "https://stockmark.co.jp/news"

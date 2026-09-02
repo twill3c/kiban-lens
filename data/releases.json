@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-02T05:08:29Z",
+ "generated_at": "2026-09-02T11:46:01Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "How AI-native companies turn workflows into operating capability",
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "Previewing the Model Hardware Standard",
@@ -77,10 +77,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "Introducing agentic video understanding with Gemini",
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "Grok Bot is now included with more plans",
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "How to build an AI agent: A simple guide for anyone",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "DeepSeek-V4-Flash-Vision-Exp Release: Multimodal API Now Live",
@@ -242,9 +242,9 @@
      "date": "2026-08-21"
     },
     {
-     "title": "DeepSeek-V3.2 Release",
+     "title": "Your First API Call",
      "url": "https://api-docs.deepseek.com/news/news251201",
-     "date": "2026-08-21"
+     "date": ""
     },
     {
      "title": "Introducing DeepSeek-V3.2-Exp",
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
@@ -329,10 +329,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "在迪拜，手机一键打萝卜！最大规模无人车队已就位→",
@@ -432,10 +432,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "腾讯发布并开源Hy4 preview",
@@ -468,10 +468,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "4カ国語操るエンジニア、目指す「ちょうどいい塩梅」の機械翻訳とは",
@@ -504,10 +504,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "自己株式の取得状況に関するお知らせ（会社法第165条第2項の規定による定款の定めに基づく自己株式の取得）",
@@ -540,10 +540,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "PFNのマウス尾静脈自動注射ロボットAUTivが日本ロボット学会「実用化技術賞」を受賞 - 株式会社Preferred Networks",
@@ -576,10 +576,10 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "Sakana AI、防衛省から「総合分析業務に必要なAI機能の調査・実証」を受注",
@@ -612,10 +612,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "ELYZA Works「AIエージェントからのアプリ作成機能」を提供開始",
@@ -648,11 +648,21 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
+    {
+     "title": "韓国科学技術情報研究院（KISTI）の研究員らがNIIを訪問し、ワークショップを開催",
+     "url": "https://llm-jp.nii.ac.jp/news/20260828/",
+     "date": "2026-09-02"
+    },
+    {
+     "title": "「新産業創成研究院 AI-Science Nexusセンター（AISNeC）設立シンポジウム」において、黒橋禎夫所長・センター長が招待講演を行います",
+     "url": "https://llm-jp.nii.ac.jp/news/20260909/",
+     "date": "2026-09-02"
+    },
     {
      "title": "llm-jp-4-8b-thinkingをマルチモーダル化した視覚言語モデル「LLM-jp-4-VL 9B」を公開",
      "url": "https://llm-jp.nii.ac.jp/news/llm-jp-4-8b-thinking%e3%82%92%e3%83%9e%e3%83%ab%e3%83%81%e3%83%a2%e3%83%bc%e3%83%80%e3%83%ab%e5%8c%96%e3%81%97%e3%81%9f%e8%a6%96%e8%a6%9a%e8%a8%80%e8%aa%9e%e3%83%a2%e3%83%87%e3%83%ab%e3%80%8cllm/",
@@ -667,16 +677,6 @@
      "title": "「東海情報通信懇談会設立40周年記念講演会」にて黒橋禎夫センター長が講演を行いました",
      "url": "https://llm-jp.nii.ac.jp/news/%e3%80%8c%e6%9d%b1%e6%b5%b7%e6%83%85%e5%a0%b1%e9%80%9a%e4%bf%a1%e6%87%87%e8%ab%87%e4%bc%9a%e8%a8%ad%e7%ab%8b40%e5%91%a8%e5%b9%b4%e8%a8%98%e5%bf%b5%e8%ac%9b%e6%bc%94%e4%bc%9a%e3%80%8d%e3%81%ab%e3%81%a6/",
      "date": "2026-08-27"
-    },
-    {
-     "title": "約332億パラメータのDense型LLM「LLM-jp-4 33B」モデルを公開",
-     "url": "https://llm-jp.nii.ac.jp/news/20260818/",
-     "date": "2026-08-18"
-    },
-    {
-     "title": "llm-jp-judge v2.0.0 の公開",
-     "url": "https://llm-jp.nii.ac.jp/news/llm-jp-judge-v2-0-0-%e3%81%ae%e5%85%ac%e9%96%8b/",
-     "date": "2026-07-23"
     }
    ]
   },
@@ -684,10 +684,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "ABEMAでスカパー！のサッカーコンテンツが視聴できる「ABEMA de スカパー！サッカー」の提供を開始",
@@ -720,10 +720,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-09-01T21:25:42Z",
-   "ok": false,
-   "fail_streak": 1,
-   "last_ok_at": "2026-09-01T21:25:42Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
+   "ok": true,
+   "fail_streak": 0,
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -756,10 +756,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "ABEJA、村田製作所と共同で実験業務自動化実現に向けたフィジカルAIの技術検証を実施",
@@ -792,10 +792,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-09-02T05:08:29Z",
+   "fetched_at": "2026-09-02T11:46:01Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-02T05:08:29Z",
+   "last_ok_at": "2026-09-02T11:46:01Z",
    "items": [
     {
      "title": "米GA-ASIと富士通、日本における無人航空機システムの整備・運用の体制構築を検討するMOUを締結",
