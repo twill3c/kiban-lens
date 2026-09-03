@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-03T05:11:45Z",
+ "generated_at": "2026-09-03T11:45:12Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -93,10 +93,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "status": "healthy",
-   "detail": "最新記事 2026-08-31",
+   "detail": "最新記事 2026-09-03",
    "fail_streak": 0,
-   "latest": "2026-08-31",
-   "days_since_latest": 3,
+   "latest": "2026-09-03",
+   "days_since_latest": 0,
    "source_url": "https://www.abejainc.com/news"
   },
   {
@@ -143,10 +143,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "status": "healthy",
-   "detail": "最新記事 2026-08-31",
+   "detail": "最新記事 2026-09-03",
    "fail_streak": 0,
-   "latest": "2026-08-31",
-   "days_since_latest": 3,
+   "latest": "2026-09-03",
+   "days_since_latest": 0,
    "source_url": "https://elyza.ai/news"
   },
   {
