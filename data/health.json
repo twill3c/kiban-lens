@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-04T05:09:39Z",
+ "generated_at": "2026-09-04T11:46:32Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -113,10 +113,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-02",
+   "detail": "最新記事 2026-09-04",
    "fail_streak": 0,
-   "latest": "2026-09-02",
-   "days_since_latest": 2,
+   "latest": "2026-09-04",
+   "days_since_latest": 0,
    "source_url": "https://www.cyberagent.co.jp/news/"
   },
   {
@@ -254,7 +254,7 @@
    "name": "Stockmark",
    "status": "healthy",
    "detail": "最新記事 2026-09-15",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-09-15",
    "days_since_latest": -11,
    "source_url": "https://stockmark.co.jp/news"
