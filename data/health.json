@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T05:08:48Z",
+ "generated_at": "2026-09-06T11:23:04Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -42,7 +42,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 159 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-03-31",
    "days_since_latest": 159,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -84,7 +84,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 159 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-03-31",
    "days_since_latest": 159,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -254,7 +254,7 @@
    "name": "Stockmark",
    "status": "healthy",
    "detail": "最新記事 2026-09-15",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-09-15",
    "days_since_latest": -9,
    "source_url": "https://stockmark.co.jp/news"
