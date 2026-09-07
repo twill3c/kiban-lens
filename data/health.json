@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-07T05:16:46Z",
+ "generated_at": "2026-09-07T13:03:48Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -213,20 +213,20 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-09-06",
+   "detail": "最新記事 2026-09-07",
    "fail_streak": 0,
-   "latest": "2026-09-06",
-   "days_since_latest": 1,
+   "latest": "2026-09-07",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-01",
+   "detail": "最新記事 2026-09-07",
    "fail_streak": 0,
-   "latest": "2026-09-01",
-   "days_since_latest": 6,
+   "latest": "2026-09-07",
+   "days_since_latest": 0,
    "source_url": "https://www.preferred.jp/ja/news/"
   },
   {
