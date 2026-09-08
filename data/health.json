@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-08T16:52:44Z",
+ "generated_at": "2026-09-08T21:27:54Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -134,7 +134,7 @@
    "name": "DeepSeek",
    "status": "healthy",
    "detail": "最新記事 2026-08-21",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-08-21",
    "days_since_latest": 18,
    "source_url": "https://api-docs.deepseek.com/news/"
@@ -264,7 +264,7 @@
    "name": "Tencent(混元)",
    "status": "healthy",
    "detail": "最新記事 2026-09-04",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-09-04",
    "days_since_latest": 4,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
