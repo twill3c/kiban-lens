@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T11:52:17Z",
+ "generated_at": "2026-09-10T16:42:25Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -183,10 +183,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "status": "healthy",
-   "detail": "最新記事 2026-09-02",
+   "detail": "最新記事 2026-09-10",
    "fail_streak": 0,
-   "latest": "2026-09-02",
-   "days_since_latest": 8,
+   "latest": "2026-09-10",
+   "days_since_latest": 0,
    "source_url": "https://news.microsoft.com/source/topics/ai/"
   },
   {
@@ -213,10 +213,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-09-09",
+   "detail": "最新記事 2026-09-10",
    "fail_streak": 0,
-   "latest": "2026-09-09",
-   "days_since_latest": 1,
+   "latest": "2026-09-10",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
