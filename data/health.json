@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T05:22:06Z",
+ "generated_at": "2026-09-10T11:52:17Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -93,10 +93,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "status": "healthy",
-   "detail": "最新記事 2026-09-03",
+   "detail": "最新記事 2026-09-10",
    "fail_streak": 0,
-   "latest": "2026-09-03",
-   "days_since_latest": 7,
+   "latest": "2026-09-10",
+   "days_since_latest": 0,
    "source_url": "https://www.abejainc.com/news"
   },
   {
@@ -133,10 +133,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "status": "healthy",
-   "detail": "最新記事 2026-08-21",
+   "detail": "最新記事 2026-09-10",
    "fail_streak": 0,
-   "latest": "2026-08-21",
-   "days_since_latest": 20,
+   "latest": "2026-09-10",
+   "days_since_latest": 0,
    "source_url": "https://api-docs.deepseek.com/news/"
   },
   {

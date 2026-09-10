@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-10T05:22:06Z",
+ "generated_at": "2026-09-10T11:52:17Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "The AI policy window is open. We need to act.",
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "Previewing the Model Hardware Standard",
@@ -77,10 +77,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "Grok Bot for Enterprise",
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "How Kier Group’s Louisa Finlay is using Copilot to drive safety and productivity in the construction industry",
@@ -221,35 +221,35 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
+    {
+     "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient",
+     "url": "https://api-docs.deepseek.com/news/news260910",
+     "date": "2026-09-10"
+    },
     {
      "title": "DeepSeek-V4-Flash-Vision-Exp Release: Multimodal API Now Live",
      "url": "https://api-docs.deepseek.com/news/news260821",
-     "date": "2026-08-21"
+     "date": "2026-09-10"
     },
     {
      "title": "DeepSeek-V4-Pro GA Release",
      "url": "https://api-docs.deepseek.com/news/news260813",
-     "date": "2026-08-21"
+     "date": "2026-09-10"
     },
     {
      "title": "DeepSeek V4 Preview Release",
      "url": "https://api-docs.deepseek.com/news/news260424",
-     "date": "2026-08-21"
+     "date": "2026-09-10"
     },
     {
      "title": "DeepSeek-V3.2 Release",
      "url": "https://api-docs.deepseek.com/news/news251201",
-     "date": "2026-08-21"
-    },
-    {
-     "title": "Introducing DeepSeek-V3.2-Exp",
-     "url": "https://api-docs.deepseek.com/news/news250929",
-     "date": "2026-08-21"
+     "date": "2026-09-10"
     }
    ]
   },
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
@@ -329,10 +329,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "在迪拜，手机一键打萝卜！最大规模无人车队已就位→",
@@ -432,10 +432,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "久久公益：用科技放大善意，让做好事更简单",
@@ -468,10 +468,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "4カ国語操るエンジニア、目指す「ちょうどいい塩梅」の機械翻訳とは",
@@ -504,10 +504,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "IOWN AI FundによるiPronicsへの初号出資を起点に、次世代AIインフラの実現とIOWNエコシステムの構築を推進 ～NVIDIAとともに総額1億2,500万米ドルのシリーズBに参画し、次世代AIインフラ向け光ネットワークの商用化を支援～",
@@ -540,10 +540,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "NEDO K Program「小型無人機の自律制御・分散制御技術の研究開発」において航路の自動生成デモが可能な段階に到達 - 株式会社Preferred Networks",
@@ -576,10 +576,10 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "Sakana AI、ＳＣＳＫ、住友商事の3社、AI活用による日本の産業変革と社会課題解決に向け包括業務提携　～日本発の技術力・完遂力を核に、AIの社会実装を加速～",
@@ -612,10 +612,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "ELYZA、「ELYZA Works」の業務AIアプリを作成する仕組みについて特許を取得",
@@ -648,10 +648,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "アジア太平洋機械翻訳協会の年次大会(AAMT2026)において、黒橋禎夫所長・センター長が基調講演を行います",
@@ -684,10 +684,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "「ABEMA」にてスケートボード世界最高峰の大会 『Street League Skateboarding（SLS）』を無料生中継決定　パリ・東京・Super Crownの3大会を日本語オリジナル実況・解説付きでお届け",
@@ -720,10 +720,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -756,11 +756,16 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
+    {
+     "title": "ABEJA、三菱重工業より委託を受け、AIエージェント等を活用した無人機への自律化機能の付与に関する検証支援を開始",
+     "url": "https://prtimes.jp/main/html/rd/p/000000231.000010628.html",
+     "date": "2026-09-10"
+    },
     {
      "title": "ABEJA、JR東日本が進める「TAKANAWA GATEWAY CITY」の館内デリバリー自動化に向けフィジカルAIの実装を支援",
      "url": "https://prtimes.jp/main/html/rd/p/000000230.000010628.html",
@@ -780,11 +785,6 @@
      "title": "ABEJA、先行認証取得企業としてJDLAが創設したAIガバナンス第三者認証制度「C認証」を取得",
      "url": "https://prtimes.jp/main/html/rd/p/000000228.000010628.html",
      "date": "2026-08-18"
-    },
-    {
-     "title": "ABEJA、「第21回言語処理若手シンポジウム（YANS2026）」に参加",
-     "url": "https://prtimes.jp/main/html/rd/p/000000226.000010628.html",
-     "date": "2026-08-06"
     }
    ]
   },
@@ -792,10 +792,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-09-10T05:22:06Z",
+   "fetched_at": "2026-09-10T11:52:17Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-10T05:22:06Z",
+   "last_ok_at": "2026-09-10T11:52:17Z",
    "items": [
     {
      "title": "富士通と中性原子型量子コンピュータを手掛けるYaqumo、量子コンピュータの実利用の加速に向け、実機による量子計算アーキテクチャや基本ソフトウェアの検証を開始",
