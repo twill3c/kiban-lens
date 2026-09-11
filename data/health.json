@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-11T05:19:59Z",
+ "generated_at": "2026-09-11T11:51:06Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -113,10 +113,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-09",
+   "detail": "最新記事 2026-09-11",
    "fail_streak": 0,
-   "latest": "2026-09-09",
-   "days_since_latest": 2,
+   "latest": "2026-09-11",
+   "days_since_latest": 0,
    "source_url": "https://www.cyberagent.co.jp/news/"
   },
   {
