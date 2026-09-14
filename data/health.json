@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T05:30:25Z",
+ "generated_at": "2026-09-14T13:24:05Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -113,10 +113,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-11",
+   "detail": "最新記事 2026-09-14",
    "fail_streak": 0,
-   "latest": "2026-09-11",
-   "days_since_latest": 3,
+   "latest": "2026-09-14",
+   "days_since_latest": 0,
    "source_url": "https://www.cyberagent.co.jp/news/"
   },
   {
@@ -203,10 +203,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-09",
+   "detail": "最新記事 2026-09-14",
    "fail_streak": 0,
-   "latest": "2026-09-09",
-   "days_since_latest": 5,
+   "latest": "2026-09-14",
+   "days_since_latest": 0,
    "source_url": "https://group.ntt/jp/newsrelease/"
   },
   {
