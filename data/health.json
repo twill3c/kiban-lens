@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T05:27:49Z",
+ "generated_at": "2026-09-15T12:13:19Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -93,10 +93,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "status": "healthy",
-   "detail": "最新記事 2026-09-10",
+   "detail": "最新記事 2026-09-15",
    "fail_streak": 0,
-   "latest": "2026-09-10",
-   "days_since_latest": 5,
+   "latest": "2026-09-15",
+   "days_since_latest": 0,
    "source_url": "https://www.abejainc.com/news"
   },
   {
@@ -163,10 +163,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-10",
+   "detail": "最新記事 2026-09-15",
    "fail_streak": 0,
-   "latest": "2026-09-10",
-   "days_since_latest": 5,
+   "latest": "2026-09-15",
+   "days_since_latest": 0,
    "source_url": "https://llm-jp.nii.ac.jp/news/"
   },
   {
@@ -203,10 +203,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-14",
+   "detail": "最新記事 2026-09-15",
    "fail_streak": 0,
-   "latest": "2026-09-14",
-   "days_since_latest": 1,
+   "latest": "2026-09-15",
+   "days_since_latest": 0,
    "source_url": "https://group.ntt/jp/newsrelease/"
   },
   {
