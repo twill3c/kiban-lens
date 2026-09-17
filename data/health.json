@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T05:30:38Z",
+ "generated_at": "2026-09-17T12:11:19Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -41,10 +41,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 171 日前(2026-03-30)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 170 日前(2026-03-31)— 一覧を拾えていない可能性",
    "fail_streak": 0,
-   "latest": "2026-03-30",
-   "days_since_latest": 171,
+   "latest": "2026-03-31",
+   "days_since_latest": 170,
    "source_url": "https://zhipuai.cn/zh/news"
   }
  ],
@@ -83,20 +83,20 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 171 日前(2026-03-30)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 170 日前(2026-03-31)— 一覧を拾えていない可能性",
    "fail_streak": 0,
-   "latest": "2026-03-30",
-   "days_since_latest": 171,
+   "latest": "2026-03-31",
+   "days_since_latest": 170,
    "source_url": "https://zhipuai.cn/zh/news"
   },
   {
    "id": "abeja",
    "name": "ABEJA",
    "status": "healthy",
-   "detail": "最新記事 2026-09-15",
+   "detail": "最新記事 2026-09-17",
    "fail_streak": 0,
-   "latest": "2026-09-15",
-   "days_since_latest": 2,
+   "latest": "2026-09-17",
+   "days_since_latest": 0,
    "source_url": "https://www.abejainc.com/news"
   },
   {
@@ -163,10 +163,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-15",
+   "detail": "最新記事 2026-09-17",
    "fail_streak": 0,
-   "latest": "2026-09-15",
-   "days_since_latest": 2,
+   "latest": "2026-09-17",
+   "days_since_latest": 0,
    "source_url": "https://llm-jp.nii.ac.jp/news/"
   },
   {
