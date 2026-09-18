@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-18T16:45:09Z",
+ "generated_at": "2026-09-18T21:17:38Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -42,7 +42,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 171 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-03-31",
    "days_since_latest": 171,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -84,7 +84,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 171 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-03-31",
    "days_since_latest": 171,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -133,10 +133,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "status": "healthy",
-   "detail": "最新記事 2026-09-10",
+   "detail": "最新記事 2026-09-14",
    "fail_streak": 0,
-   "latest": "2026-09-10",
-   "days_since_latest": 8,
+   "latest": "2026-09-14",
+   "days_since_latest": 4,
    "source_url": "https://api-docs.deepseek.com/news/"
   },
   {
@@ -254,7 +254,7 @@
    "name": "Stockmark",
    "status": "healthy",
    "detail": "最新記事 2026-09-18",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-09-18",
    "days_since_latest": 0,
    "source_url": "https://stockmark.co.jp/news"
@@ -273,10 +273,10 @@
    "id": "xai",
    "name": "xAI",
    "status": "healthy",
-   "detail": "最新記事 2026-09-16",
+   "detail": "最新記事 2026-09-18",
    "fail_streak": 0,
-   "latest": "2026-09-16",
-   "days_since_latest": 2,
+   "latest": "2026-09-18",
+   "days_since_latest": 0,
    "source_url": "https://x.ai/news"
   }
  ]
