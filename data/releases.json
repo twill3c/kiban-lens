@@ -1,15 +1,20 @@
 {
- "generated_at": "2026-09-17T21:48:27Z",
+ "generated_at": "2026-09-18T05:17:05Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
+    {
+     "title": "How Cooley is accelerating IPO work with ChatGPT",
+     "url": "https://openai.com/index/cooley-gopublic",
+     "date": "2026-09-17"
+    },
     {
      "title": "Introducing Astra for Law",
      "url": "https://openai.com/index/astra-for-law",
@@ -29,11 +34,6 @@
      "title": "How to connect AI usage to business value",
      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
      "date": "2026-09-16"
-    },
-    {
-     "title": "Our framework for reporting model misalignment",
-     "url": "https://openai.com/index/model-misalignment-reporting-framework",
-     "date": "2026-09-16"
     }
    ]
   },
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "Improving our alignment and security practices",
@@ -77,10 +77,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "Grok Bot for Enterprise",
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "What if everything changes tomorrow? A Canadian company is using AI to help businesses navigate supply chain uncertainty",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient",
@@ -247,9 +247,9 @@
      "date": "2026-09-10"
     },
     {
-     "title": "Your First API Call",
+     "title": "DeepSeek-V3.2 Release",
      "url": "https://api-docs.deepseek.com/news/news251201",
-     "date": "2026-09-14"
+     "date": "2026-09-10"
     }
    ]
   },
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
@@ -329,10 +329,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "在迪拜，手机一键打萝卜！最大规模无人车队已就位→",
@@ -432,10 +432,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "“AI for All”倡议助力香港师生提升AI实践技能",
@@ -468,10 +468,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "DevRel日記#7: JSAI × テックブログ企画Part 3「OCRデモのバウンディングボックスの面白さに魅せられて 前編」",
@@ -504,10 +504,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "藻類が「いつ、どれだけCO₂を吸収したか」を正確に捉える計測技術を確立 ～培養条件の最適化を通じ、CO₂吸収量向上とバイオマス生産効率化へ～",
@@ -540,11 +540,16 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
+    {
+     "title": "PFNとPFCI、独自開発AI半導体MN-Core 2による高速な計算資源を材料探索用シミュレーターMatlantis向けに年内に提供開始 - 株式会社Preferred Networks",
+     "url": "https://www.preferred.jp/ja/news/pr20260918",
+     "date": "2026-09-18"
+    },
     {
      "title": "三菱重工とPFN、資本業務提携契約を締結 - 株式会社Preferred Networks",
      "url": "https://www.preferred.jp/ja/news/pr20260916",
@@ -564,11 +569,6 @@
      "title": "PFN、デロイトと共同で、国土交通省のインフラ分野における 発注・審査業務を支援するAIエージェントの開発・検証を開始 - 株式会社Preferred Networks",
      "url": "https://www.preferred.jp/ja/news/pr20260908",
      "date": "2026-09-08"
-    },
-    {
-     "title": "Rustによる高速かつ省メモリなOptuna実装「Rustuna」をリリース - 株式会社Preferred Networks",
-     "url": "https://www.preferred.jp/ja/news/pr20260907",
-     "date": "2026-09-07"
     }
    ]
   },
@@ -576,19 +576,24 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
-     "title": "Inside Sakana AI’s Product Team",
-     "url": "/inside-product-team/",
-     "date": "2026-09-17"
+     "title": "Introducing Sakana AI’s Frontier Intelligence Group (FIG)",
+     "url": "/frontier-intelligence-group/",
+     "date": "2026-09-18"
     },
     {
      "title": "Sakana Chatをアップデート：最新モデルに刷新、メモリー機能を追加",
      "url": "/chat-fugumax/",
+     "date": "2026-09-17"
+    },
+    {
+     "title": "Inside Sakana AI’s Product Team",
+     "url": "/inside-product-team/",
      "date": "2026-09-17"
     },
     {
@@ -600,11 +605,6 @@
      "title": "英国王立協会特集号に見る、世界モデルの最前線とAIの未来",
      "url": "/world-models-royal-society-issue/",
      "date": "2026-09-12"
-    },
-    {
-     "title": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier",
-     "url": "/fugu-max-release/",
-     "date": "2026-09-11"
     }
    ]
   },
@@ -612,10 +612,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "ELYZA、「ELYZA Works」の業務AIアプリを作成する仕組みについて特許を取得",
@@ -648,11 +648,16 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
+    {
+     "title": "第33回LLM勉強会のお知らせ",
+     "url": "https://llm-jp.nii.ac.jp/news/%e7%ac%ac33%e5%9b%9ellm%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
+     "date": "2026-09-17"
+    },
     {
      "title": "第269回 自然言語処理研究発表会において優秀研究賞を受賞",
      "url": "https://llm-jp.nii.ac.jp/news/20260916/",
@@ -672,11 +677,6 @@
      "title": "「第2回オープン大規模言語モデルシンポジウム」を11月5日に開催します。",
      "url": "https://llm-jp.nii.ac.jp/news/sympo2026/",
      "date": "2026-09-09"
-    },
-    {
-     "title": "韓国科学技術情報研究院（KISTI）の研究員らがNIIを訪問し、ワークショップを開催",
-     "url": "https://llm-jp.nii.ac.jp/news/20260828/",
-     "date": "2026-09-02"
     }
    ]
   },
@@ -684,11 +684,16 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
+    {
+     "title": "「ちいかわ」初のスマホアプリ『ちいかわぽけっと』 9月27日より1.5 Year Anniversaryを記念した「ピーターパン」イベントを実施！ 特設サイトと記念動画も公開！",
+     "url": "https://www.cyberagent.co.jp/news/detail/id=33846",
+     "date": "2026-09-18"
+    },
     {
      "title": "サイバーエージェント次世代生活研究所、「若者の生成AI利用実態調査」を実施　第1回は「学齢別に見る生成AIの使い方」を発表",
      "url": "https://www.cyberagent.co.jp/news/detail/id=33785",
@@ -708,11 +713,6 @@
      "title": "AI Labが開発するブラックボックス最適化OSS「cmaes」をアップデート",
      "url": "https://www.cyberagent.co.jp/news/detail/id=33824",
      "date": "2026-09-14"
-    },
-    {
-     "title": "「ABEMA」、「Mリーグ2026-27シーズン」全試合の独占生放送を決定 オフィシャルソングにUVERworldによる新曲『BAD BOY PROUD』を起用",
-     "url": "https://www.cyberagent.co.jp/news/detail/id=33825",
-     "date": "2026-09-11"
     }
    ]
   },
@@ -720,15 +720,20 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
      "url": "https://stockmark.co.jp/news/20260515/",
      "date": "2026-05-26"
+    },
+    {
+     "title": "【製造業役職者・実務者における生成AI活用実態 比較調査】経営層の8割が生成AIに“手応え”を感じる一方で現場の7割は「環境の壁」に直面",
+     "url": "https://stockmark.co.jp/news/20260918/",
+     "date": "2026-09-18"
     },
     {
      "title": "製造業R&D向けAIエージェント「Aconnect」の技術探索エージェント新機能 図面や設計図から“解くべき課題”をAIが発見・定義する「課題の言語化アシスト機能」をリリース",
@@ -744,11 +749,6 @@
      "title": "【製造業に従事する実務者における生成AIの業務活用実態調査】 製造業実務者の7割超が生成AIに「頼みたいのに頼めない」限界を痛感",
      "url": "https://stockmark.co.jp/news/20260819/",
      "date": "2026-08-19"
-    },
-    {
-     "title": "ストックマーク自社LLMを活用し「非構造データ」「熟練者の暗黙知」をコア資産へ変革するFDE組織を拡大",
-     "url": "https://stockmark.co.jp/news/20260818/",
-     "date": "2026-08-18"
     }
    ]
   },
@@ -756,10 +756,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "ABEJA、「Human in the Loop」の進化版「Triple Human in the Loop」を開発し、特許を出願",
@@ -792,10 +792,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-09-17T21:48:27Z",
+   "fetched_at": "2026-09-18T05:17:05Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-17T21:48:27Z",
+   "last_ok_at": "2026-09-18T05:17:05Z",
    "items": [
     {
      "title": "富士通、AI Transformationに向けて事業モデル「Uvance」を進化",
