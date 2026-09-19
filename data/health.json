@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T05:10:20Z",
+ "generated_at": "2026-09-19T11:37:38Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -41,10 +41,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 172 日前(2026-03-31)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 173 日前(2026-03-30)— 一覧を拾えていない可能性",
    "fail_streak": 0,
-   "latest": "2026-03-31",
-   "days_since_latest": 172,
+   "latest": "2026-03-30",
+   "days_since_latest": 173,
    "source_url": "https://zhipuai.cn/zh/news"
   }
  ],
@@ -83,10 +83,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 172 日前(2026-03-31)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 173 日前(2026-03-30)— 一覧を拾えていない可能性",
    "fail_streak": 0,
-   "latest": "2026-03-31",
-   "days_since_latest": 172,
+   "latest": "2026-03-30",
+   "days_since_latest": 173,
    "source_url": "https://zhipuai.cn/zh/news"
   },
   {
@@ -213,10 +213,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-09-17",
+   "detail": "最新記事 2026-09-18",
    "fail_streak": 0,
-   "latest": "2026-09-17",
-   "days_since_latest": 2,
+   "latest": "2026-09-18",
+   "days_since_latest": 1,
    "source_url": "https://openai.com/news/"
   },
   {
