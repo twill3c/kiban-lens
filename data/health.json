@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-20T05:28:18Z",
- "healthy": 19,
+ "generated_at": "2026-09-20T11:51:24Z",
+ "healthy": 20,
  "total": 23,
  "thresholds": {
   "fail_streak_alert": 4,
@@ -16,16 +16,6 @@
    "latest": "2023-11-03",
    "days_since_latest": 1052,
    "source_url": "https://www.anthropic.com/news"
-  },
-  {
-   "id": "baidu",
-   "name": "Baidu(ERNIE)",
-   "status": "stale",
-   "detail": "最新記事が 173 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 0,
-   "latest": "2026-03-31",
-   "days_since_latest": 173,
-   "source_url": "https://home.baidu.com/home/index/news_list"
   },
   {
    "id": "qwen",
@@ -60,16 +50,6 @@
    "source_url": "https://www.anthropic.com/news"
   },
   {
-   "id": "baidu",
-   "name": "Baidu(ERNIE)",
-   "status": "stale",
-   "detail": "最新記事が 173 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 0,
-   "latest": "2026-03-31",
-   "days_since_latest": 173,
-   "source_url": "https://home.baidu.com/home/index/news_list"
-  },
-  {
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "status": "stale",
@@ -98,6 +78,16 @@
    "latest": "2026-09-17",
    "days_since_latest": 3,
    "source_url": "https://www.abejainc.com/news"
+  },
+  {
+   "id": "baidu",
+   "name": "Baidu(ERNIE)",
+   "status": "healthy",
+   "detail": "最新記事 2026-09-13",
+   "fail_streak": 0,
+   "latest": "2026-09-13",
+   "days_since_latest": 7,
+   "source_url": "https://home.baidu.com/home/index/news_list"
   },
   {
    "id": "bytedance",
