@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T05:33:40Z",
+ "generated_at": "2026-09-21T13:23:39Z",
  "healthy": 20,
  "total": 23,
  "thresholds": {
@@ -203,10 +203,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-09-18",
+   "detail": "最新記事 2026-09-21",
    "fail_streak": 0,
-   "latest": "2026-09-18",
-   "days_since_latest": 3,
+   "latest": "2026-09-21",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
@@ -244,7 +244,7 @@
    "name": "Stockmark",
    "status": "healthy",
    "detail": "最新記事 2026-09-18",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-09-18",
    "days_since_latest": 3,
    "source_url": "https://stockmark.co.jp/news"
