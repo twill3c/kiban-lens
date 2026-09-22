@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T05:27:47Z",
+ "generated_at": "2026-09-22T12:04:55Z",
  "healthy": 20,
  "total": 23,
  "thresholds": {
@@ -253,10 +253,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-16",
+   "detail": "最新記事 2026-09-22",
    "fail_streak": 0,
-   "latest": "2026-09-16",
-   "days_since_latest": 6,
+   "latest": "2026-09-22",
+   "days_since_latest": 0,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
   },
   {
