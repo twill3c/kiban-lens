@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T17:20:04Z",
+ "generated_at": "2026-09-22T21:41:19Z",
  "healthy": 20,
  "total": 23,
  "thresholds": {
@@ -203,10 +203,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-09-21",
+   "detail": "最新記事 2026-09-22",
    "fail_streak": 0,
-   "latest": "2026-09-21",
-   "days_since_latest": 1,
+   "latest": "2026-09-22",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
@@ -263,10 +263,10 @@
    "id": "xai",
    "name": "xAI",
    "status": "healthy",
-   "detail": "最新記事 2026-09-21",
+   "detail": "最新記事 2026-09-22",
    "fail_streak": 0,
-   "latest": "2026-09-21",
-   "days_since_latest": 1,
+   "latest": "2026-09-22",
+   "days_since_latest": 0,
    "source_url": "https://x.ai/news"
   }
  ]
