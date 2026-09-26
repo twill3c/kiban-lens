@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T05:34:48Z",
+ "generated_at": "2026-09-26T11:51:49Z",
  "healthy": 20,
  "total": 23,
  "thresholds": {
@@ -31,10 +31,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 179 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
-   "latest": "2026-03-31",
-   "days_since_latest": 179,
+   "detail": "最新記事が 666 日前(2024-11-29)— 一覧を拾えていない可能性",
+   "fail_streak": 0,
+   "latest": "2024-11-29",
+   "days_since_latest": 666,
    "source_url": "https://zhipuai.cn/zh/news"
   }
  ],
@@ -63,10 +63,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 179 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
-   "latest": "2026-03-31",
-   "days_since_latest": 179,
+   "detail": "最新記事が 666 日前(2024-11-29)— 一覧を拾えていない可能性",
+   "fail_streak": 0,
+   "latest": "2024-11-29",
+   "days_since_latest": 666,
    "source_url": "https://zhipuai.cn/zh/news"
   },
   {
@@ -114,7 +114,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-09-24",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-09-24",
    "days_since_latest": 2,
    "source_url": "https://deepmind.google/blog/"
