@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-26T11:51:49Z",
+ "generated_at": "2026-09-26T16:47:29Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "Claude discovers a novel enzyme system",
@@ -77,10 +77,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "Introducing Gemini 3.8 Live with Live Avatar",
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "Introducing Grok 4.7",
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "What if everything changes tomorrow? A Canadian company is using AI to help businesses navigate supply chain uncertainty",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient",
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
@@ -329,30 +329,30 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
      "url": "https://zhipuai.cn/zh/news/152",
-     "date": ""
+     "date": "2026-03-31"
     },
     {
      "title": "智谱（02513.HK）公布2025年度业绩发布会安排",
      "url": "https://zhipuai.cn/zh/news/151",
-     "date": ""
+     "date": "2026-03-30"
     },
     {
      "title": "中关村自主大模型产业联盟第一次会员大会 结果公示",
      "url": "https://zhipuai.cn/zh/news/97",
-     "date": ""
+     "date": "2025-08-25"
     },
     {
      "title": "GLM-PC 基座模型，CogAgent-9B 开源",
      "url": "https://zhipuai.cn/zh/news/76",
-     "date": ""
+     "date": "2024-12-30"
     },
     {
      "title": "Agent 新进展：跨 app、跨设备、更多玩法｜智谱 Agent OpenDay",
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "“期待尽快引入我们国家！”CVF-V20政要团组体验萝卜快跑",
@@ -437,10 +437,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "谐音梗里长出来的“长鹅”",
@@ -473,10 +473,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "DevRel日記#7: JSAI × テックブログ企画Part 3「OCRデモのバウンディングボックスの面白さに魅せられて 前編」",
@@ -509,10 +509,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "藻類が「いつ、どれだけCO₂を吸収したか」を正確に捉える計測技術を確立 ～培養条件の最適化を通じ、CO₂吸収量向上とバイオマス生産効率化へ～",
@@ -545,10 +545,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "PFNとPFCI、独自開発AI半導体MN-Core 2による高速な計算資源を材料探索用シミュレーターMatlantis向けに年内に提供開始 - 株式会社Preferred Networks",
@@ -581,10 +581,10 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "Sakana AI、「日本スタートアップ大賞2026」で総務大臣賞（情報通信分野）を受賞",
@@ -617,10 +617,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "ELYZA、「ELYZA Works」の業務AIアプリを作成する仕組みについて特許を取得",
@@ -653,10 +653,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "第33回LLM勉強会のお知らせ",
@@ -689,10 +689,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "CASM、オリコと1st Party Dataを活用したデジタル広告商品の共同開発に向け協業を開始",
@@ -725,10 +725,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -761,10 +761,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "ABEJA、「Human in the Loop」の進化版「Triple Human in the Loop」を開発し、特許を出願",
@@ -797,10 +797,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-09-26T11:51:49Z",
+   "fetched_at": "2026-09-26T16:47:29Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-26T11:51:49Z",
+   "last_ok_at": "2026-09-26T16:47:29Z",
    "items": [
     {
      "title": "企業や組織における能動的サイバー防御の実践を包括的に支援するセキュリティサービスを提供開始",
