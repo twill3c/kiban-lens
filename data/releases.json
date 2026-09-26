@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-25T21:51:40Z",
+ "generated_at": "2026-09-26T05:34:48Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "Claude discovers a novel enzyme system",
@@ -78,8 +78,8 @@
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
    "fetched_at": "2026-09-25T21:51:40Z",
-   "ok": true,
-   "fail_streak": 0,
+   "ok": false,
+   "fail_streak": 1,
    "last_ok_at": "2026-09-25T21:51:40Z",
    "items": [
     {
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "Introducing Grok 4.7",
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "What if everything changes tomorrow? A Canadian company is using AI to help businesses navigate supply chain uncertainty",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient",
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
@@ -330,8 +330,8 @@
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
    "fetched_at": "2026-09-25T21:51:40Z",
-   "ok": true,
-   "fail_streak": 0,
+   "ok": false,
+   "fail_streak": 1,
    "last_ok_at": "2026-09-25T21:51:40Z",
    "items": [
     {
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "“期待尽快引入我们国家！”CVF-V20政要团组体验萝卜快跑",
@@ -437,11 +437,16 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
+    {
+     "title": "谐音梗里长出来的“长鹅”",
+     "url": "https://www.tencent.com/zh-cn/tencents-quirky-accidental-mascot-turns-10/",
+     "date": "2026-09-24"
+    },
     {
      "title": "腾讯电竞竞赛解决方案将为第20届亚运会电竞项目提供技术支持",
      "url": "https://www.tencent.com/zh-cn/tencent-esports-competition-solution-to-support-esports-at-the-20th-asian-games/",
@@ -461,11 +466,6 @@
      "title": "腾讯携手香港社福机构，让AI赋能一线服务",
      "url": "https://www.tencent.com/zh-cn/tencent-and-ngos-bring-ai-into-social-services-in-hong-kong/",
      "date": "2026-09-11"
-    },
-    {
-     "title": "久久公益：用科技放大善意，让做好事更简单",
-     "url": "https://www.tencent.com/zh-cn/99-giving-day-how-technology-creates-more-ways-to-do-good/",
-     "date": "2026-09-04"
     }
    ]
   },
@@ -473,10 +473,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "DevRel日記#7: JSAI × テックブログ企画Part 3「OCRデモのバウンディングボックスの面白さに魅せられて 前編」",
@@ -509,10 +509,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "藻類が「いつ、どれだけCO₂を吸収したか」を正確に捉える計測技術を確立 ～培養条件の最適化を通じ、CO₂吸収量向上とバイオマス生産効率化へ～",
@@ -545,10 +545,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "PFNとPFCI、独自開発AI半導体MN-Core 2による高速な計算資源を材料探索用シミュレーターMatlantis向けに年内に提供開始 - 株式会社Preferred Networks",
@@ -581,11 +581,16 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
+    {
+     "title": "Sakana AI、「日本スタートアップ大賞2026」で総務大臣賞（情報通信分野）を受賞",
+     "url": "/japan-startup-award-2026/",
+     "date": "2026-09-25"
+    },
     {
      "title": "The Next Frontier: Welcoming AI Pioneer Jürgen Schmidhuber to Sakana AI",
      "url": "/schmidhuber/",
@@ -597,19 +602,14 @@
      "date": "2026-09-18"
     },
     {
-     "title": "Inside Sakana AI’s Product Team",
-     "url": "/inside-product-team/",
-     "date": "2026-09-17"
-    },
-    {
      "title": "Sakana Chatをアップデート：最新モデルに刷新、メモリー機能を追加",
      "url": "/chat-fugumax/",
      "date": "2026-09-17"
     },
     {
-     "title": "Sakana Marlinアップデート：レポートと対話する「Interactive Reading」と、出力スライドのPowerPoint対応",
-     "url": "/marlin-update/",
-     "date": "2026-09-16"
+     "title": "Inside Sakana AI’s Product Team",
+     "url": "/inside-product-team/",
+     "date": "2026-09-17"
     }
    ]
   },
@@ -617,10 +617,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "ELYZA、「ELYZA Works」の業務AIアプリを作成する仕組みについて特許を取得",
@@ -653,10 +653,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "第33回LLM勉強会のお知らせ",
@@ -689,10 +689,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "CASM、オリコと1st Party Dataを活用したデジタル広告商品の共同開発に向け協業を開始",
@@ -725,10 +725,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -761,10 +761,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "ABEJA、「Human in the Loop」の進化版「Triple Human in the Loop」を開発し、特許を出願",
@@ -797,10 +797,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-09-25T21:51:40Z",
+   "fetched_at": "2026-09-26T05:34:48Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-25T21:51:40Z",
+   "last_ok_at": "2026-09-26T05:34:48Z",
    "items": [
     {
      "title": "企業や組織における能動的サイバー防御の実践を包括的に支援するセキュリティサービスを提供開始",
