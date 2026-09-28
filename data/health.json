@@ -1,22 +1,12 @@
 {
- "generated_at": "2026-09-28T14:33:40Z",
- "healthy": 20,
+ "generated_at": "2026-09-28T23:33:21Z",
+ "healthy": 21,
  "total": 23,
  "thresholds": {
   "fail_streak_alert": 4,
   "stale_days": 120
  },
  "issues": [
-  {
-   "id": "anthropic",
-   "name": "Anthropic",
-   "status": "stale",
-   "detail": "最新記事が 1060 日前(2023-11-03)— 一覧を拾えていない可能性",
-   "fail_streak": 0,
-   "latest": "2023-11-03",
-   "days_since_latest": 1060,
-   "source_url": "https://www.anthropic.com/news"
-  },
   {
    "id": "qwen",
    "name": "Alibaba(Qwen)",
@@ -39,16 +29,6 @@
   }
  ],
  "companies": [
-  {
-   "id": "anthropic",
-   "name": "Anthropic",
-   "status": "stale",
-   "detail": "最新記事が 1060 日前(2023-11-03)— 一覧を拾えていない可能性",
-   "fail_streak": 0,
-   "latest": "2023-11-03",
-   "days_since_latest": 1060,
-   "source_url": "https://www.anthropic.com/news"
-  },
   {
    "id": "qwen",
    "name": "Alibaba(Qwen)",
@@ -78,6 +58,16 @@
    "latest": "2026-09-17",
    "days_since_latest": 11,
    "source_url": "https://www.abejainc.com/news"
+  },
+  {
+   "id": "anthropic",
+   "name": "Anthropic",
+   "status": "healthy",
+   "detail": "最新記事 2026-09-23",
+   "fail_streak": 0,
+   "latest": "2026-09-23",
+   "days_since_latest": 5,
+   "source_url": "https://www.anthropic.com/news"
   },
   {
    "id": "baidu",
@@ -203,10 +193,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-09-25",
+   "detail": "最新記事 2026-09-28",
    "fail_streak": 0,
-   "latest": "2026-09-25",
-   "days_since_latest": 3,
+   "latest": "2026-09-28",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
@@ -253,20 +243,20 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-24",
+   "detail": "最新記事 2026-09-28",
    "fail_streak": 0,
-   "latest": "2026-09-24",
-   "days_since_latest": 4,
+   "latest": "2026-09-28",
+   "days_since_latest": 0,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
   },
   {
    "id": "xai",
    "name": "xAI",
    "status": "healthy",
-   "detail": "最新記事 2026-09-22",
+   "detail": "最新記事 2026-09-28",
    "fail_streak": 0,
-   "latest": "2026-09-22",
-   "days_since_latest": 6,
+   "latest": "2026-09-28",
+   "days_since_latest": 0,
    "source_url": "https://x.ai/news"
   }
  ]

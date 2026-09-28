@@ -1,15 +1,30 @@
 {
- "generated_at": "2026-09-28T14:33:40Z",
+ "generated_at": "2026-09-28T23:33:21Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
+    {
+     "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+     "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+     "date": "2026-09-28"
+    },
+    {
+     "title": "Are you a Codex Original?",
+     "url": "https://openai.com/form/codex-originals",
+     "date": "2026-09-28"
+    },
+    {
+     "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+     "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+     "date": "2026-09-28"
+    },
     {
      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
      "url": "https://openai.com/index/proaction",
@@ -19,21 +34,6 @@
      "title": "Two years of OpenAI Academy",
      "url": "https://openai.com/index/two-years-of-openai-academy",
      "date": "2026-09-23"
-    },
-    {
-     "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-     "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-     "date": "2026-09-23"
-    },
-    {
-     "title": "Sam Altman’s remarks at the United Nations Security Council",
-     "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-     "date": "2026-09-23"
-    },
-    {
-     "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-     "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-     "date": "2026-09-23"
     }
    ]
   },
@@ -41,35 +41,35 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "Claude discovers a novel enzyme system",
      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2023-11-03"
+     "date": "2026-09-23"
     },
     {
      "title": "Partnering with Accenture on embedded evaluation",
      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-     "date": "2023-11-03"
+     "date": "2026-09-18"
     },
     {
      "title": "Introducing the Life Sciences Verification Program",
      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
-     "date": "2023-11-03"
+     "date": "2026-09-17"
     },
     {
      "title": "Developing Enterprise Frontier Safeguards with our customers",
      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-     "date": "2023-11-03"
+     "date": "2026-09-01"
     },
     {
      "title": "Improving our alignment and security practices",
      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-     "date": "2023-11-03"
+     "date": "2026-08-31"
     }
    ]
   },
@@ -77,10 +77,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "Introducing Gemini 3.8 Live with Live Avatar",
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,15 +149,20 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "Introducing Grok 4.7",
      "url": "https://x.ai/news/grok-4-7",
      "date": "2026-09-21"
+    },
+    {
+     "title": "Team Bots: AI coworkers that learn from your team",
+     "url": "https://x.ai/news/team-bots",
+     "date": "2026-09-28"
     },
     {
      "title": "How SpaceXAI is using Grok Bot to scale customer support",
@@ -173,11 +178,6 @@
      "title": "Memory in Grok Build",
      "url": "https://x.ai/news/grok-build-memory",
      "date": "2026-09-16"
-    },
-    {
-     "title": "Setting Grok Bot loose on procurement",
-     "url": "https://x.ai/news/grok-bot-procurement",
-     "date": "2026-09-04"
     }
    ]
   },
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "What if everything changes tomorrow? A Canadian company is using AI to help businesses navigate supply chain uncertainty",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient",
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
@@ -329,10 +329,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
@@ -342,7 +342,7 @@
     {
      "title": "智谱（02513.HK）公布2025年度业绩发布会安排",
      "url": "https://zhipuai.cn/zh/news/151",
-     "date": ""
+     "date": "2026-03-30"
     },
     {
      "title": "中关村自主大模型产业联盟第一次会员大会 结果公示",
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "“期待尽快引入我们国家！”CVF-V20政要团组体验萝卜快跑",
@@ -437,11 +437,16 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
+    {
+     "title": "四项创新，让海外游客在中国宾至如归",
+     "url": "https://www.tencent.com/zh-cn/four-ways-to-help-international-visitors-feel-at-home-in-china/",
+     "date": "2026-09-28"
+    },
     {
      "title": "谐音梗里长出来的“长鹅”",
      "url": "https://www.tencent.com/zh-cn/tencents-quirky-accidental-mascot-turns-10/",
@@ -461,11 +466,6 @@
      "title": "让AI成为可靠工作伙伴的8条建议",
      "url": "https://www.tencent.com/zh-cn/8-tips-to-make-ai-a-reliable-partner-at-work/",
      "date": "2026-09-15"
-    },
-    {
-     "title": "腾讯携手香港社福机构，让AI赋能一线服务",
-     "url": "https://www.tencent.com/zh-cn/tencent-and-ngos-bring-ai-into-social-services-in-hong-kong/",
-     "date": "2026-09-11"
     }
    ]
   },
@@ -473,10 +473,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "【新卒エンジニア座談会】入社半年の4人が語る、現在地とSB Intuitionsで描く未来",
@@ -509,10 +509,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "宇宙と地上ネットワークを光で直結へ ～NTTとCailabs、次世代光地上局開発に向けた協業を開始～",
@@ -545,10 +545,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "PFNとPFCI、独自開発AI半導体MN-Core 2による高速な計算資源を材料探索用シミュレーターMatlantis向けに年内に提供開始 - 株式会社Preferred Networks",
@@ -581,10 +581,10 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "SAIL: Scaling In-Context Imitation Learning",
@@ -617,10 +617,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "ELYZA、「ELYZA Works」の業務AIアプリを作成する仕組みについて特許を取得",
@@ -653,10 +653,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "大規模言語モデル「LLM-jp-4.1」シリーズを公開",
@@ -689,10 +689,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "CASM、オリコと1st Party Dataを活用したデジタル広告商品の共同開発に向け協業を開始",
@@ -725,10 +725,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -761,10 +761,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "ABEJA、「Human in the Loop」の進化版「Triple Human in the Loop」を開発し、特許を出願",
@@ -797,10 +797,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-09-28T14:33:40Z",
+   "fetched_at": "2026-09-28T23:33:21Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-09-28T14:33:40Z",
+   "last_ok_at": "2026-09-28T23:33:21Z",
    "items": [
     {
      "title": "企業や組織における能動的サイバー防御の実践を包括的に支援するセキュリティサービスを提供開始",
