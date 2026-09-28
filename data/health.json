@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T05:56:46Z",
+ "generated_at": "2026-09-28T14:33:40Z",
  "healthy": 20,
  "total": 23,
  "thresholds": {
@@ -114,7 +114,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-09-24",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-09-24",
    "days_since_latest": 4,
    "source_url": "https://deepmind.google/blog/"
@@ -153,10 +153,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-17",
+   "detail": "最新記事 2026-09-28",
    "fail_streak": 0,
-   "latest": "2026-09-17",
-   "days_since_latest": 11,
+   "latest": "2026-09-28",
+   "days_since_latest": 0,
    "source_url": "https://llm-jp.nii.ac.jp/news/"
   },
   {
@@ -233,10 +233,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "status": "healthy",
-   "detail": "最新記事 2026-09-17",
+   "detail": "最新記事 2026-09-28",
    "fail_streak": 0,
-   "latest": "2026-09-17",
-   "days_since_latest": 11,
+   "latest": "2026-09-28",
+   "days_since_latest": 0,
    "source_url": "https://www.sbintuitions.co.jp/news/"
   },
   {
