@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T06:16:32Z",
+ "generated_at": "2026-09-29T13:22:52Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -53,10 +53,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "status": "healthy",
-   "detail": "最新記事 2026-09-17",
+   "detail": "最新記事 2026-09-29",
    "fail_streak": 0,
-   "latest": "2026-09-17",
-   "days_since_latest": 12,
+   "latest": "2026-09-29",
+   "days_since_latest": 0,
    "source_url": "https://www.abejainc.com/news"
   },
   {
@@ -93,10 +93,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-25",
+   "detail": "最新記事 2026-09-29",
    "fail_streak": 0,
-   "latest": "2026-09-25",
-   "days_since_latest": 4,
+   "latest": "2026-09-29",
+   "days_since_latest": 0,
    "source_url": "https://www.cyberagent.co.jp/news/"
   },
   {
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-09-24",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-09-24",
    "days_since_latest": 5,
    "source_url": "https://deepmind.google/blog/"
@@ -143,10 +143,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-28",
+   "detail": "最新記事 2026-09-29",
    "fail_streak": 0,
-   "latest": "2026-09-28",
-   "days_since_latest": 1,
+   "latest": "2026-09-29",
+   "days_since_latest": 0,
    "source_url": "https://llm-jp.nii.ac.jp/news/"
   },
   {
