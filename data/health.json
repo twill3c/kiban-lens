@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-03T12:04:53Z",
- "healthy": 20,
+ "generated_at": "2026-10-03T16:46:32Z",
+ "healthy": 21,
  "total": 23,
  "thresholds": {
   "fail_streak_alert": 4,
@@ -8,16 +8,6 @@
  },
  "issues": [
   {
-   "id": "deepmind",
-   "name": "Google DeepMind",
-   "status": "failing",
-   "detail": "4 回連続で取得に失敗(最後の成功: 2026-10-02)",
-   "fail_streak": 4,
-   "latest": "2026-09-30",
-   "days_since_latest": 3,
-   "source_url": "https://deepmind.google/blog/"
-  },
-  {
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "status": "stale",
@@ -31,25 +21,15 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 186 日前(2026-03-31)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 187 日前(2026-03-30)— 一覧を拾えていない可能性",
    "fail_streak": 0,
-   "latest": "2026-03-31",
-   "days_since_latest": 186,
+   "latest": "2026-03-30",
+   "days_since_latest": 187,
    "source_url": "https://zhipuai.cn/zh/news"
   }
  ],
  "companies": [
   {
-   "id": "deepmind",
-   "name": "Google DeepMind",
-   "status": "failing",
-   "detail": "4 回連続で取得に失敗(最後の成功: 2026-10-02)",
-   "fail_streak": 4,
-   "latest": "2026-09-30",
-   "days_since_latest": 3,
-   "source_url": "https://deepmind.google/blog/"
-  },
-  {
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "status": "stale",
@@ -63,10 +43,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 186 日前(2026-03-31)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 187 日前(2026-03-30)— 一覧を拾えていない可能性",
    "fail_streak": 0,
-   "latest": "2026-03-31",
-   "days_since_latest": 186,
+   "latest": "2026-03-30",
+   "days_since_latest": 187,
    "source_url": "https://zhipuai.cn/zh/news"
   },
   {
@@ -118,6 +98,16 @@
    "latest": "2026-10-02",
    "days_since_latest": 1,
    "source_url": "https://www.cyberagent.co.jp/news/"
+  },
+  {
+   "id": "deepmind",
+   "name": "Google DeepMind",
+   "status": "healthy",
+   "detail": "最新記事 2026-09-30",
+   "fail_streak": 0,
+   "latest": "2026-09-30",
+   "days_since_latest": 3,
+   "source_url": "https://deepmind.google/blog/"
   },
   {
    "id": "deepseek",
