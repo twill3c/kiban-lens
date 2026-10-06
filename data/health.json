@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T06:54:12Z",
+ "generated_at": "2026-10-06T18:39:01Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-09-30",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-09-30",
    "days_since_latest": 6,
    "source_url": "https://deepmind.google/blog/"
@@ -133,10 +133,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "status": "healthy",
-   "detail": "最新記事 2026-10-01",
+   "detail": "最新記事 2026-10-06",
    "fail_streak": 0,
-   "latest": "2026-10-01",
-   "days_since_latest": 5,
+   "latest": "2026-10-06",
+   "days_since_latest": 0,
    "source_url": "https://global.fujitsu/ja-jp/pr/news"
   },
   {
@@ -193,10 +193,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-10-05",
+   "detail": "最新記事 2026-10-06",
    "fail_streak": 0,
-   "latest": "2026-10-05",
-   "days_since_latest": 1,
+   "latest": "2026-10-06",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
@@ -223,10 +223,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "status": "healthy",
-   "detail": "最新記事 2026-10-01",
+   "detail": "最新記事 2026-10-06",
    "fail_streak": 0,
-   "latest": "2026-10-01",
-   "days_since_latest": 5,
+   "latest": "2026-10-06",
+   "days_since_latest": 0,
    "source_url": "https://www.sbintuitions.co.jp/news/"
   },
   {
