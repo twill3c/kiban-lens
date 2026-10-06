@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T00:23:02Z",
+ "generated_at": "2026-10-06T06:54:12Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -203,10 +203,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "status": "healthy",
-   "detail": "最新記事 2026-09-29",
+   "detail": "最新記事 2026-10-06",
    "fail_streak": 0,
-   "latest": "2026-09-29",
-   "days_since_latest": 7,
+   "latest": "2026-10-06",
+   "days_since_latest": 0,
    "source_url": "https://www.preferred.jp/ja/news/"
   },
   {
