@@ -1,15 +1,30 @@
 {
- "generated_at": "2026-10-08T14:05:00Z",
+ "generated_at": "2026-10-08T23:34:41Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
+    {
+     "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+     "url": "https://openai.com/index/oracle",
+     "date": "2026-10-08"
+    },
+    {
+     "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+     "url": "https://openai.com/index/pollo-ai",
+     "date": "2026-10-08"
+    },
+    {
+     "title": "Disrupting AI-enabled “false front” operations",
+     "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+     "date": "2026-10-08"
+    },
     {
      "title": "Helping teens learn, plan, and shape the future of AI",
      "url": "https://openai.com/index/teens-learn-and-plan",
@@ -19,21 +34,6 @@
      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
      "url": "https://openai.com/index/radisson",
      "date": "2026-10-07"
-    },
-    {
-     "title": "GPT-6 and Intelligent UI for everyone",
-     "url": "https://openai.com/index/gpt-6-for-everyone",
-     "date": "2026-10-07"
-    },
-    {
-     "title": "How Jump Trading is scaling quant research with ChatGPT",
-     "url": "https://openai.com/index/jump-trading",
-     "date": "2026-10-06"
-    },
-    {
-     "title": "Sharing AI progress in mathematics",
-     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-     "date": "2026-10-06"
     }
    ]
   },
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "Expanding the Cyber Verification Program",
@@ -52,24 +52,24 @@
      "date": "2026-10-06"
     },
     {
+     "title": "2026 Usage Policy update",
+     "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+     "date": "2026-10-08"
+    },
+    {
+     "title": "Building on our commitment to American scientific discovery",
+     "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+     "date": "2026-10-08"
+    },
+    {
+     "title": "Introducing the Anthropic Cyber Mission",
+     "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+     "date": "2026-10-08"
+    },
+    {
      "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
      "url": "https://www.anthropic.com/news/claude-frontier-academy",
      "date": "2026-10-02"
-    },
-    {
-     "title": "Barclays scales Claude to upgrade operations and improve client experience",
-     "url": "https://www.anthropic.com/news/barclays-scales-claude",
-     "date": "2026-10-01"
-    },
-    {
-     "title": "Claude discovers a novel enzyme system",
-     "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-     "date": "2026-09-23"
-    },
-    {
-     "title": "Partnering with Accenture on embedded evaluation",
-     "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-     "date": "2026-09-18"
     }
    ]
   },
@@ -77,10 +77,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "Introducing Grok 4.7",
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "What if everything changes tomorrow? A Canadian company is using AI to help businesses navigate supply chain uncertainty",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient",
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
@@ -329,10 +329,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "“期待尽快引入我们国家！”CVF-V20政要团组体验萝卜快跑",
@@ -437,10 +437,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "四项创新，让海外游客在中国宾至如归",
@@ -473,10 +473,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "開発と運用の“架け橋”になる。Inference PFチームリーダーが考えるエンジニアの本質",
@@ -509,10 +509,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "SSPP Forum #05「",
@@ -545,10 +545,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "PFN、AI翻訳サービス PLaMo翻訳を大型アップデート、 世界最先端AIモデルと同等の日本語翻訳精度を大幅に低いコストで実現 - 株式会社Preferred Networks",
@@ -581,10 +581,10 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "研究、産業実装、プロダクトの最前線へ―Sakana AIニュースレター「Sakana AI Insider」―",
@@ -617,10 +617,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "ELYZA、音声対話AIエージェント「ELYZA Voice Agent」を開発　〜対話にとどまらず、その先の業務・手続きまでを一連の流れで支援〜",
@@ -653,10 +653,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "濱本 惇之介さん （愛媛大学 / NII LLMC RA）の論文が第269回 自然言語処理研究発表会において若手奨励賞を受賞",
@@ -689,10 +689,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "ちいかわたちとクリスマスを楽しむ「ちいかわクリスマスマーケット」を2026年11月24日（火）より開催決定！",
@@ -725,10 +725,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -761,10 +761,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "ABEJA、新晃工業と共同で空調機等の設計業務効率化に向け、AIによる自動検図システムの検証を開始",
@@ -797,10 +797,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-10-08T14:05:00Z",
+   "fetched_at": "2026-10-08T23:34:41Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-08T14:05:00Z",
+   "last_ok_at": "2026-10-08T23:34:41Z",
    "items": [
     {
      "title": "通信・電力・計算資源を統合制御する「高度なワークロードシフトの実現に向けた社会実証」を開始",
