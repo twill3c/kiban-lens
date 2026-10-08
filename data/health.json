@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T06:42:10Z",
+ "generated_at": "2026-10-08T14:05:00Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -213,10 +213,10 @@
    "id": "sakana",
    "name": "Sakana AI",
    "status": "healthy",
-   "detail": "最新記事 2026-09-28",
+   "detail": "最新記事 2026-10-08",
    "fail_streak": 0,
-   "latest": "2026-09-28",
-   "days_since_latest": 10,
+   "latest": "2026-10-08",
+   "days_since_latest": 0,
    "source_url": "https://sakana.ai/blog/"
   },
   {
