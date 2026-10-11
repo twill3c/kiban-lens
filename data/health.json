@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T13:34:32Z",
+ "generated_at": "2026-10-11T22:31:09Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -21,10 +21,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 195 日前(2026-03-30)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 194 日前(2026-03-31)— 一覧を拾えていない可能性",
    "fail_streak": 0,
-   "latest": "2026-03-30",
-   "days_since_latest": 195,
+   "latest": "2026-03-31",
+   "days_since_latest": 194,
    "source_url": "https://zhipuai.cn/zh/news"
   }
  ],
@@ -43,10 +43,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 195 日前(2026-03-30)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 194 日前(2026-03-31)— 一覧を拾えていない可能性",
    "fail_streak": 0,
-   "latest": "2026-03-30",
-   "days_since_latest": 195,
+   "latest": "2026-03-31",
+   "days_since_latest": 194,
    "source_url": "https://zhipuai.cn/zh/news"
   },
   {
@@ -213,10 +213,10 @@
    "id": "sakana",
    "name": "Sakana AI",
    "status": "healthy",
-   "detail": "最新記事 2026-10-09",
+   "detail": "最新記事 2026-10-12",
    "fail_streak": 0,
-   "latest": "2026-10-09",
-   "days_since_latest": 2,
+   "latest": "2026-10-12",
+   "days_since_latest": -1,
    "source_url": "https://sakana.ai/blog/"
   },
   {
