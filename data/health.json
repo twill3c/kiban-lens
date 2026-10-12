@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T06:37:16Z",
+ "generated_at": "2026-10-12T16:10:58Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -21,10 +21,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 195 日前(2026-03-31)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 196 日前(2026-03-30)— 一覧を拾えていない可能性",
    "fail_streak": 0,
-   "latest": "2026-03-31",
-   "days_since_latest": 195,
+   "latest": "2026-03-30",
+   "days_since_latest": 196,
    "source_url": "https://zhipuai.cn/zh/news"
   }
  ],
@@ -43,10 +43,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 195 日前(2026-03-31)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 196 日前(2026-03-30)— 一覧を拾えていない可能性",
    "fail_streak": 0,
-   "latest": "2026-03-31",
-   "days_since_latest": 195,
+   "latest": "2026-03-30",
+   "days_since_latest": 196,
    "source_url": "https://zhipuai.cn/zh/news"
   },
   {
@@ -163,10 +163,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "status": "healthy",
-   "detail": "最新記事 2026-09-10",
+   "detail": "最新記事 2026-10-12",
    "fail_streak": 0,
-   "latest": "2026-09-10",
-   "days_since_latest": 32,
+   "latest": "2026-10-12",
+   "days_since_latest": 0,
    "source_url": "https://news.microsoft.com/source/topics/ai/"
   },
   {
