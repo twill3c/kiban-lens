@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T12:28:17Z",
+ "generated_at": "2026-10-14T17:38:14Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -22,7 +22,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 197 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-03-31",
    "days_since_latest": 197,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -44,7 +44,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 197 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-03-31",
    "days_since_latest": 197,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -103,10 +103,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "status": "healthy",
-   "detail": "最新記事 2026-10-13",
-   "fail_streak": 2,
-   "latest": "2026-10-13",
-   "days_since_latest": 1,
+   "detail": "最新記事 2026-10-14",
+   "fail_streak": 0,
+   "latest": "2026-10-14",
+   "days_since_latest": 0,
    "source_url": "https://deepmind.google/blog/"
   },
   {
@@ -213,10 +213,10 @@
    "id": "sakana",
    "name": "Sakana AI",
    "status": "healthy",
-   "detail": "最新記事 2026-10-12",
+   "detail": "最新記事 2026-10-15",
    "fail_streak": 0,
-   "latest": "2026-10-12",
-   "days_since_latest": 2,
+   "latest": "2026-10-15",
+   "days_since_latest": -1,
    "source_url": "https://sakana.ai/blog/"
   },
   {
@@ -253,10 +253,10 @@
    "id": "xai",
    "name": "xAI",
    "status": "healthy",
-   "detail": "最新記事 2026-10-12",
+   "detail": "最新記事 2026-10-14",
    "fail_streak": 0,
-   "latest": "2026-10-12",
-   "days_since_latest": 2,
+   "latest": "2026-10-14",
+   "days_since_latest": 0,
    "source_url": "https://x.ai/news"
   }
  ]
