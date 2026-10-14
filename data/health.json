@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T17:38:14Z",
+ "generated_at": "2026-10-14T21:58:19Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -22,7 +22,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 197 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-03-31",
    "days_since_latest": 197,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -44,7 +44,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 197 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-03-31",
    "days_since_latest": 197,
    "source_url": "https://zhipuai.cn/zh/news"
