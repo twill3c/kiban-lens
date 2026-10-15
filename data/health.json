@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T12:10:13Z",
+ "generated_at": "2026-10-15T17:24:08Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -63,10 +63,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "status": "healthy",
-   "detail": "最新記事 2026-10-14",
+   "detail": "最新記事 2026-10-15",
    "fail_streak": 0,
-   "latest": "2026-10-14",
-   "days_since_latest": 1,
+   "latest": "2026-10-15",
+   "days_since_latest": 0,
    "source_url": "https://www.anthropic.com/news"
   },
   {
@@ -83,10 +83,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "status": "healthy",
-   "detail": "最新記事 2026-08-05",
+   "detail": "最新記事 2026-10-14",
    "fail_streak": 0,
-   "latest": "2026-08-05",
-   "days_since_latest": 71,
+   "latest": "2026-10-14",
+   "days_since_latest": 1,
    "source_url": "https://seed.bytedance.com/en/blog"
   },
   {
@@ -103,10 +103,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "status": "healthy",
-   "detail": "最新記事 2026-10-14",
+   "detail": "最新記事 2026-10-15",
    "fail_streak": 0,
-   "latest": "2026-10-14",
-   "days_since_latest": 1,
+   "latest": "2026-10-15",
+   "days_since_latest": 0,
    "source_url": "https://deepmind.google/blog/"
   },
   {
@@ -163,10 +163,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "status": "healthy",
-   "detail": "最新記事 2026-10-12",
+   "detail": "最新記事 2026-10-15",
    "fail_streak": 0,
-   "latest": "2026-10-12",
-   "days_since_latest": 3,
+   "latest": "2026-10-15",
+   "days_since_latest": 0,
    "source_url": "https://news.microsoft.com/source/topics/ai/"
   },
   {
@@ -193,10 +193,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-10-14",
+   "detail": "最新記事 2026-10-15",
    "fail_streak": 0,
-   "latest": "2026-10-14",
-   "days_since_latest": 1,
+   "latest": "2026-10-15",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
