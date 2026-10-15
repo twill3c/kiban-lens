@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T17:24:08Z",
+ "generated_at": "2026-10-15T21:50:38Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -83,10 +83,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "status": "healthy",
-   "detail": "最新記事 2026-10-14",
+   "detail": "最新記事 2026-08-05",
    "fail_streak": 0,
-   "latest": "2026-10-14",
-   "days_since_latest": 1,
+   "latest": "2026-08-05",
+   "days_since_latest": 71,
    "source_url": "https://seed.bytedance.com/en/blog"
   },
   {
