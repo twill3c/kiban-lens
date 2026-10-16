@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T05:08:39Z",
+ "generated_at": "2026-10-16T11:56:42Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-10-15",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-10-15",
    "days_since_latest": 1,
    "source_url": "https://deepmind.google/blog/"
