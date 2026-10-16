@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T11:56:42Z",
+ "generated_at": "2026-10-16T17:00:17Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-10-15",
-   "fail_streak": 1,
+   "fail_streak": 2,
    "latest": "2026-10-15",
    "days_since_latest": 1,
    "source_url": "https://deepmind.google/blog/"
@@ -133,10 +133,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "status": "healthy",
-   "detail": "最新記事 2026-10-09",
+   "detail": "最新記事 2026-10-16",
    "fail_streak": 0,
-   "latest": "2026-10-09",
-   "days_since_latest": 7,
+   "latest": "2026-10-16",
+   "days_since_latest": 0,
    "source_url": "https://global.fujitsu/ja-jp/pr/news"
   },
   {
@@ -234,7 +234,7 @@
    "name": "Stockmark",
    "status": "healthy",
    "detail": "最新記事 2026-10-09",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-10-09",
    "days_since_latest": 7,
    "source_url": "https://stockmark.co.jp/news"
