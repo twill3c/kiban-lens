@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T05:03:02Z",
+ "generated_at": "2026-10-17T11:12:17Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-10-15",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-10-15",
    "days_since_latest": 2,
    "source_url": "https://deepmind.google/blog/"
@@ -113,10 +113,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "status": "healthy",
-   "detail": "最新記事 2026-09-10",
+   "detail": "最新記事 2026-10-17",
    "fail_streak": 0,
-   "latest": "2026-09-10",
-   "days_since_latest": 37,
+   "latest": "2026-10-17",
+   "days_since_latest": 0,
    "source_url": "https://api-docs.deepseek.com/news/"
   },
   {
