@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T16:09:44Z",
+ "generated_at": "2026-10-18T21:05:07Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -63,10 +63,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "status": "healthy",
-   "detail": "最新記事 2026-10-15",
+   "detail": "最新記事 2026-10-18",
    "fail_streak": 0,
-   "latest": "2026-10-15",
-   "days_since_latest": 3,
+   "latest": "2026-10-18",
+   "days_since_latest": 0,
    "source_url": "https://www.anthropic.com/news"
   },
   {
