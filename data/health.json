@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T05:12:13Z",
+ "generated_at": "2026-10-18T11:46:37Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-10-15",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-10-15",
    "days_since_latest": 3,
    "source_url": "https://deepmind.google/blog/"
@@ -234,7 +234,7 @@
    "name": "Stockmark",
    "status": "healthy",
    "detail": "最新記事 2026-10-09",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-10-09",
    "days_since_latest": 9,
    "source_url": "https://stockmark.co.jp/news"
