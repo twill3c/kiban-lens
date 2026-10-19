@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T05:23:40Z",
+ "generated_at": "2026-10-19T14:02:12Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -83,10 +83,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "status": "healthy",
-   "detail": "最新記事 2026-08-05",
+   "detail": "最新記事 2026-10-14",
    "fail_streak": 0,
-   "latest": "2026-08-05",
-   "days_since_latest": 75,
+   "latest": "2026-10-14",
+   "days_since_latest": 5,
    "source_url": "https://seed.bytedance.com/en/blog"
   },
   {
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-10-15",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-10-15",
    "days_since_latest": 4,
    "source_url": "https://deepmind.google/blog/"
