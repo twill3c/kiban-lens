@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T12:18:38Z",
+ "generated_at": "2026-10-20T17:34:18Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -63,10 +63,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "status": "healthy",
-   "detail": "最新記事 2026-10-18",
+   "detail": "最新記事 2026-10-20",
    "fail_streak": 0,
-   "latest": "2026-10-18",
-   "days_since_latest": 2,
+   "latest": "2026-10-20",
+   "days_since_latest": 0,
    "source_url": "https://www.anthropic.com/news"
   },
   {
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-10-15",
-   "fail_streak": 1,
+   "fail_streak": 2,
    "latest": "2026-10-15",
    "days_since_latest": 5,
    "source_url": "https://deepmind.google/blog/"
@@ -163,10 +163,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "status": "healthy",
-   "detail": "最新記事 2026-10-15",
+   "detail": "最新記事 2026-10-20",
    "fail_streak": 0,
-   "latest": "2026-10-15",
-   "days_since_latest": 5,
+   "latest": "2026-10-20",
+   "days_since_latest": 0,
    "source_url": "https://news.microsoft.com/source/topics/ai/"
   },
   {
@@ -193,10 +193,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-10-19",
+   "detail": "最新記事 2026-10-20",
    "fail_streak": 0,
-   "latest": "2026-10-19",
-   "days_since_latest": 1,
+   "latest": "2026-10-20",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
