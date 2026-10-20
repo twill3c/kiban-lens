@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-10-20T05:24:01Z",
+ "generated_at": "2026-10-20T12:18:38Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "Advancing coding in low‑resource programming languages",
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "Expanding the Cyber Verification Program",
@@ -78,8 +78,8 @@
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
    "fetched_at": "2026-10-20T05:24:01Z",
-   "ok": true,
-   "fail_streak": 0,
+   "ok": false,
+   "fail_streak": 1,
    "last_ok_at": "2026-10-20T05:24:01Z",
    "items": [
     {
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "Introducing Grok Voice 3.0",
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "Missed a lecture? This AI agent at Bar-Ilan University helps students catch up",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real",
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
@@ -329,10 +329,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "Seed Alignment & Preparedness team looking for global talents",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "“期待尽快引入我们国家！”CVF-V20政要团组体验萝卜快跑",
@@ -437,10 +437,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "不教通关的游戏课，教你看懂世界",
@@ -473,10 +473,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "開発と運用の“架け橋”になる。Inference PFチームリーダーが考えるエンジニアの本質",
@@ -509,11 +509,16 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
+    {
+     "title": "世界初、無線基地局におけるワークロードシフトとエネルギーマネジメントの協調制御の実現に向けた実証を開始 ～再生可能エネルギー活用の最大化、電力系統安定化、および災害時の通信サービス継続に貢献～",
+     "url": "https://group.ntt/jp/newsrelease/2026/10/20/261020b.html",
+     "date": "2026-10-20"
+    },
     {
      "title": "次世代AIコンピューティングを支える光電融合デバイスの量産技術開発を本格化 ～光チップレットの革新的生産技術の研究開発がNEDO事業に採択～",
      "url": "https://group.ntt/jp/newsrelease/2026/10/20/261020a.html",
@@ -533,11 +538,6 @@
      "title": "海外スタートアップ協業推進プログラムNTT Startup Challenge",
      "url": "https://group.ntt/jp/newsrelease/2026/10/14/261014a.html",
      "date": "2026-10-14"
-    },
-    {
-     "title": "SSPP Forum #05「",
-     "url": "https://group.ntt/jp/newsrelease/2026/10/08/261008a.html",
-     "date": "2026-10-08"
     }
    ]
   },
@@ -545,10 +545,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "PFNとTenstorrent、NEDOの研究開発事業  「光電融合技術を実装したxPU設計開発」に採択 - 株式会社Preferred Networks",
@@ -581,11 +581,16 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
+    {
+     "title": "オープンエンドな探索を意思決定支援へ：推薦の質と多様性を高める「QD-Rec」を提案",
+     "url": "/qd-rec/",
+     "date": "2026-10-20"
+    },
     {
      "title": "Sakana Chatが覚えていることを見てみよう：メモリを可視化する新機能「My Fish」",
      "url": "/my-fish/",
@@ -605,11 +610,6 @@
      "title": "研究、産業実装、プロダクトの最前線へ―Sakana AIニュースレター「Sakana AI Insider」―",
      "url": "/sakana-ai-insider/",
      "date": "2026-10-08"
-    },
-    {
-     "title": "SAIL: Scaling In-Context Imitation Learning",
-     "url": "/sail/",
-     "date": "2026-09-28"
     }
    ]
   },
@@ -617,10 +617,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "ELYZA、音声対話AIエージェント「ELYZA Voice Agent」を開発　〜対話にとどまらず、その先の業務・手続きまでを一連の流れで支援〜",
@@ -653,10 +653,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "濱本 惇之介さん （愛媛大学 / NII LLMC RA）の論文が第269回 自然言語処理研究発表会において若手奨励賞を受賞",
@@ -689,10 +689,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "ABEMAオリジナルドラマ『MISS KING / ミス・キング』で主演を務めたのん、 『アジアン・アカデミー・クリエイティブ・アワード 2026』の「主演女優部門」で日本国内最優秀賞を受賞",
@@ -725,10 +725,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -761,11 +761,16 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
+    {
+     "title": "ABEJA、ENEOSホールディングスのAIガバナンス体制の強化を支援",
+     "url": "https://prtimes.jp/main/html/rd/p/000000236.000010628.html",
+     "date": "2026-10-20"
+    },
     {
      "title": "ABEJA、ヤマザキマザックと製造現場のフィジカルAI実装に向けた業務連携を開始",
      "url": "https://prtimes.jp/main/html/rd/p/000000238.000010628.html",
@@ -785,11 +790,6 @@
      "title": "ABEJA、防衛装備庁と「視覚言語行動モデルの検証及び運用基盤検討役務」の契約を締結",
      "url": "https://prtimes.jp/main/html/rd/p/000000221.000010628.html",
      "date": "2026-09-15"
-    },
-    {
-     "title": "ABEJA、三菱重工業より委託を受け、AIエージェント等を活用した無人機への自律化機能の付与に関する検証支援を開始",
-     "url": "https://prtimes.jp/main/html/rd/p/000000231.000010628.html",
-     "date": "2026-09-10"
     }
    ]
   },
@@ -797,10 +797,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-10-20T05:24:01Z",
+   "fetched_at": "2026-10-20T12:18:38Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-20T05:24:01Z",
+   "last_ok_at": "2026-10-20T12:18:38Z",
    "items": [
     {
      "title": "厚生労働省の電子カルテ標準仕様および認証制度に対応したクラウドネイティブ型電子カルテシステムの提供について",
