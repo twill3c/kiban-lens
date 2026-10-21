@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T12:28:28Z",
+ "generated_at": "2026-10-21T17:41:54Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -94,7 +94,7 @@
    "name": "CyberAgent(CALM)",
    "status": "healthy",
    "detail": "最新記事 2026-10-21",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-10-21",
    "days_since_latest": 0,
    "source_url": "https://www.cyberagent.co.jp/news/"
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-10-15",
-   "fail_streak": 1,
+   "fail_streak": 2,
    "latest": "2026-10-15",
    "days_since_latest": 6,
    "source_url": "https://deepmind.google/blog/"
@@ -144,7 +144,7 @@
    "name": "LLM-jp(国立情報学研究所)",
    "status": "healthy",
    "detail": "最新記事 2026-10-21",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-10-21",
    "days_since_latest": 0,
    "source_url": "https://llm-jp.nii.ac.jp/news/"
@@ -163,10 +163,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "status": "healthy",
-   "detail": "最新記事 2026-10-20",
+   "detail": "最新記事 2026-10-21",
    "fail_streak": 0,
-   "latest": "2026-10-20",
-   "days_since_latest": 1,
+   "latest": "2026-10-21",
+   "days_since_latest": 0,
    "source_url": "https://news.microsoft.com/source/topics/ai/"
   },
   {
@@ -193,10 +193,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-10-20",
+   "detail": "最新記事 2026-10-21",
    "fail_streak": 0,
-   "latest": "2026-10-20",
-   "days_since_latest": 1,
+   "latest": "2026-10-21",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {

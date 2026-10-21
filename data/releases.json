@@ -1,39 +1,39 @@
 {
- "generated_at": "2026-10-21T12:28:28Z",
+ "generated_at": "2026-10-21T17:41:54Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
-     "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-     "url": "https://openai.com/index/ted-taylor-restaurant",
-     "date": "2026-10-20"
+     "title": "OpenAI models are coming to Google Cloud",
+     "url": "https://openai.com/index/openai-models-google-cloud",
+     "date": "2026-10-21"
     },
     {
-     "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-     "url": "https://openai.com/index/terminal-x",
-     "date": "2026-10-20"
+     "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+     "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+     "date": "2026-10-21"
     },
     {
-     "title": "OpenAI acquires Orchestra Bio",
-     "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-     "date": "2026-10-20"
+     "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+     "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+     "date": "2026-10-21"
     },
     {
-     "title": "Advancing coding in low‑resource programming languages",
-     "url": "https://openai.com/index/low-resource-programming-languages",
-     "date": "2026-10-19"
+     "title": "Using thousands of AI agents to uncover new leads in biological data",
+     "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+     "date": "2026-10-21"
     },
     {
-     "title": "How Itaú is building generative AI for its entire customer base",
-     "url": "https://openai.com/index/itau-generative-ai",
-     "date": "2026-10-16"
+     "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+     "url": "https://openai.com/index/building-chatgpt-ad-stack",
+     "date": "2026-10-21"
     }
    ]
   },
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "Announcements",
@@ -79,7 +79,7 @@
    "source_url": "https://deepmind.google/blog/",
    "fetched_at": "2026-10-21T05:22:15Z",
    "ok": false,
-   "fail_streak": 1,
+   "fail_streak": 2,
    "last_ok_at": "2026-10-21T05:22:15Z",
    "items": [
     {
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "Introducing Grok Voice 3.0",
@@ -185,11 +185,16 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
+    {
+     "title": "Before the ambulance arrives: How AI is helping the NHS rethink patient care",
+     "url": "https://news.microsoft.com/source/emea/features/before-the-ambulance-arrives-how-ai-is-helping-the-nhs-rethink-patient-care/",
+     "date": "2026-10-21"
+    },
     {
      "title": "A concrete vision: Saint-Gobain and Microsoft Discovery build for the future",
      "url": "https://news.microsoft.com/source/emea/features/a-concrete-vision-saint-gobain-and-microsoft-discovery-build-for-the-future/",
@@ -199,11 +204,6 @@
      "title": "Missed a lecture? This AI agent at Bar-Ilan University helps students catch up",
      "url": "https://news.microsoft.com/source/emea/features/missed-a-lecture-this-ai-agent-at-bar-ilan-university-helps-students-catch-up/",
      "date": "2026-10-15"
-    },
-    {
-     "title": "Introducing Microsoft’s latest custom chip: Maia 300",
-     "url": "https://news.microsoft.com/maia-2026/",
-     "date": "2026-10-12"
     },
     {
      "title": "What if everything changes tomorrow? A Canadian company is using AI to help businesses navigate supply chain uncertainty",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real",
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
@@ -329,10 +329,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
@@ -347,7 +347,7 @@
     {
      "title": "中关村自主大模型产业联盟第一次会员大会 结果公示",
      "url": "https://zhipuai.cn/zh/news/97",
-     "date": ""
+     "date": "2025-08-25"
     },
     {
      "title": "GLM-PC 基座模型，CogAgent-9B 开源",
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "Seed Alignment & Preparedness team looking for global talents",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "“期待尽快引入我们国家！”CVF-V20政要团组体验萝卜快跑",
@@ -437,15 +437,20 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "不教通关的游戏课，教你看懂世界",
      "url": "https://www.tencent.com/zh-cn/the-professor-who-teaches-students-to-read-games-not-win-them/",
      "date": "2026-10-15"
+    },
+    {
+     "title": "你用多款App搞定工作，你的AI也应如此",
+     "url": "https://www.tencent.com/zh-cn/you-work-across-six-apps-your-ai-should-too/",
+     "date": "2026-10-12"
     },
     {
      "title": "四项创新，让海外游客在中国宾至如归",
@@ -461,11 +466,6 @@
      "title": "腾讯电竞竞赛解决方案将为第20届亚运会电竞项目提供技术支持",
      "url": "https://www.tencent.com/zh-cn/tencent-esports-competition-solution-to-support-esports-at-the-20th-asian-games/",
      "date": "2026-09-22"
-    },
-    {
-     "title": "“AI for All”倡议助力香港师生提升AI实践技能",
-     "url": "https://www.tencent.com/zh-cn/ai-for-all-initiative-to-build-practical-ai-skills-for-students-and-teachers-in-hong-kong/",
-     "date": "2026-09-16"
     }
    ]
   },
@@ -473,10 +473,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "開発と運用の“架け橋”になる。Inference PFチームリーダーが考えるエンジニアの本質",
@@ -509,10 +509,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "品川港南エリアにおいて自然資本モニタリングソリューションを活用しエコロジカルネットワークの形成を確認 ～生物多様性に配慮した街づくりを推進～",
@@ -545,10 +545,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "PFNとTenstorrent、NEDOの研究開発事業  「光電融合技術を実装したxPU設計開発」に採択 - 株式会社Preferred Networks",
@@ -581,10 +581,10 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "【イベントレポート】Sakana AI Engineer Open House 2026",
@@ -617,10 +617,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "ELYZA、音声対話AIエージェント「ELYZA Voice Agent」を開発　〜対話にとどまらず、その先の業務・手続きまでを一連の流れで支援〜",
@@ -653,10 +653,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-10-21T05:22:15Z",
-   "ok": false,
-   "fail_streak": 1,
-   "last_ok_at": "2026-10-21T05:22:15Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
+   "ok": true,
+   "fail_streak": 0,
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "第33回LLM勉強会",
@@ -690,8 +690,8 @@
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
    "fetched_at": "2026-10-21T12:28:28Z",
-   "ok": true,
-   "fail_streak": 0,
+   "ok": false,
+   "fail_streak": 1,
    "last_ok_at": "2026-10-21T12:28:28Z",
    "items": [
     {
@@ -725,10 +725,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -761,10 +761,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "ABEJA、ENEOSホールディングスのAIガバナンス体制の強化を支援",
@@ -797,10 +797,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-10-21T12:28:28Z",
+   "fetched_at": "2026-10-21T17:41:54Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-21T12:28:28Z",
+   "last_ok_at": "2026-10-21T17:41:54Z",
    "items": [
     {
      "title": "富士通、名古屋大学、JAMSTEC、NICTら、太陽高エネルギー粒子シミュレーションの精度を高めるパラメータを、数理最適化で自動決定する技術を開発",
