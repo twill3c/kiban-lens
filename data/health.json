@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T12:31:04Z",
+ "generated_at": "2026-10-22T17:40:11Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -22,7 +22,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 205 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-03-31",
    "days_since_latest": 205,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -44,7 +44,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 205 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-03-31",
    "days_since_latest": 205,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -64,7 +64,7 @@
    "name": "Anthropic",
    "status": "healthy",
    "detail": "最新記事 2026-10-21",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-10-21",
    "days_since_latest": 1,
    "source_url": "https://www.anthropic.com/news"
@@ -103,10 +103,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "status": "healthy",
-   "detail": "最新記事 2026-10-15",
-   "fail_streak": 2,
-   "latest": "2026-10-15",
-   "days_since_latest": 7,
+   "detail": "最新記事 2026-10-22",
+   "fail_streak": 0,
+   "latest": "2026-10-22",
+   "days_since_latest": 0,
    "source_url": "https://deepmind.google/blog/"
   },
   {
@@ -193,10 +193,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-10-21",
+   "detail": "最新記事 2026-10-22",
    "fail_streak": 0,
-   "latest": "2026-10-21",
-   "days_since_latest": 1,
+   "latest": "2026-10-22",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
@@ -253,10 +253,10 @@
    "id": "xai",
    "name": "xAI",
    "status": "healthy",
-   "detail": "最新記事 2026-10-20",
+   "detail": "最新記事 2026-10-22",
    "fail_streak": 0,
-   "latest": "2026-10-20",
-   "days_since_latest": 2,
+   "latest": "2026-10-22",
+   "days_since_latest": 0,
    "source_url": "https://x.ai/news"
   }
  ]
