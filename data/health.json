@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T12:22:18Z",
+ "generated_at": "2026-10-23T17:40:28Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-10-22",
-   "fail_streak": 1,
+   "fail_streak": 2,
    "latest": "2026-10-22",
    "days_since_latest": 1,
    "source_url": "https://deepmind.google/blog/"
@@ -173,10 +173,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "status": "healthy",
-   "detail": "最新記事 2026-07-22",
+   "detail": "最新記事 2026-10-24",
    "fail_streak": 0,
-   "latest": "2026-07-22",
-   "days_since_latest": 93,
+   "latest": "2026-10-24",
+   "days_since_latest": -1,
    "source_url": "https://www.kimi.ai/blog/"
   },
   {
@@ -243,10 +243,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "healthy",
-   "detail": "最新記事 2026-10-15",
+   "detail": "最新記事 2026-10-23",
    "fail_streak": 0,
-   "latest": "2026-10-15",
-   "days_since_latest": 8,
+   "latest": "2026-10-23",
+   "days_since_latest": 0,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
   },
   {
