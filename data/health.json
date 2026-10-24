@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T11:40:22Z",
+ "generated_at": "2026-10-24T16:17:15Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -21,10 +21,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 663 日前(2024-12-30)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 425 日前(2025-08-25)— 一覧を拾えていない可能性",
    "fail_streak": 0,
-   "latest": "2024-12-30",
-   "days_since_latest": 663,
+   "latest": "2025-08-25",
+   "days_since_latest": 425,
    "source_url": "https://zhipuai.cn/zh/news"
   }
  ],
@@ -43,10 +43,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 663 日前(2024-12-30)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 425 日前(2025-08-25)— 一覧を拾えていない可能性",
    "fail_streak": 0,
-   "latest": "2024-12-30",
-   "days_since_latest": 663,
+   "latest": "2025-08-25",
+   "days_since_latest": 425,
    "source_url": "https://zhipuai.cn/zh/news"
   },
   {
