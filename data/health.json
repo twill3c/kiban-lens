@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T13:37:59Z",
+ "generated_at": "2026-10-26T22:53:50Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-10-22",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-10-22",
    "days_since_latest": 4,
    "source_url": "https://deepmind.google/blog/"
@@ -193,10 +193,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-10-23",
+   "detail": "最新記事 2026-10-26",
    "fail_streak": 0,
-   "latest": "2026-10-23",
-   "days_since_latest": 3,
+   "latest": "2026-10-26",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
