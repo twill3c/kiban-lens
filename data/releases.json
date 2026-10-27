@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-10-26T22:53:50Z",
+ "generated_at": "2026-10-27T05:41:45Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "Announcements",
@@ -78,8 +78,8 @@
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
    "fetched_at": "2026-10-26T22:53:50Z",
-   "ok": true,
-   "fail_streak": 0,
+   "ok": false,
+   "fail_streak": 1,
    "last_ok_at": "2026-10-26T22:53:50Z",
    "items": [
     {
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "Introducing Grok Voice 3.0",
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "Before the ambulance arrives: How AI is helping the NHS rethink patient care",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real",
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
@@ -329,10 +329,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "Seed Alignment & Preparedness team looking for global talents",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "“期待尽快引入我们国家！”CVF-V20政要团组体验萝卜快跑",
@@ -437,10 +437,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "你的AI新同事，还带了几个朋友来上班",
@@ -473,10 +473,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "開発と運用の“架け橋”になる。Inference PFチームリーダーが考えるエンジニアの本質",
@@ -509,10 +509,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "指示に従った発話や必要な情報の自動取得を行い、人間の様に自然な対話ができる音声対話技術を確立 ～コールセンタの応対品質向上とオペレータ負荷軽減をめざす～",
@@ -545,11 +545,16 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
+    {
+     "title": "国産生成AI基盤モデルPLaMo PrimeにWeb検索・Deep Research搭載 調査計画の立案から出典付きレポートまで自律的に実行、オンプレミスにも対応 - 株式会社Preferred Networks",
+     "url": "https://www.preferred.jp/ja/news/pr20261027",
+     "date": "2026-10-27"
+    },
     {
      "title": "日本総研とPFN、国産大規模言語モデル「PLaMo」のライセンス契約を締結 - 株式会社Preferred Networks",
      "url": "https://www.preferred.jp/ja/news/pr20261026",
@@ -569,11 +574,6 @@
      "title": "PFN、AI翻訳サービス PLaMo翻訳を大型アップデート、 世界最先端AIモデルと同等の日本語翻訳精度を大幅に低いコストで実現 - 株式会社Preferred Networks",
      "url": "https://www.preferred.jp/ja/news/pr20261007",
      "date": "2026-10-07"
-    },
-    {
-     "title": "PFN、Microsoft Foundryで国産生成AI基盤モデル  PLaMo 3.0 PrimeおよびPLaMo翻訳を提供開始 - 株式会社Preferred Networks",
-     "url": "https://www.preferred.jp/ja/news/pr20261006",
-     "date": "2026-10-06"
     }
    ]
   },
@@ -581,11 +581,16 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
+    {
+     "title": "Taking Japan-Born AI Products to the World: An Interview with Sakana AI’s VP of GTM",
+     "url": "/vp-of-gtm-interview/",
+     "date": "2026-10-27"
+    },
     {
      "title": "オントロジーを基盤に、意思決定・実行を支援するAIエージェントプラットフォーム「Sakana Aquarium」",
      "url": "/aquarium-release/",
@@ -605,11 +610,6 @@
      "title": "Sakana Chatが覚えていることを見てみよう：メモリを可視化する新機能「My Fish」",
      "url": "/my-fish/",
      "date": "2026-10-15"
-    },
-    {
-     "title": "Recursive Self-Improvement through Collective Intelligence",
-     "url": "/mass/",
-     "date": "2026-10-12"
     }
    ]
   },
@@ -617,11 +617,16 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
+    {
+     "title": "フィジカルAIを推進する新会社「ELYZA Robotics」事業開始 〜2030年度までに研究開発へ300億円を投資、ロボット1,000台以上の導入を目指す〜",
+     "url": "https://elyza.ai/news/2026/10/27/elyza_robotics",
+     "date": "2026-10-27"
+    },
     {
      "title": "ELYZA、音声対話AIエージェント「ELYZA Voice Agent」を開発　〜対話にとどまらず、その先の業務・手続きまでを一連の流れで支援〜",
      "url": "https://elyza.ai/news/2026/10/02/voiceagent",
@@ -641,11 +646,6 @@
      "title": "ELYZA Works「AIエージェントからのアプリ作成機能」を提供開始",
      "url": "https://elyza.ai/news/2026/08/31/works_feature_appcreation_viaaiagents",
      "date": "2026-08-31"
-    },
-    {
-     "title": "ELYZA Works、アルティウスリンク株式会社の導入事例記事を公開",
-     "url": "https://elyza.ai/news/2026/07/13/works_case_altiuslink",
-     "date": "2026-07-13"
     }
    ]
   },
@@ -653,10 +653,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "【LLM-jpの活用例：医療AIエージェントの開発】",
@@ -689,11 +689,16 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
+    {
+     "title": "AWA、学生の「はじめての音楽サブスク」を目指し「ABEMA（アベマ）」のブランド名を冠した「AWA」の兄弟アプリ「ABEMA MUSIC by AWA」を提供開始",
+     "url": "https://www.cyberagent.co.jp/news/detail/id=33932",
+     "date": "2026-10-27"
+    },
     {
      "title": "麒麟・川島明MC！週末深夜に心を軽くする、SNS時代の“本音解放トークバラエティ”『裏垢ウララカ』11月28日（土）夜11時より「ABEMA」にてシーズン1の放送決定",
      "url": "https://www.cyberagent.co.jp/news/detail/id=33934",
@@ -713,11 +718,6 @@
      "title": "ABEMAオリジナルドラマ『MISS KING / ミス・キング』で主演を務めたのん、 『アジアン・アカデミー・クリエイティブ・アワード 2026』の「主演女優部門」で日本国内最優秀賞を受賞",
      "url": "https://www.cyberagent.co.jp/news/detail/id=33921",
      "date": "2026-10-20"
-    },
-    {
-     "title": "日本最大の小学生向けプログラミングコンテスト 「Tech Kids Grand Prix 2026」Supported by Cygames  応募総数が過去最多の11,807件に",
-     "url": "https://www.cyberagent.co.jp/news/detail/id=33919",
-     "date": "2026-10-19"
     }
    ]
   },
@@ -725,10 +725,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -761,10 +761,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "ABEJA、元日銀理事 清水 季子氏及び元駐マレーシア特命全権大使 宮川 眞喜雄氏を社外取締役候補者に選任",
@@ -797,10 +797,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-10-26T22:53:50Z",
+   "fetched_at": "2026-10-27T05:41:45Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-10-26T22:53:50Z",
+   "last_ok_at": "2026-10-27T05:41:45Z",
    "items": [
     {
      "title": "富士通、ミスミ様のECサイト向け商品情報管理にマルチAIエージェントを導入",
