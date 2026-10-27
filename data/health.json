@@ -1,12 +1,22 @@
 {
- "generated_at": "2026-10-27T18:28:03Z",
- "healthy": 21,
+ "generated_at": "2026-10-27T22:39:35Z",
+ "healthy": 20,
  "total": 23,
  "thresholds": {
   "fail_streak_alert": 4,
   "stale_days": 120
  },
  "issues": [
+  {
+   "id": "deepmind",
+   "name": "Google DeepMind",
+   "status": "failing",
+   "detail": "4 回連続で取得に失敗(最後の成功: 2026-10-26)",
+   "fail_streak": 4,
+   "latest": "2026-10-22",
+   "days_since_latest": 5,
+   "source_url": "https://deepmind.google/blog/"
+  },
   {
    "id": "qwen",
    "name": "Alibaba(Qwen)",
@@ -29,6 +39,16 @@
   }
  ],
  "companies": [
+  {
+   "id": "deepmind",
+   "name": "Google DeepMind",
+   "status": "failing",
+   "detail": "4 回連続で取得に失敗(最後の成功: 2026-10-26)",
+   "fail_streak": 4,
+   "latest": "2026-10-22",
+   "days_since_latest": 5,
+   "source_url": "https://deepmind.google/blog/"
+  },
   {
    "id": "qwen",
    "name": "Alibaba(Qwen)",
@@ -63,10 +83,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "status": "healthy",
-   "detail": "最新記事 2026-10-26",
+   "detail": "最新記事 2026-10-27",
    "fail_streak": 0,
-   "latest": "2026-10-26",
-   "days_since_latest": 1,
+   "latest": "2026-10-27",
+   "days_since_latest": 0,
    "source_url": "https://www.anthropic.com/news"
   },
   {
@@ -98,16 +118,6 @@
    "latest": "2026-10-27",
    "days_since_latest": 0,
    "source_url": "https://www.cyberagent.co.jp/news/"
-  },
-  {
-   "id": "deepmind",
-   "name": "Google DeepMind",
-   "status": "healthy",
-   "detail": "最新記事 2026-10-22",
-   "fail_streak": 3,
-   "latest": "2026-10-22",
-   "days_since_latest": 5,
-   "source_url": "https://deepmind.google/blog/"
   },
   {
    "id": "deepseek",
