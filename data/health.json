@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-27T22:39:35Z",
- "healthy": 20,
+ "generated_at": "2026-10-28T06:21:18Z",
+ "healthy": 21,
  "total": 23,
  "thresholds": {
   "fail_streak_alert": 4,
@@ -8,65 +8,45 @@
  },
  "issues": [
   {
-   "id": "deepmind",
-   "name": "Google DeepMind",
-   "status": "failing",
-   "detail": "4 回連続で取得に失敗(最後の成功: 2026-10-26)",
-   "fail_streak": 4,
-   "latest": "2026-10-22",
-   "days_since_latest": 5,
-   "source_url": "https://deepmind.google/blog/"
-  },
-  {
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "status": "stale",
-   "detail": "最新記事が 399 日前(2025-09-23)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 400 日前(2025-09-23)— 一覧を拾えていない可能性",
    "fail_streak": 0,
    "latest": "2025-09-23",
-   "days_since_latest": 399,
+   "days_since_latest": 400,
    "source_url": "https://qwen.ai/blog"
   },
   {
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 210 日前(2026-03-31)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 211 日前(2026-03-31)— 一覧を拾えていない可能性",
    "fail_streak": 0,
    "latest": "2026-03-31",
-   "days_since_latest": 210,
+   "days_since_latest": 211,
    "source_url": "https://zhipuai.cn/zh/news"
   }
  ],
  "companies": [
   {
-   "id": "deepmind",
-   "name": "Google DeepMind",
-   "status": "failing",
-   "detail": "4 回連続で取得に失敗(最後の成功: 2026-10-26)",
-   "fail_streak": 4,
-   "latest": "2026-10-22",
-   "days_since_latest": 5,
-   "source_url": "https://deepmind.google/blog/"
-  },
-  {
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "status": "stale",
-   "detail": "最新記事が 399 日前(2025-09-23)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 400 日前(2025-09-23)— 一覧を拾えていない可能性",
    "fail_streak": 0,
    "latest": "2025-09-23",
-   "days_since_latest": 399,
+   "days_since_latest": 400,
    "source_url": "https://qwen.ai/blog"
   },
   {
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "status": "stale",
-   "detail": "最新記事が 210 日前(2026-03-31)— 一覧を拾えていない可能性",
+   "detail": "最新記事が 211 日前(2026-03-31)— 一覧を拾えていない可能性",
    "fail_streak": 0,
    "latest": "2026-03-31",
-   "days_since_latest": 210,
+   "days_since_latest": 211,
    "source_url": "https://zhipuai.cn/zh/news"
   },
   {
@@ -76,7 +56,7 @@
    "detail": "最新記事 2026-10-22",
    "fail_streak": 0,
    "latest": "2026-10-22",
-   "days_since_latest": 5,
+   "days_since_latest": 6,
    "source_url": "https://www.abejainc.com/news"
   },
   {
@@ -86,7 +66,7 @@
    "detail": "最新記事 2026-10-27",
    "fail_streak": 0,
    "latest": "2026-10-27",
-   "days_since_latest": 0,
+   "days_since_latest": 1,
    "source_url": "https://www.anthropic.com/news"
   },
   {
@@ -96,7 +76,7 @@
    "detail": "最新記事 2026-09-13",
    "fail_streak": 0,
    "latest": "2026-09-13",
-   "days_since_latest": 44,
+   "days_since_latest": 45,
    "source_url": "https://home.baidu.com/home/index/news_list"
   },
   {
@@ -106,18 +86,28 @@
    "detail": "最新記事 2026-10-14",
    "fail_streak": 0,
    "latest": "2026-10-14",
-   "days_since_latest": 13,
+   "days_since_latest": 14,
    "source_url": "https://seed.bytedance.com/en/blog"
   },
   {
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "status": "healthy",
+   "detail": "最新記事 2026-10-28",
+   "fail_streak": 0,
+   "latest": "2026-10-28",
+   "days_since_latest": 0,
+   "source_url": "https://www.cyberagent.co.jp/news/"
+  },
+  {
+   "id": "deepmind",
+   "name": "Google DeepMind",
+   "status": "healthy",
    "detail": "最新記事 2026-10-27",
    "fail_streak": 0,
    "latest": "2026-10-27",
-   "days_since_latest": 0,
-   "source_url": "https://www.cyberagent.co.jp/news/"
+   "days_since_latest": 1,
+   "source_url": "https://deepmind.google/blog/"
   },
   {
    "id": "deepseek",
@@ -126,7 +116,7 @@
    "detail": "最新記事 2026-10-17",
    "fail_streak": 0,
    "latest": "2026-10-17",
-   "days_since_latest": 10,
+   "days_since_latest": 11,
    "source_url": "https://api-docs.deepseek.com/news/"
   },
   {
@@ -136,7 +126,7 @@
    "detail": "最新記事 2026-10-27",
    "fail_streak": 0,
    "latest": "2026-10-27",
-   "days_since_latest": 0,
+   "days_since_latest": 1,
    "source_url": "https://elyza.ai/news"
   },
   {
@@ -146,7 +136,7 @@
    "detail": "最新記事 2026-10-27",
    "fail_streak": 0,
    "latest": "2026-10-27",
-   "days_since_latest": 0,
+   "days_since_latest": 1,
    "source_url": "https://global.fujitsu/ja-jp/pr/news"
   },
   {
@@ -156,7 +146,7 @@
    "detail": "最新記事 2026-10-27",
    "fail_streak": 0,
    "latest": "2026-10-27",
-   "days_since_latest": 0,
+   "days_since_latest": 1,
    "source_url": "https://llm-jp.nii.ac.jp/news/"
   },
   {
@@ -166,7 +156,7 @@
    "detail": "最新記事 2026-07-27",
    "fail_streak": 0,
    "latest": "2026-07-27",
-   "days_since_latest": 92,
+   "days_since_latest": 93,
    "source_url": "https://ai.meta.com/blog/"
   },
   {
@@ -176,7 +166,7 @@
    "detail": "最新記事 2026-10-21",
    "fail_streak": 0,
    "latest": "2026-10-21",
-   "days_since_latest": 6,
+   "days_since_latest": 7,
    "source_url": "https://news.microsoft.com/source/topics/ai/"
   },
   {
@@ -186,7 +176,7 @@
    "detail": "最新記事 2026-10-24",
    "fail_streak": 0,
    "latest": "2026-10-24",
-   "days_since_latest": 3,
+   "days_since_latest": 4,
    "source_url": "https://www.kimi.ai/blog/"
   },
   {
@@ -196,7 +186,7 @@
    "detail": "最新記事 2026-10-27",
    "fail_streak": 0,
    "latest": "2026-10-27",
-   "days_since_latest": 0,
+   "days_since_latest": 1,
    "source_url": "https://group.ntt/jp/newsrelease/"
   },
   {
@@ -206,7 +196,7 @@
    "detail": "最新記事 2026-10-27",
    "fail_streak": 0,
    "latest": "2026-10-27",
-   "days_since_latest": 0,
+   "days_since_latest": 1,
    "source_url": "https://openai.com/news/"
   },
   {
@@ -216,7 +206,7 @@
    "detail": "最新記事 2026-10-27",
    "fail_streak": 0,
    "latest": "2026-10-27",
-   "days_since_latest": 0,
+   "days_since_latest": 1,
    "source_url": "https://www.preferred.jp/ja/news/"
   },
   {
@@ -226,7 +216,7 @@
    "detail": "最新記事 2026-10-27",
    "fail_streak": 0,
    "latest": "2026-10-27",
-   "days_since_latest": 0,
+   "days_since_latest": 1,
    "source_url": "https://sakana.ai/blog/"
   },
   {
@@ -236,7 +226,7 @@
    "detail": "最新記事 2026-10-06",
    "fail_streak": 0,
    "latest": "2026-10-06",
-   "days_since_latest": 21,
+   "days_since_latest": 22,
    "source_url": "https://www.sbintuitions.co.jp/news/"
   },
   {
@@ -246,7 +236,7 @@
    "detail": "最新記事 2026-10-09",
    "fail_streak": 0,
    "latest": "2026-10-09",
-   "days_since_latest": 18,
+   "days_since_latest": 19,
    "source_url": "https://stockmark.co.jp/news"
   },
   {
@@ -256,7 +246,7 @@
    "detail": "最新記事 2026-10-23",
    "fail_streak": 0,
    "latest": "2026-10-23",
-   "days_since_latest": 4,
+   "days_since_latest": 5,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
   },
   {
@@ -266,7 +256,7 @@
    "detail": "最新記事 2026-10-27",
    "fail_streak": 0,
    "latest": "2026-10-27",
-   "days_since_latest": 0,
+   "days_since_latest": 1,
    "source_url": "https://x.ai/news"
   }
  ]
