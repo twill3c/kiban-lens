@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T13:35:40Z",
+ "generated_at": "2026-10-28T22:53:22Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -63,10 +63,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "status": "healthy",
-   "detail": "最新記事 2026-10-27",
+   "detail": "最新記事 2026-10-28",
    "fail_streak": 0,
-   "latest": "2026-10-27",
-   "days_since_latest": 1,
+   "latest": "2026-10-28",
+   "days_since_latest": 0,
    "source_url": "https://www.anthropic.com/news"
   },
   {
@@ -103,10 +103,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "status": "healthy",
-   "detail": "最新記事 2026-10-27",
+   "detail": "最新記事 2026-10-28",
    "fail_streak": 0,
-   "latest": "2026-10-27",
-   "days_since_latest": 1,
+   "latest": "2026-10-28",
+   "days_since_latest": 0,
    "source_url": "https://deepmind.google/blog/"
   },
   {
