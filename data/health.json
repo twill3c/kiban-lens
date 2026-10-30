@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T06:31:42Z",
+ "generated_at": "2026-10-30T13:38:50Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -133,10 +133,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "status": "healthy",
-   "detail": "最新記事 2026-10-27",
+   "detail": "最新記事 2026-10-30",
    "fail_streak": 0,
-   "latest": "2026-10-27",
-   "days_since_latest": 3,
+   "latest": "2026-10-30",
+   "days_since_latest": 0,
    "source_url": "https://global.fujitsu/ja-jp/pr/news"
   },
   {
