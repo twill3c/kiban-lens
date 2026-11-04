@@ -1,15 +1,25 @@
 {
- "generated_at": "2026-11-04T07:00:22Z",
+ "generated_at": "2026-11-04T20:04:49Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
+    {
+     "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+     "url": "https://openai.com/index/openai-to-acquire-pierre",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+     "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+     "date": "2026-11-04"
+    },
     {
      "title": "Accelerating engineering for the physical world",
      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
@@ -24,16 +34,6 @@
      "title": "Heimstaden is changing residential real estate management with AI",
      "url": "https://openai.com/index/heimstaden",
      "date": "2026-11-03"
-    },
-    {
-     "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-     "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
-     "date": "2026-11-03"
-    },
-    {
-     "title": "Scaling Git at OpenAI",
-     "url": "https://openai.com/index/scaling-git-at-openai",
-     "date": "2026-11-02"
     }
    ]
   },
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "Announcements",
@@ -78,8 +78,8 @@
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
    "fetched_at": "2026-11-04T07:00:22Z",
-   "ok": true,
-   "fail_streak": 0,
+   "ok": false,
+   "fail_streak": 1,
    "last_ok_at": "2026-11-04T07:00:22Z",
    "items": [
     {
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "Introducing Grok Voice 3.0",
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "Before the ambulance arrives: How AI is helping the NHS rethink patient care",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real",
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
@@ -329,10 +329,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "Seed Alignment & Preparedness team looking for global talents",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "“期待尽快引入我们国家！”CVF-V20政要团组体验萝卜快跑",
@@ -437,10 +437,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "腾讯云加速国际化增长，推进企业级AI落地并拓展全球合作",
@@ -473,10 +473,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "開発と運用の“架け橋”になる。Inference PFチームリーダーが考えるエンジニアの本質",
@@ -509,10 +509,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "2026年度 第2四半期決算について",
@@ -545,10 +545,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "PFN、スーパーコンピュータの国際会議SC26にMN-Coreシリーズを出展 - 株式会社Preferred Networks",
@@ -581,10 +581,10 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "【開催レポート】Sakana AIシンポジウム：Jürgen Schmidhuberが語るAIのこれまでとこれから、日本から挑む言語モデル・世界モデル・Physical AI",
@@ -617,10 +617,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "フィジカルAIを推進する新会社「ELYZA Robotics」事業開始 〜2030年度までに研究開発へ300億円を投資、ロボット1,000台以上の導入を目指す〜",
@@ -653,10 +653,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "サーバーメンテナンスのお知らせ",
@@ -689,10 +689,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "2026年9月期 通期決算発表のお知らせ",
@@ -725,10 +725,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -761,10 +761,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
     {
      "title": "ABEJA、IDOMの中古車販売における調達・営業業務にAIエージェントを実装",
@@ -797,11 +797,16 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-11-04T07:00:22Z",
+   "fetched_at": "2026-11-04T20:04:49Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-04T07:00:22Z",
+   "last_ok_at": "2026-11-04T20:04:49Z",
    "items": [
+    {
+     "title": "COP31で気候変動への取り組みを支えるテクノロジーとオファリングを紹介",
+     "url": "https://prtimes.jp/main/html/rd/p/000000633.000093942.html",
+     "date": "2026-11-04"
+    },
     {
      "title": "家電業界全体の外装汚破損基準の明確化・標準化とAIを活用した外装汚破損判定実現による持ち戻り削減に向けた実証実験を開始",
      "url": "https://prtimes.jp/main/html/rd/p/000000630.000093942.html",
@@ -821,11 +826,6 @@
      "title": "富士通、ドローン配送に関する社会受容性の研究成果を起点に、次世代ロジスティクスの社会実装を加速",
      "url": "https://prtimes.jp/main/html/rd/p/000000627.000093942.html",
      "date": "2026-10-27"
-    },
-    {
-     "title": "富士通、ミスミ様のECサイト向け商品情報管理にマルチAIエージェントを導入",
-     "url": "https://prtimes.jp/main/html/rd/p/000000625.000093942.html",
-     "date": "2026-10-22"
     }
    ]
   }

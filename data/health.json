@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T07:00:22Z",
+ "generated_at": "2026-11-04T20:04:49Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-11-03",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-11-03",
    "days_since_latest": 1,
    "source_url": "https://deepmind.google/blog/"
@@ -133,10 +133,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "status": "healthy",
-   "detail": "最新記事 2026-11-02",
+   "detail": "最新記事 2026-11-04",
    "fail_streak": 0,
-   "latest": "2026-11-02",
-   "days_since_latest": 2,
+   "latest": "2026-11-04",
+   "days_since_latest": 0,
    "source_url": "https://global.fujitsu/ja-jp/pr/news"
   },
   {
@@ -193,10 +193,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-11-03",
+   "detail": "最新記事 2026-11-04",
    "fail_streak": 0,
-   "latest": "2026-11-03",
-   "days_since_latest": 1,
+   "latest": "2026-11-04",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
