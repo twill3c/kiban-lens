@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T13:36:08Z",
+ "generated_at": "2026-11-07T22:21:34Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -234,7 +234,7 @@
    "name": "Stockmark",
    "status": "healthy",
    "detail": "最新記事 2026-10-09",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-10-09",
    "days_since_latest": 29,
    "source_url": "https://stockmark.co.jp/news"
