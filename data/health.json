@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T07:15:38Z",
+ "generated_at": "2026-11-09T22:44:30Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -63,10 +63,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "status": "healthy",
-   "detail": "最新記事 2026-10-29",
+   "detail": "最新記事 2026-11-09",
    "fail_streak": 0,
-   "latest": "2026-10-29",
-   "days_since_latest": 11,
+   "latest": "2026-11-09",
+   "days_since_latest": 0,
    "source_url": "https://www.anthropic.com/news"
   },
   {
@@ -83,20 +83,20 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "status": "healthy",
-   "detail": "最新記事 2026-10-14",
+   "detail": "最新記事 2026-11-09",
    "fail_streak": 0,
-   "latest": "2026-10-14",
-   "days_since_latest": 26,
+   "latest": "2026-11-09",
+   "days_since_latest": 0,
    "source_url": "https://seed.bytedance.com/en/blog"
   },
   {
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "status": "healthy",
-   "detail": "最新記事 2026-11-06",
+   "detail": "最新記事 2026-11-09",
    "fail_streak": 0,
-   "latest": "2026-11-06",
-   "days_since_latest": 3,
+   "latest": "2026-11-09",
+   "days_since_latest": 0,
    "source_url": "https://www.cyberagent.co.jp/news/"
   },
   {
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-11-05",
-   "fail_streak": 3,
+   "fail_streak": 0,
    "latest": "2026-11-05",
    "days_since_latest": 4,
    "source_url": "https://deepmind.google/blog/"
@@ -193,10 +193,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-11-06",
+   "detail": "最新記事 2026-11-09",
    "fail_streak": 0,
-   "latest": "2026-11-06",
-   "days_since_latest": 3,
+   "latest": "2026-11-09",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
