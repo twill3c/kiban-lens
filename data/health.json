@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T07:47:47Z",
+ "generated_at": "2026-11-10T20:02:16Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -63,10 +63,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "status": "healthy",
-   "detail": "最新記事 2026-11-09",
+   "detail": "最新記事 2026-11-10",
    "fail_streak": 0,
-   "latest": "2026-11-09",
-   "days_since_latest": 1,
+   "latest": "2026-11-10",
+   "days_since_latest": 0,
    "source_url": "https://www.anthropic.com/news"
   },
   {
@@ -103,10 +103,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "status": "healthy",
-   "detail": "最新記事 2026-11-05",
-   "fail_streak": 1,
-   "latest": "2026-11-05",
-   "days_since_latest": 5,
+   "detail": "最新記事 2026-11-10",
+   "fail_streak": 0,
+   "latest": "2026-11-10",
+   "days_since_latest": 0,
    "source_url": "https://deepmind.google/blog/"
   },
   {
@@ -193,10 +193,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-11-09",
+   "detail": "最新記事 2026-11-10",
    "fail_streak": 0,
-   "latest": "2026-11-09",
-   "days_since_latest": 1,
+   "latest": "2026-11-10",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
@@ -223,10 +223,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "status": "healthy",
-   "detail": "最新記事 2026-10-06",
+   "detail": "最新記事 2026-11-10",
    "fail_streak": 0,
-   "latest": "2026-10-06",
-   "days_since_latest": 35,
+   "latest": "2026-11-10",
+   "days_since_latest": 0,
    "source_url": "https://www.sbintuitions.co.jp/news/"
   },
   {
