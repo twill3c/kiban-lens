@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T07:23:26Z",
+ "generated_at": "2026-11-13T20:05:35Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-11-12",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-11-12",
    "days_since_latest": 1,
    "source_url": "https://deepmind.google/blog/"
@@ -113,10 +113,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "status": "healthy",
-   "detail": "最新記事 2026-10-17",
+   "detail": "最新記事 2026-11-13",
    "fail_streak": 0,
-   "latest": "2026-10-17",
-   "days_since_latest": 27,
+   "latest": "2026-11-13",
+   "days_since_latest": 0,
    "source_url": "https://api-docs.deepseek.com/news/"
   },
   {
@@ -193,10 +193,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-11-12",
+   "detail": "最新記事 2026-11-13",
    "fail_streak": 0,
-   "latest": "2026-11-12",
-   "days_since_latest": 1,
+   "latest": "2026-11-13",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
@@ -243,10 +243,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "healthy",
-   "detail": "最新記事 2026-11-10",
+   "detail": "最新記事 2026-11-13",
    "fail_streak": 0,
-   "latest": "2026-11-10",
-   "days_since_latest": 3,
+   "latest": "2026-11-13",
+   "days_since_latest": 0,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
   },
   {
