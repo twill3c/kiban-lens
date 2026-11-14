@@ -1,18 +1,23 @@
 {
- "generated_at": "2026-11-13T20:05:35Z",
+ "generated_at": "2026-11-14T07:05:25Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "Introducing ChatGPT Wallet",
      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+     "url": "https://openai.com/business/customer-stories/shield",
      "date": "2026-11-13"
     },
     {
@@ -29,11 +34,6 @@
      "title": "Holiday Extras is rethinking what it can build with Codex",
      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
      "date": "2026-11-12"
-    },
-    {
-     "title": "Supporting research on AI and children’s safety",
-     "url": "https://openai.com/index/children-first-declaration",
-     "date": "2026-11-12"
     }
    ]
   },
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "Announcements",
@@ -79,7 +79,7 @@
    "source_url": "https://deepmind.google/blog/",
    "fetched_at": "2026-11-13T07:23:26Z",
    "ok": false,
-   "fail_streak": 1,
+   "fail_streak": 2,
    "last_ok_at": "2026-11-13T07:23:26Z",
    "items": [
     {
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "Introducing Grok Bot 1.0",
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "Before the ambulance arrives: How AI is helping the NHS rethink patient care",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "The full DeepSeek App experience, now via API",
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
@@ -329,10 +329,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
@@ -347,7 +347,7 @@
     {
      "title": "中关村自主大模型产业联盟第一次会员大会 结果公示",
      "url": "https://zhipuai.cn/zh/news/97",
-     "date": ""
+     "date": "2025-08-25"
     },
     {
      "title": "GLM-PC 基座模型，CogAgent-9B 开源",
@@ -357,7 +357,7 @@
     {
      "title": "Agent 新进展：跨 app、跨设备、更多玩法｜智谱 Agent OpenDay",
      "url": "https://zhipuai.cn/zh/news/68",
-     "date": "2024-11-29"
+     "date": ""
     }
    ]
   },
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "More Realistic Images, More Stable Editing Across 100 Rounds | Introducing Seedream 5.5",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "“期待尽快引入我们国家！”CVF-V20政要团组体验萝卜快跑",
@@ -437,10 +437,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "五个小妙招，轻松游深圳",
@@ -473,10 +473,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "「Sarashinaサービス」無償ベータ版公開で描く地図。事業戦略部の二人が語る、魅力とこだわり",
@@ -509,10 +509,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "プログラマブルな光回路で通信向けデジタル信号処理を低消費電力化 ～伝送途中の光信号処理で、1300km長距離光通信で信号歪みの要因を60％低減～",
@@ -545,10 +545,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "PFNのマウス尾静脈自動注射ロボットAUTivが第12回ロボット大賞「日本機械工業連合会 会長賞」を受賞 - 株式会社Preferred Networks",
@@ -581,10 +581,10 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "マイケル・ロジャース米退役海軍大将、トム・モラン元CIA支局長がSakana AIのシニアアドバイザーに就任",
@@ -617,10 +617,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "フィジカルAIを推進する新会社「ELYZA Robotics」事業開始 〜2030年度までに研究開発へ300億円を投資、ロボット1,000台以上の導入を目指す〜",
@@ -653,10 +653,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "11/5の第2回オープン大規模言語モデルシンポジウムの資料を順次公開しております。",
@@ -689,10 +689,10 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "「ABEMA」にて新番組『いのありちねん』11月18日（水）夜10時より放送決定 Hey! Sɑy! JUMP伊野尾慧、有岡大貴、知念侑李がデビュー20年目にやりたかったことに初挑戦",
@@ -725,10 +725,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -761,10 +761,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "ABEJA、シンガポールのLyte Venturesと日本における不動産分野の合弁会社設立及びAI与信審査システムの共同開発等の検討に関するMoUを締結",
@@ -797,10 +797,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-11-13T20:05:35Z",
+   "fetched_at": "2026-11-14T07:05:25Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-13T20:05:35Z",
+   "last_ok_at": "2026-11-14T07:05:25Z",
    "items": [
     {
      "title": "防衛分野におけるスタートアップ企業とのエコシステム形成に向けた検討開始",
