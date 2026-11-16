@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T07:21:19Z",
+ "generated_at": "2026-11-16T22:33:38Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -193,30 +193,30 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-11-15",
+   "detail": "最新記事 2026-11-16",
    "fail_streak": 0,
-   "latest": "2026-11-15",
-   "days_since_latest": 1,
+   "latest": "2026-11-16",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "status": "healthy",
-   "detail": "最新記事 2026-11-11",
+   "detail": "最新記事 2026-11-17",
    "fail_streak": 0,
-   "latest": "2026-11-11",
-   "days_since_latest": 5,
+   "latest": "2026-11-17",
+   "days_since_latest": -1,
    "source_url": "https://www.preferred.jp/ja/news/"
   },
   {
    "id": "sakana",
    "name": "Sakana AI",
    "status": "healthy",
-   "detail": "最新記事 2026-11-11",
+   "detail": "最新記事 2026-11-17",
    "fail_streak": 0,
-   "latest": "2026-11-11",
-   "days_since_latest": 5,
+   "latest": "2026-11-17",
+   "days_since_latest": -1,
    "source_url": "https://sakana.ai/blog/"
   },
   {
@@ -243,10 +243,10 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "healthy",
-   "detail": "最新記事 2026-11-13",
+   "detail": "最新記事 2026-11-16",
    "fail_streak": 0,
-   "latest": "2026-11-13",
-   "days_since_latest": 3,
+   "latest": "2026-11-16",
+   "days_since_latest": 0,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
   },
   {
