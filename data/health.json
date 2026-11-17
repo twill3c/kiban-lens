@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T08:33:08Z",
+ "generated_at": "2026-11-17T21:23:40Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -22,7 +22,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 231 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-03-31",
    "days_since_latest": 231,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -44,7 +44,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 231 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-03-31",
    "days_since_latest": 231,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -143,10 +143,10 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "status": "healthy",
-   "detail": "最新記事 2026-11-10",
+   "detail": "最新記事 2026-11-17",
    "fail_streak": 0,
-   "latest": "2026-11-10",
-   "days_since_latest": 7,
+   "latest": "2026-11-17",
+   "days_since_latest": 0,
    "source_url": "https://llm-jp.nii.ac.jp/news/"
   },
   {
@@ -163,10 +163,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "status": "healthy",
-   "detail": "最新記事 2026-10-21",
+   "detail": "最新記事 2026-11-17",
    "fail_streak": 0,
-   "latest": "2026-10-21",
-   "days_since_latest": 27,
+   "latest": "2026-11-17",
+   "days_since_latest": 0,
    "source_url": "https://news.microsoft.com/source/topics/ai/"
   },
   {
@@ -253,10 +253,10 @@
    "id": "xai",
    "name": "xAI",
    "status": "healthy",
-   "detail": "最新記事 2026-11-02",
+   "detail": "最新記事 2026-11-16",
    "fail_streak": 0,
-   "latest": "2026-11-02",
-   "days_since_latest": 15,
+   "latest": "2026-11-16",
+   "days_since_latest": 1,
    "source_url": "https://x.ai/news"
   }
  ]
