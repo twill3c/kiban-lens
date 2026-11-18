@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T07:58:55Z",
+ "generated_at": "2026-11-18T20:55:52Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -103,10 +103,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "status": "healthy",
-   "detail": "最新記事 2026-11-12",
+   "detail": "最新記事 2026-11-18",
    "fail_streak": 0,
-   "latest": "2026-11-12",
-   "days_since_latest": 6,
+   "latest": "2026-11-18",
+   "days_since_latest": 0,
    "source_url": "https://deepmind.google/blog/"
   },
   {
@@ -133,10 +133,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "status": "healthy",
-   "detail": "最新記事 2026-11-16",
+   "detail": "最新記事 2026-11-18",
    "fail_streak": 0,
-   "latest": "2026-11-16",
-   "days_since_latest": 2,
+   "latest": "2026-11-18",
+   "days_since_latest": 0,
    "source_url": "https://global.fujitsu/ja-jp/pr/news"
   },
   {
@@ -193,10 +193,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-11-17",
+   "detail": "最新記事 2026-11-18",
    "fail_streak": 0,
-   "latest": "2026-11-17",
-   "days_since_latest": 1,
+   "latest": "2026-11-18",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
@@ -244,7 +244,7 @@
    "name": "Tencent(混元)",
    "status": "healthy",
    "detail": "最新記事 2026-11-16",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-11-16",
    "days_since_latest": 2,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
