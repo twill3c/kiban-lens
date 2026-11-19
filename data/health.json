@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T07:59:47Z",
+ "generated_at": "2026-11-19T21:00:34Z",
  "healthy": 21,
  "total": 23,
  "thresholds": {
@@ -22,7 +22,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 233 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-03-31",
    "days_since_latest": 233,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -44,7 +44,7 @@
    "name": "Zhipu AI(GLM)",
    "status": "stale",
    "detail": "最新記事が 233 日前(2026-03-31)— 一覧を拾えていない可能性",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-03-31",
    "days_since_latest": 233,
    "source_url": "https://zhipuai.cn/zh/news"
@@ -94,7 +94,7 @@
    "name": "CyberAgent(CALM)",
    "status": "healthy",
    "detail": "最新記事 2026-11-19",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-11-19",
    "days_since_latest": 0,
    "source_url": "https://www.cyberagent.co.jp/news/"
@@ -104,7 +104,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-11-18",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-11-18",
    "days_since_latest": 1,
    "source_url": "https://deepmind.google/blog/"
@@ -133,10 +133,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "status": "healthy",
-   "detail": "最新記事 2026-11-18",
+   "detail": "最新記事 2026-11-19",
    "fail_streak": 0,
-   "latest": "2026-11-18",
-   "days_since_latest": 1,
+   "latest": "2026-11-19",
+   "days_since_latest": 0,
    "source_url": "https://global.fujitsu/ja-jp/pr/news"
   },
   {
@@ -193,20 +193,20 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-11-18",
+   "detail": "最新記事 2026-11-19",
    "fail_streak": 0,
-   "latest": "2026-11-18",
-   "days_since_latest": 1,
+   "latest": "2026-11-19",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "status": "healthy",
-   "detail": "最新記事 2026-11-17",
+   "detail": "最新記事 2026-11-18",
    "fail_streak": 0,
-   "latest": "2026-11-17",
-   "days_since_latest": 2,
+   "latest": "2026-11-18",
+   "days_since_latest": 1,
    "source_url": "https://www.preferred.jp/ja/news/"
   },
   {
@@ -244,7 +244,7 @@
    "name": "Tencent(混元)",
    "status": "healthy",
    "detail": "最新記事 2026-11-16",
-   "fail_streak": 2,
+   "fail_streak": 3,
    "latest": "2026-11-16",
    "days_since_latest": 3,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
