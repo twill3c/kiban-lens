@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T07:49:00Z",
+ "generated_at": "2026-11-20T20:46:10Z",
  "healthy": 20,
  "total": 23,
  "thresholds": {
@@ -11,8 +11,8 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "failing",
-   "detail": "4 回連続で取得に失敗(最後の成功: 2026-11-18)",
-   "fail_streak": 4,
+   "detail": "5 回連続で取得に失敗(最後の成功: 2026-11-18)",
+   "fail_streak": 5,
    "latest": "2026-11-16",
    "days_since_latest": 4,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
@@ -43,8 +43,8 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "failing",
-   "detail": "4 回連続で取得に失敗(最後の成功: 2026-11-18)",
-   "fail_streak": 4,
+   "detail": "5 回連続で取得に失敗(最後の成功: 2026-11-18)",
+   "fail_streak": 5,
    "latest": "2026-11-16",
    "days_since_latest": 4,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
@@ -83,10 +83,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "status": "healthy",
-   "detail": "最新記事 2026-11-18",
+   "detail": "最新記事 2026-11-20",
    "fail_streak": 0,
-   "latest": "2026-11-18",
-   "days_since_latest": 2,
+   "latest": "2026-11-20",
+   "days_since_latest": 0,
    "source_url": "https://www.anthropic.com/news"
   },
   {
@@ -213,10 +213,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-11-19",
+   "detail": "最新記事 2026-11-20",
    "fail_streak": 0,
-   "latest": "2026-11-19",
-   "days_since_latest": 1,
+   "latest": "2026-11-20",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
