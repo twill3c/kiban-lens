@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-11-19T21:00:34Z",
+ "generated_at": "2026-11-20T07:49:00Z",
  "companies": [
   {
    "id": "openai",
    "name": "OpenAI",
    "source_url": "https://openai.com/news/",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
@@ -16,24 +16,24 @@
      "date": "2026-11-19"
     },
     {
-     "title": "The Silent Consensus",
-     "url": "https://openai.com/index/the-silent-consensus",
-     "date": "2026-11-18"
+     "title": "Deploying Daybreak Red",
+     "url": "https://openai.com/business/learn/deploying-daybreak-red",
+     "date": "2026-11-19"
     },
     {
-     "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-     "url": "https://openai.com/business/customer-stories/sumitomo-life",
-     "date": "2026-11-18"
+     "title": "See PR scans in action",
+     "url": "https://openai.com/business/learn/pr-scans-demo",
+     "date": "2026-11-19"
     },
     {
-     "title": "Research acceleration: The jagged frontier",
-     "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-     "date": "2026-11-18"
+     "title": "Explore the Codex Security Plugin",
+     "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+     "date": "2026-11-19"
     },
     {
-     "title": "Inside the Codex sandbox",
-     "url": "https://openai.com/index/inside-the-codex-sandbox",
-     "date": "2026-11-18"
+     "title": "Get started with Daybreak Blue",
+     "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+     "date": "2026-11-19"
     }
    ]
   },
@@ -41,10 +41,10 @@
    "id": "anthropic",
    "name": "Anthropic",
    "source_url": "https://www.anthropic.com/news",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "Announcements",
@@ -77,10 +77,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "source_url": "https://deepmind.google/blog/",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "Introducing Gemini 4 Neon",
@@ -113,10 +113,10 @@
    "id": "meta",
    "name": "Meta AI",
    "source_url": "https://ai.meta.com/blog/",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "Introducing Muse Spark 1.1",
@@ -149,10 +149,10 @@
    "id": "xai",
    "name": "xAI",
    "source_url": "https://x.ai/news",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "Introducing Grok Bot 1.0",
@@ -185,10 +185,10 @@
    "id": "microsoft",
    "name": "Microsoft",
    "source_url": "https://news.microsoft.com/source/topics/ai/",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences",
@@ -221,10 +221,10 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "source_url": "https://api-docs.deepseek.com/news/",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "The full DeepSeek App experience, now via API",
@@ -257,10 +257,10 @@
    "id": "qwen",
    "name": "Alibaba(Qwen)",
    "source_url": "https://qwen.ai/blog",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
@@ -293,10 +293,10 @@
    "id": "moonshot",
    "name": "Moonshot AI(Kimi)",
    "source_url": "https://www.kimi.ai/blog/",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
@@ -329,10 +329,10 @@
    "id": "zhipu",
    "name": "Zhipu AI(GLM)",
    "source_url": "https://zhipuai.cn/zh/news",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "智谱首份业绩报告发布，探索AGI智能上界",
@@ -342,7 +342,7 @@
     {
      "title": "智谱（02513.HK）公布2025年度业绩发布会安排",
      "url": "https://zhipuai.cn/zh/news/151",
-     "date": "2026-03-30"
+     "date": ""
     },
     {
      "title": "中关村自主大模型产业联盟第一次会员大会 结果公示",
@@ -365,10 +365,10 @@
    "id": "bytedance",
    "name": "ByteDance Seed(豆包)",
    "source_url": "https://seed.bytedance.com/en/blog",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "More Realistic Images, More Stable Editing Across 100 Rounds | Introducing Seedream 5.5",
@@ -401,10 +401,10 @@
    "id": "baidu",
    "name": "Baidu(ERNIE)",
    "source_url": "https://home.baidu.com/home/index/news_list",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "“期待尽快引入我们国家！”CVF-V20政要团组体验萝卜快跑",
@@ -439,7 +439,7 @@
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/",
    "fetched_at": "2026-11-18T07:58:55Z",
    "ok": false,
-   "fail_streak": 3,
+   "fail_streak": 4,
    "last_ok_at": "2026-11-18T07:58:55Z",
    "items": [
     {
@@ -473,10 +473,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "source_url": "https://www.sbintuitions.co.jp/news/",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "「Sarashinaサービス」無償ベータ版公開で描く地図。事業戦略部の二人が語る、魅力とこだわり",
@@ -509,10 +509,10 @@
    "id": "ntt",
    "name": "NTT(tsuzumi)",
    "source_url": "https://group.ntt/jp/newsrelease/",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "国際電気通信連合（ITU）の全権委員会議2026（PP-26）にて元NTT尾上誠蔵氏が電気通信標準化局長に再選",
@@ -545,10 +545,10 @@
    "id": "pfn",
    "name": "Preferred Networks(PLaMo)",
    "source_url": "https://www.preferred.jp/ja/news/",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "PFN、MangoBoostとAI推論基盤の高速化に向け基本合意 - 株式会社Preferred Networks",
@@ -581,11 +581,16 @@
    "id": "sakana",
    "name": "Sakana AI",
    "source_url": "https://sakana.ai/blog/",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
+    {
+     "title": "Introducing Sakana AI’s Security Research Group",
+     "url": "/security-research-group/",
+     "date": "2026-11-20"
+    },
     {
      "title": "JFinBench: 最新の金融資格試験を用いた日本語金融ベンチマークの公開",
      "url": "/jfinbench/",
@@ -605,11 +610,6 @@
      "title": "Intelligence Report: SNSのAI分析からみる米中間選挙",
      "url": "/us-midterms-analysis/",
      "date": "2026-10-30"
-    },
-    {
-     "title": "Sakana API Platform、エンタープライズ向けにアーリーアクセスプログラムを開始",
-     "url": "/api-platform-earlyaccess/",
-     "date": "2026-10-28"
     }
    ]
   },
@@ -617,10 +617,10 @@
    "id": "elyza",
    "name": "ELYZA",
    "source_url": "https://elyza.ai/news",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "フィジカルAIを推進する新会社「ELYZA Robotics」事業開始 〜2030年度までに研究開発へ300億円を投資、ロボット1,000台以上の導入を目指す〜",
@@ -653,11 +653,16 @@
    "id": "llmjp",
    "name": "LLM-jp(国立情報学研究所)",
    "source_url": "https://llm-jp.nii.ac.jp/news/",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
+    {
+     "title": "Google LLCからのご寄附について（AI安全性評価に関する研究支援）",
+     "url": "https://llm-jp.nii.ac.jp/news/20261120/",
+     "date": "2026-11-20"
+    },
     {
      "title": "第34回LLM勉強会",
      "url": "https://llm-jp.nii.ac.jp/news/%e7%ac%ac34%e5%9b%9ellm%e5%8b%89%e5%bc%b7%e4%bc%9a/",
@@ -677,11 +682,6 @@
      "title": "【LLM-jpの活用例：医療AIエージェントの開発】",
      "url": "https://llm-jp.nii.ac.jp/news/20261026/",
      "date": "2026-10-26"
-    },
-    {
-     "title": "第33回LLM勉強会",
-     "url": "https://llm-jp.nii.ac.jp/news/%e7%ac%ac33%e5%9b%9ellm%e5%8b%89%e5%bc%b7%e4%bc%9a/",
-     "date": "2026-10-21"
     }
    ]
   },
@@ -689,11 +689,16 @@
    "id": "cyberagent",
    "name": "CyberAgent(CALM)",
    "source_url": "https://www.cyberagent.co.jp/news/",
-   "fetched_at": "2026-11-19T07:59:47Z",
-   "ok": false,
-   "fail_streak": 1,
-   "last_ok_at": "2026-11-19T07:59:47Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
+   "ok": true,
+   "fail_streak": 0,
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
+    {
+     "title": "白石麻衣&シソンヌがMCを務める新番組『アナザーゾーン～リリスの世界へようこそ～』 「ABEMA」にて2026年11月30日（月）夜10時より放送決定",
+     "url": "https://www.cyberagent.co.jp/news/detail/id=34029",
+     "date": "2026-11-20"
+    },
     {
      "title": "「ちいかわ」初のスマホアプリ『ちいかわぽけっと』 「ちいかわクリスマスマーケット」会場前へ出展決定！ アプリ画面提示で「ちいぽけクリスマスリースカード」の配布も！",
      "url": "https://www.cyberagent.co.jp/news/detail/id=34026",
@@ -713,11 +718,6 @@
      "title": "“将棋”が題材のABEMAオリジナルドラマ『MISS KING / ミス・キング』がアジア最大級のテレビ賞 『31st Asian TELEVISION AWARDS』の「ベストオリジナルドラマシリーズ（OTT）」部門で最優秀賞を受賞",
      "url": "https://www.cyberagent.co.jp/news/detail/id=34020",
      "date": "2026-11-16"
-    },
-    {
-     "title": "アニメ＆IP事業本部、トーハンと連携し書店で新たなエンタテインメント体験を 提供するポップアッププロジェクト「CyberGoods Book Spot」を始動",
-     "url": "https://www.cyberagent.co.jp/news/detail/id=34012",
-     "date": "2026-11-16"
     }
    ]
   },
@@ -725,10 +725,10 @@
    "id": "stockmark",
    "name": "Stockmark",
    "source_url": "https://stockmark.co.jp/news",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "日本を代表する16社がストックマークと「AI-Ready化」を開始『日本企業の暗黙知/社内データ AI-Ready化プロジェクト』",
@@ -761,10 +761,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "source_url": "https://www.abejainc.com/news",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
      "title": "ABEJA、富士山マガジンサービス株式の追加取得の決定及び共同事業の検討状況に関するお知らせ",
@@ -797,19 +797,24 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "source_url": "https://global.fujitsu/ja-jp/pr/news",
-   "fetched_at": "2026-11-19T21:00:34Z",
+   "fetched_at": "2026-11-20T07:49:00Z",
    "ok": true,
    "fail_streak": 0,
-   "last_ok_at": "2026-11-19T21:00:34Z",
+   "last_ok_at": "2026-11-20T07:49:00Z",
    "items": [
     {
-     "title": "富士通Japan、AIと米国Paradigmのプラットフォームを活用し、治験候補患者探索の業務効率化の有用性を確認",
-     "url": "https://prtimes.jp/main/html/rd/p/000000638.000093942.html",
-     "date": "2026-11-19"
+     "title": "富士通、ファミリーマート様と因果AIを活用した脱炭素製品の購買行動分析と需要創出を目指した実証実験を開始",
+     "url": "https://prtimes.jp/main/html/rd/p/000000641.000093942.html",
+     "date": "2026-11-20"
     },
     {
      "title": "富士通、Google Cloudと戦略的パートナーシップを拡大し、お客様のAIトランスフォーメーションを幅広く支援",
      "url": "https://prtimes.jp/main/html/rd/p/000000639.000093942.html",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "富士通Japan、AIと米国Paradigmのプラットフォームを活用し、治験候補患者探索の業務効率化の有用性を確認",
+     "url": "https://prtimes.jp/main/html/rd/p/000000638.000093942.html",
      "date": "2026-11-19"
     },
     {
@@ -821,11 +826,6 @@
      "title": "富士通、炭素除去クレジットとVPPAを活用し、事業拠点の2030年度GHG排出量実質ゼロに向けた取り組みを加速",
      "url": "https://prtimes.jp/main/html/rd/p/000000636.000093942.html",
      "date": "2026-11-16"
-    },
-    {
-     "title": "防衛分野におけるスタートアップ企業とのエコシステム形成に向けた検討開始",
-     "url": "https://prtimes.jp/main/html/rd/p/000000635.000093942.html",
-     "date": "2026-11-09"
     }
    ]
   }
