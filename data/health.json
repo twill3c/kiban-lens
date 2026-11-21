@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T07:45:00Z",
+ "generated_at": "2026-11-21T19:49:52Z",
  "healthy": 20,
  "total": 23,
  "thresholds": {
@@ -11,8 +11,8 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "failing",
-   "detail": "6 回連続で取得に失敗(最後の成功: 2026-11-18)",
-   "fail_streak": 6,
+   "detail": "7 回連続で取得に失敗(最後の成功: 2026-11-18)",
+   "fail_streak": 7,
    "latest": "2026-11-16",
    "days_since_latest": 5,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
@@ -43,8 +43,8 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "failing",
-   "detail": "6 回連続で取得に失敗(最後の成功: 2026-11-18)",
-   "fail_streak": 6,
+   "detail": "7 回連続で取得に失敗(最後の成功: 2026-11-18)",
+   "fail_streak": 7,
    "latest": "2026-11-16",
    "days_since_latest": 5,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
@@ -124,7 +124,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-11-18",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "latest": "2026-11-18",
    "days_since_latest": 3,
    "source_url": "https://deepmind.google/blog/"
