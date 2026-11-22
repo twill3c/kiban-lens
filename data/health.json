@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T07:31:32Z",
+ "generated_at": "2026-11-22T19:59:37Z",
  "healthy": 20,
  "total": 23,
  "thresholds": {
@@ -11,8 +11,8 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "failing",
-   "detail": "8 回連続で取得に失敗(最後の成功: 2026-11-18)",
-   "fail_streak": 8,
+   "detail": "9 回連続で取得に失敗(最後の成功: 2026-11-18)",
+   "fail_streak": 9,
    "latest": "2026-11-16",
    "days_since_latest": 6,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
@@ -43,8 +43,8 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "failing",
-   "detail": "8 回連続で取得に失敗(最後の成功: 2026-11-18)",
-   "fail_streak": 8,
+   "detail": "9 回連続で取得に失敗(最後の成功: 2026-11-18)",
+   "fail_streak": 9,
    "latest": "2026-11-16",
    "days_since_latest": 6,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
@@ -213,10 +213,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-11-20",
+   "detail": "最新記事 2026-11-22",
    "fail_streak": 0,
-   "latest": "2026-11-20",
-   "days_since_latest": 2,
+   "latest": "2026-11-22",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
