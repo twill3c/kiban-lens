@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T10:28:22Z",
+ "generated_at": "2026-11-24T22:47:29Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -11,8 +11,8 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "failing",
-   "detail": "12 回連続で取得に失敗(最後の成功: 2026-11-18)",
-   "fail_streak": 12,
+   "detail": "13 回連続で取得に失敗(最後の成功: 2026-11-18)",
+   "fail_streak": 13,
    "latest": "2026-11-16",
    "days_since_latest": 8,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
@@ -53,8 +53,8 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "failing",
-   "detail": "12 回連続で取得に失敗(最後の成功: 2026-11-18)",
-   "fail_streak": 12,
+   "detail": "13 回連続で取得に失敗(最後の成功: 2026-11-18)",
+   "fail_streak": 13,
    "latest": "2026-11-16",
    "days_since_latest": 8,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
@@ -143,10 +143,10 @@
    "id": "deepmind",
    "name": "Google DeepMind",
    "status": "healthy",
-   "detail": "最新記事 2026-11-18",
-   "fail_streak": 2,
-   "latest": "2026-11-18",
-   "days_since_latest": 6,
+   "detail": "最新記事 2026-11-23",
+   "fail_streak": 0,
+   "latest": "2026-11-23",
+   "days_since_latest": 1,
    "source_url": "https://deepmind.google/blog/"
   },
   {
@@ -154,7 +154,7 @@
    "name": "DeepSeek",
    "status": "healthy",
    "detail": "最新記事 2026-11-13",
-   "fail_streak": 2,
+   "fail_streak": 3,
    "latest": "2026-11-13",
    "days_since_latest": 11,
    "source_url": "https://api-docs.deepseek.com/news/"
@@ -223,10 +223,10 @@
    "id": "openai",
    "name": "OpenAI",
    "status": "healthy",
-   "detail": "最新記事 2026-11-23",
+   "detail": "最新記事 2026-11-24",
    "fail_streak": 0,
-   "latest": "2026-11-23",
-   "days_since_latest": 1,
+   "latest": "2026-11-24",
+   "days_since_latest": 0,
    "source_url": "https://openai.com/news/"
   },
   {
