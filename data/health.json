@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T00:24:49Z",
+ "generated_at": "2026-11-24T10:28:22Z",
  "healthy": 19,
  "total": 23,
  "thresholds": {
@@ -11,8 +11,8 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "failing",
-   "detail": "11 回連続で取得に失敗(最後の成功: 2026-11-18)",
-   "fail_streak": 11,
+   "detail": "12 回連続で取得に失敗(最後の成功: 2026-11-18)",
+   "fail_streak": 12,
    "latest": "2026-11-16",
    "days_since_latest": 8,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
@@ -53,8 +53,8 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "failing",
-   "detail": "11 回連続で取得に失敗(最後の成功: 2026-11-18)",
-   "fail_streak": 11,
+   "detail": "12 回連続で取得に失敗(最後の成功: 2026-11-18)",
+   "fail_streak": 12,
    "latest": "2026-11-16",
    "days_since_latest": 8,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
@@ -93,10 +93,10 @@
    "id": "abeja",
    "name": "ABEJA",
    "status": "healthy",
-   "detail": "最新記事 2026-11-19",
+   "detail": "最新記事 2026-11-24",
    "fail_streak": 0,
-   "latest": "2026-11-19",
-   "days_since_latest": 5,
+   "latest": "2026-11-24",
+   "days_since_latest": 0,
    "source_url": "https://www.abejainc.com/news"
   },
   {
@@ -144,7 +144,7 @@
    "name": "Google DeepMind",
    "status": "healthy",
    "detail": "最新記事 2026-11-18",
-   "fail_streak": 1,
+   "fail_streak": 2,
    "latest": "2026-11-18",
    "days_since_latest": 6,
    "source_url": "https://deepmind.google/blog/"
@@ -154,7 +154,7 @@
    "name": "DeepSeek",
    "status": "healthy",
    "detail": "最新記事 2026-11-13",
-   "fail_streak": 1,
+   "fail_streak": 2,
    "latest": "2026-11-13",
    "days_since_latest": 11,
    "source_url": "https://api-docs.deepseek.com/news/"
@@ -173,10 +173,10 @@
    "id": "fujitsu",
    "name": "富士通(Takane)",
    "status": "healthy",
-   "detail": "最新記事 2026-11-20",
+   "detail": "最新記事 2026-11-24",
    "fail_streak": 0,
-   "latest": "2026-11-20",
-   "days_since_latest": 4,
+   "latest": "2026-11-24",
+   "days_since_latest": 0,
    "source_url": "https://global.fujitsu/ja-jp/pr/news"
   },
   {
@@ -253,10 +253,10 @@
    "id": "sbintuitions",
    "name": "SB Intuitions",
    "status": "healthy",
-   "detail": "最新記事 2026-11-10",
+   "detail": "最新記事 2026-11-11",
    "fail_streak": 0,
-   "latest": "2026-11-10",
-   "days_since_latest": 14,
+   "latest": "2026-11-11",
+   "days_since_latest": 13,
    "source_url": "https://www.sbintuitions.co.jp/news/"
   },
   {
