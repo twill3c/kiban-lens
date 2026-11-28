@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T08:29:57Z",
+ "generated_at": "2026-11-28T20:37:08Z",
  "healthy": 18,
  "total": 23,
  "thresholds": {
@@ -11,8 +11,8 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "status": "failing",
-   "detail": "10 回連続で取得に失敗(最後の成功: 2026-11-23)",
-   "fail_streak": 10,
+   "detail": "11 回連続で取得に失敗(最後の成功: 2026-11-23)",
+   "fail_streak": 11,
    "latest": "2026-11-13",
    "days_since_latest": 15,
    "source_url": "https://api-docs.deepseek.com/news/"
@@ -21,8 +21,8 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "failing",
-   "detail": "20 回連続で取得に失敗(最後の成功: 2026-11-18)",
-   "fail_streak": 20,
+   "detail": "21 回連続で取得に失敗(最後の成功: 2026-11-18)",
+   "fail_streak": 21,
    "latest": "2026-11-16",
    "days_since_latest": 12,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
@@ -63,8 +63,8 @@
    "id": "deepseek",
    "name": "DeepSeek",
    "status": "failing",
-   "detail": "10 回連続で取得に失敗(最後の成功: 2026-11-23)",
-   "fail_streak": 10,
+   "detail": "11 回連続で取得に失敗(最後の成功: 2026-11-23)",
+   "fail_streak": 11,
    "latest": "2026-11-13",
    "days_since_latest": 15,
    "source_url": "https://api-docs.deepseek.com/news/"
@@ -73,8 +73,8 @@
    "id": "tencent",
    "name": "Tencent(混元)",
    "status": "failing",
-   "detail": "20 回連続で取得に失敗(最後の成功: 2026-11-18)",
-   "fail_streak": 20,
+   "detail": "21 回連続で取得に失敗(最後の成功: 2026-11-18)",
+   "fail_streak": 21,
    "latest": "2026-11-16",
    "days_since_latest": 12,
    "source_url": "https://www.tencent.com/zh-cn/newsroom/all-news/"
@@ -194,7 +194,7 @@
    "name": "LLM-jp(国立情報学研究所)",
    "status": "healthy",
    "detail": "最新記事 2026-11-27",
-   "fail_streak": 1,
+   "fail_streak": 0,
    "latest": "2026-11-27",
    "days_since_latest": 1,
    "source_url": "https://llm-jp.nii.ac.jp/news/"
